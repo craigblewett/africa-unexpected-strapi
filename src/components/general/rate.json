@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_rates",
+  "info": {
+    "displayName": "Rate"
+  },
+  "options": {},
+  "attributes": {
+    "amount": {
+      "type": "decimal"
+    },
+    "unit": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

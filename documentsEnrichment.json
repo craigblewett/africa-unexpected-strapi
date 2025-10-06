@@ -1,0 +1,83 @@
+{
+    "places": [
+      {
+        "slug": "lake-pleasant-caravan-park",
+  
+        "description": "Lake Pleasant Caravan Park is a tranquil lakeside retreat in the heart of the Garden Route. With its combination of shaded, spacious camping sites and direct access to Groenvlei Lake, it is popular with families, fishermen, and long-stay campers. The resort blends natural surroundings with modern facilities, offering everything from swimming and braais to hiking and birdwatching.",
+  
+        "directions": "Turn off the N2 at Sedgefield and follow the clearly marked signs to Lake Pleasant Resort. The entrance is just before Groenvlei Lake on Groenvlei Road.",
+  
+        "rates": [
+          { "amount": 250, "unit": "per night" },
+          { "amount": 1500, "unit": "per week" }
+        ],
+  
+        "contact": [
+          {
+            "phone": "044 343 2661",
+            "email": "info@lakepleasantresort.co.za",
+            "website": "http://lakepleasantresort.co.za/",
+            "booking_url": "http://lakepleasantresort.co.za/",
+            "google_info": "https://maps.google.com/?cid=11872894919681563062",
+            "whatsapp": "+27 82 123 4567"
+          }
+        ],
+  
+        "tags": [
+          { "label": "family-friendly" },
+          { "label": "lake-view" },
+          { "label": "shaded-sites" }
+        ],
+  
+        "amenities": [
+          "braai-facilities",
+          "campfires-allowed",
+          "swimming-pool",
+          "wifi",
+          "bar",
+          "restaurant",
+          "laundry",
+          "tennis-court",
+          "squash-court"
+        ],
+  
+        "highlight": [
+          {
+            "title": "Spacious shaded stands",
+            "description": "The caravan park is well-known for its extra-large camping stands, each shaded by mature trees that keep the area cool and sheltered from the wind. Families appreciate the space to spread out with caravans, tents, and gazebos, while still feeling tucked into a natural forested environment."
+          },
+          {
+            "title": "Direct access to Groenvlei Lake",
+            "description": "Guests enjoy exclusive access to Groenvlei, a freshwater lake known for fishing, canoeing, and birdwatching. The lakeshore is just a short walk from the camping area, making it easy to start your morning with a paddle, a swim, or a quiet time of reflection at the water’s edge."
+          },
+          {
+            "title": "Pet-friendly campsite",
+            "description": "Unlike many other sites along the Garden Route, Lake Pleasant welcomes pets. Dedicated walking areas and a laid-back atmosphere make it a favourite for travellers who want to bring their four-legged companions along on holiday."
+          }
+        ],
+  
+        "unexpected": [
+          {
+            "title": "Hidden waterfall nearby",
+            "description": "Just beyond the edge of the resort, a forest trail leads to a secluded waterfall known mostly to locals. The path is shaded and alive with bird calls, and after 20 minutes of gentle walking you arrive at a small cascade that tumbles into a clear pool. Many campers pack a picnic and spend an afternoon here away from the bustle, with children splashing in the shallow edges and adults relaxing on smooth rocks under the canopy."
+          },
+          {
+            "title": "Old shipwreck on the shore",
+            "description": "A short walk along the coastline brings you to the weathered remains of a 19th-century shipwreck, a reminder of the dangerous seas once sailed here. Half buried in sand and sea grass, the wreck has become part of the landscape, with rusted iron ribs jutting out like sculptures. It makes for a fascinating photo stop and sparks the imagination about maritime trade routes and storms from centuries past."
+          }
+        ],
+  
+        "meta_title": "Lake Pleasant Caravan Park – Family Camping in the Garden Route",
+        "meta_description": "Discover Lake Pleasant Caravan Park in Sedgefield. Shaded stands, lake access, swimming pool, and family-friendly facilities in the heart of the Garden Route.",
+  
+        "facilities_summary": "Extra-large shaded sites, modern ablutions, swimming pool, bar and restaurant, Wi-Fi, laundry services, squash and tennis courts, braai facilities, and a pet-friendly policy.",
+  
+        "ai_summary": "Lake Pleasant Caravan Park combines natural beauty with modern facilities, making it a destination for both family holidays and longer stays. Its highlights include shaded stands, pet-friendly policies, and direct lake access. The surrounding area offers a balance of adventure and relaxation, from waterfall hikes and shipwreck explorations to canoeing, paragliding, and markets in Sedgefield.",
+  
+        "raw_data": "The resort forms part of Lake Pleasant Resort, located on Groenvlei Road just off the N2 near Sedgefield. Facilities include a large swimming pool, Legends Restaurant and pub, tennis and squash courts, a children’s play area, and fully equipped ablutions. Laundry and filtered water services are available free of charge, with high-speed Wi-Fi accessible throughout the campsite. The grounds feature mature trees offering shade and wind protection, making them ideal for long stays. Direct access to Groenvlei Lake provides opportunities for fishing (notably bass, carp, and tilapia), birdwatching, canoeing, and swimming. The lake is a designated conservation area and one of only a few natural freshwater lakes along South Africa’s southern coastline. The surrounding region features a blend of coastal dunes, fynbos vegetation, and forested slopes, with easy access to both Myoli Beach and Goukamma Nature Reserve. Guests also benefit from proximity to Sedgefield’s Saturday markets, Wilderness paragliding launch sites, and the larger attractions of Knysna, just a 25-minute drive away.",
+  
+        "experiences_raw": "Canoeing and kayaking on Groenvlei Lake with opportunities to spot African Fish Eagles, Kingfishers, and Knysna Louries. Fishing directly from the shore or from a boat, with the lake home to bass, tilapia, and carp. Birdwatching trails around the lake and into nearby fynbos. Hiking routes in Goukamma Nature Reserve featuring coastal dunes, river crossings, and viewpoints over the Indian Ocean. Beach days at Myoli and Cola Beaches, popular for swimming, kite surfing, and long walks along untouched sand. Paragliding at Wilderness, offering tandem flights with sweeping views over the lakes and coastline. Local Sedgefield markets including the Wild Oats Community Farmers’ Market, Mosaic Craft Market, and Scarab Village Market, which showcase artisan foods, crafts, and music. Short day trips into Knysna to explore the Knysna Heads, Featherbed Nature Reserve, or take a lagoon cruise. Nearby adrenaline activities include abseiling, mountain biking, and horse trails through coastal forests."
+      }
+    ]
+  }
+  

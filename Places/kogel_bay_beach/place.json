@@ -1,0 +1,148 @@
+{
+  "place_id": "ChIJEUmHnwzNzR0RY6XIKFl45iQ",
+  "name": "Kogel Bay Beach",
+  "slug": "kogel-bay-beach",
+  "province": "Western Cape",
+  "region": "",
+  "town": "Sir Lowry's Pass",
+  "address": "Helderberg Rural, Sir Lowry's Pass, 7130, South Africa",
+  "opening_hours": "",
+  "rating": 4.5,
+  "total_reviews": 259,
+  "description": "Auto imported from Google Places on 2025-10-01 for Kogel Bay Beach.",
+  "directions": "Helderberg Rural, Sir Lowry's Pass, 7130, South Africa",
+  "latitude": -34.23434080000001,
+  "longitude": 18.8490465,
+  "contact": {
+    "phone": null,
+    "email": null,
+    "website": null,
+    "booking_url": null,
+    "google_info": "https://maps.google.com/?cid=2658944954340517219",
+    "whatsapp": null
+  },
+  "photos": [
+    {
+      "file": "photo_1.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/114223482041653358816\">Katja B.</a>",
+      "attribution_text": "Katja B."
+    },
+    {
+      "file": "photo_2.jpg",
+      "width": 4128,
+      "height": 3096,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/117147910801265668838\">Mark Nowalec</a>",
+      "attribution_text": "Mark Nowalec"
+    },
+    {
+      "file": "photo_3.jpg",
+      "width": 3648,
+      "height": 2736,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/104039256763712060686\">Christo Wepener</a>",
+      "attribution_text": "Christo Wepener"
+    },
+    {
+      "file": "photo_4.jpg",
+      "width": 4608,
+      "height": 2184,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/104575570575774305198\">Dale Holtzhausen</a>",
+      "attribution_text": "Dale Holtzhausen"
+    },
+    {
+      "file": "photo_5.jpg",
+      "width": 3060,
+      "height": 4080,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/111899946260516965427\">G k Williams</a>",
+      "attribution_text": "G k Williams"
+    },
+    {
+      "file": "photo_6.jpg",
+      "width": 4032,
+      "height": 2268,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/112288064026867229088\">Charne Hill</a>",
+      "attribution_text": "Charne Hill"
+    },
+    {
+      "file": "photo_7.jpg",
+      "width": 2160,
+      "height": 1429,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/100110811648975632111\">Andre Nel</a>",
+      "attribution_text": "Andre Nel"
+    },
+    {
+      "file": "photo_8.jpg",
+      "width": 3968,
+      "height": 2976,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/109920451110637693240\">Anthea Rieck</a>",
+      "attribution_text": "Anthea Rieck"
+    },
+    {
+      "file": "photo_9.jpg",
+      "width": 4032,
+      "height": 3024,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/105842216493550235261\">E Solo</a>",
+      "attribution_text": "E Solo"
+    },
+    {
+      "file": "photo_10.jpg",
+      "width": 4800,
+      "height": 3600,
+      "attribution_html": "<a href=\"https://maps.google.com/maps/contrib/107879669006879017937\">Kittisak Lanlongsa</a>",
+      "attribution_text": "Kittisak Lanlongsa"
+    }
+  ],
+  "reviews": [
+    {
+      "author_name": "Kittisak Lanlongsa",
+      "rating": 5,
+      "text": "This place is one of the hidden gems of Cape Town. It’s a bit of a drive from the city, but absolutely worth it! We decided to stay in Gordon’s Bay for one night just to visit this spot. On our first day, it was raining and we couldn’t see the mountains, but the next morning the sun came out, and the view of the bay was crystal clear. It was truly spectacular—one of the most majestic and memorable bays I’ve ever seen in my life.\n\nI highly recommend this place to anyone who can drive or rent a car. Just spend 1 night and make the trip—you won’t regret it.",
+      "review_time": "3 months ago",
+      "author_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjU4G5dkkfA0IXQjnM3wrrLAi-9YbRL3XfodnfHVysL46gLi4FMCKQ=s128-c0x00000000-cc-rp-mo-ba4",
+      "author_photo_local": null
+    },
+    {
+      "author_name": "Hyman Paulse",
+      "rating": 5,
+      "text": "Scenery is spectacular. Contrast between the green of the plants, white sandy beach and turquoise of the ocean is just beautiful. The camp itself needs some serious upgrades though...",
+      "review_time": "2 months ago",
+      "author_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUiZEz3gnP4gytAMhZuohve6G8rHkZLOJYvuHieiyOuHxKkwnkr=s128-c0x00000000-cc-rp-mo-ba5",
+      "author_photo_local": null
+    },
+    {
+      "author_name": "Alice Swifty",
+      "rating": 5,
+      "text": "Amazing beach with picturesque cliffs and boulders. There’s a wonderful cave which turns into a beautiful filming location during a golden hour 🩷\nBut be careful with the baboons when you spend time on this beach 🙈",
+      "review_time": "3 months ago",
+      "author_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjV6xWNkWBQPXbLVFi-7y_5pdiB0tZj9viqVC6Uf4PnWEDK-B9U=s128-c0x00000000-cc-rp-mo-ba5",
+      "author_photo_local": null
+    },
+    {
+      "author_name": "Adrian Maasch",
+      "rating": 5,
+      "text": "5km walk if you walk the length from the Dapat se Gat parking area to the end of the resort and back on the beach. Very very clean and good in sunshine and rain. Life Guards were there for swimmers (Sunday morning) and the shark spotters elevated above the beach. Good friendly guards there too, take some change along to tip.",
+      "review_time": "9 months ago",
+      "author_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXHnRhCr_JRMNE4pIKVewix6j8NR5uwBY8VsQPr9AIC03LwKW0IqQ=s128-c0x00000000-cc-rp-mo-ba4",
+      "author_photo_local": null
+    },
+    {
+      "author_name": "Hanro Nieuwoudt",
+      "rating": 5,
+      "text": "Kogel Bay Beach is truly one of the most breathtaking coastal gems in the Western Cape. Nestled between dramatic mountains and the wide expanse of the Atlantic Ocean, this public beach feels untouched and raw, giving it a natural charm that’s hard to find elsewhere. The drive along Clarence Drive (R44) to get here is already spectacular, with sweeping ocean views and rugged cliffs, but arriving at the beach itself takes your breath away.\n\nWe recently visited for a photoshoot, and it could not have been a better choice. The scenery is diverse – from soft white sand and powerful waves to rocky outcrops and towering mountains in the background – making it the perfect backdrop for stunning, natural-looking photos. Every angle feels picture-perfect, whether you’re close to the shoreline, up on the rocks, or with the mountains framing the scene.\n\nThe beach is wide and open, so it never feels overcrowded, and there’s a peaceful atmosphere that makes you want to just pause and take it all in. Swimming isn’t really recommended here because of the strong waves and currents, but for photography, walks, picnics, or just enjoying nature, it’s ideal.\n\nOverall, Kogel Bay is a must-visit if you love scenic beauty, tranquility, and raw natural landscapes. It’s the kind of place where you instantly feel connected to nature – and where memories and photos turn out unforgettable.",
+      "review_time": "a month ago",
+      "author_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUOB3IwtjfZUZ3ZjQsqkRhhmbjk5a5GgglJeq1y01DDLZ5Fx0mu=s128-c0x00000000-cc-rp-mo-ba3",
+      "author_photo_local": null
+    }
+  ],
+  "source": {
+    "types": [
+      "establishment",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "opening_hours": null,
+    "google_place_url": "https://maps.google.com/?cid=2658944954340517219",
+    "harvested_at": "2025-10-01T10:06:30.342Z"
+  }
+}

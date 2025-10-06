@@ -1,0 +1,86 @@
+{
+  "places": [
+    {
+      "slug": "island-lake-holiday-resort",
+      "province": "Western Cape",
+      "region": "Garden Route / Wilderness",
+      "description": "Island Lake Holiday Resort is a classic family-friendly destination nestled on the banks of the tranquil Island Lake, part of the extensive Wilderness Lakes Area. Famed for its prime position for water sports, the resort offers a relaxed, unpretentious atmosphere with spacious, shaded grass campsites and self-catering chalets, making it a long-standing favourite for boaters, anglers, and families.\n\nThe resort's main draw is its direct lake access, complete with a private slipway for launching boats, making it an ideal base for waterskiing, canoeing, and fishing. Surrounded by the natural beauty of the Garden Route National Park, it combines the simple pleasures of an outdoor holiday with well-maintained facilities, including a swimming pool and play areas for children, all within a short drive of Wilderness village and its famous beaches.",
+      "the_vibe": "- **Active Family Hub:** A lively, bustling atmosphere with a strong focus on family activities and water sports.\n- **Boaters & Anglers Retreat:** The vibe is social and practical, geared towards those who come to spend their days on the water.\n- **Old-School Holiday Camp:** A relaxed, unpretentious, and traditional resort feel, less about luxury and more about fun and convenience.",
+      "need_to_know": "### Boat & Fishing Permits\nA permit is required from SANParks to use a motorised boat on the lake, and a standard angling license is needed for fishing. These are not sold at the resort.\n\n### Proximity to the N2\nThe resort is located very close to the N2 highway, which is convenient for access but means some traffic noise can be heard from certain sites.\n\n### Water Levels & Algae\nAs a natural lake system, the water can sometimes have algae blooms during certain times of the year, which may affect swimming.",
+      "rates": [
+        {
+          "amount": 460,
+          "unit": "camping (from, per site per night)"
+        }
+      ],
+      "price_pp": 77,
+      "tags": [
+        {
+          "label": "lakeside"
+        },
+        {
+          "label": "family-friendly"
+        },
+        {
+          "label": "boating"
+        },
+        {
+          "label": "waterskiing"
+        },
+        {
+          "label": "fishing"
+        },
+        {
+          "label": "garden-route"
+        },
+        {
+          "label": "birdwatching"
+        }
+      ],
+      "amenities": [
+        "braai-facilities",
+        "electricity-plug-points",
+        "drinking-water-tap",
+        "showers-hot-water",
+        "flush-toilets",
+        "dishwashing-area",
+        "laundry-facilities",
+        "swimming-pool",
+        "kids-play-area",
+        "dam-lake-access",
+        "fishing-allowed",
+        "canoeing-kayaking"
+      ],
+      "highlight": [
+        {
+          "title": "Private Boat Slipway",
+          "description": "Offers rare and convenient direct lake access with its own slipway, making it a top choice for boat owners."
+        },
+        {
+          "title": "Central Garden Route Base",
+          "description": "Perfectly positioned between Wilderness and Sedgefield, providing easy access to all the major attractions of the Garden Route."
+        },
+        {
+          "title": "Spacious, Shaded Campsites",
+          "description": "Known for its large, level, and grassy stands set under mature trees, offering a comfortable camping experience."
+        }
+      ],
+      "unexpected": [
+        {
+          "title": "Historic Railway Line",
+          "description": "The famous but now largely defunct Outeniqua Choo Tjoe steam train railway line runs right along the edge of the resort."
+        },
+        {
+          "title": "Abundant Birdlife",
+          "description": "The lakeside environment attracts a rich variety of birds, including the iconic Knysna Loerie, Fish Eagles, and multiple Kingfisher species."
+        }
+      ],
+      "meta_title": "Island Lake Holiday Resort | Garden Route Lakeside Camping",
+      "meta_description": "Family-friendly camping and self-catering chalets on the banks of Island Lake in Wilderness. Perfect for boating, fishing, and exploring the Garden Route.",
+      "facilities_summary": "Grassed, powered campsites and self-catering chalets with a private boat slipway, swimming pool, children's play area, trampolines, and clean ablutions.",
+      "ai_summary": "Lakeside family resort in Wilderness (Garden Route) focused on water sports, with a private boat slipway, camping, and chalets.",
+      "raw_data": "Island Lake Holiday Resort is situated on the northern bank of Island Lake in the Wilderness section of the Garden Route National Park, Western Cape. Access is directly off the N2 highway between the towns of Wilderness and Sedgefield. The resort offers approximately 100 caravan and camping sites, which are mostly grassed, level, and well-shaded, each equipped with a 15-amp electricity point. In addition to camping, there are 16 self-catering chalets. The primary facility is the private concrete boat slipway providing direct access to the lake for boating, waterskiing, and canoeing. Ablution blocks are clean and provide hot water showers and flush toilets. Other on-site facilities include a swimming pool, a children's playground with a jungle gym, trampolines, and a communal recreation room. The resort has a small shop for basics. The lake is part of the Touw River system and is popular for freshwater fishing, with species like bass and carp present; an angling license is required. The water is generally safe for swimming but can be subject to seasonal algae. The historic Outeniqua Choo Tjoe railway line borders the property. Due to its location on a natural waterbody, mosquitoes can be prevalent, especially during warmer months.",
+      "experiences_raw": "On-site activities are heavily water-based: motorised boating, waterskiing, wakeboarding, tubing, canoeing, kayaking, and stand-up paddleboarding on Island Lake. The calm lake waters are ideal for beginners and families. Fishing is a major draw, with opportunities to catch bass and other freshwater species. The resort's swimming pool offers an alternative to lake swimming. Birdwatching is exceptional due to the proximity to the Wilderness Lakes Area, a Ramsar site. Nearby activities include exploring the village of Wilderness (10km), with its restaurants, craft shops, and famous beach. The 'Map of Africa' viewpoint and the 'Half Collared Kingfisher Trail' are popular local attractions. Canoeing up the Touw River from the Wilderness Ebb & Flow Rest Camp to a waterfall is a classic Garden Route experience. The Saturday Wild Oats Community Farmers' Market in Sedgefield is a must-do. Other regional attractions include the towns of Knysna (30km) and Plettenberg Bay (60km). Adventure sports in the area include paragliding, abseiling, kloofing, and mountain biking on the surrounding forest trails."
+    }
+  ]
+}

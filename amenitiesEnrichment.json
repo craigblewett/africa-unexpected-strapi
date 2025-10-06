@@ -1,0 +1,345 @@
+[
+    {
+      "name": "Braai facilities",
+      "slug": "braai-facilities",
+      "description": "Outdoor braai areas with grills for cooking.",
+      "icon": "braai.png"
+    },
+    {
+      "name": "Campfires allowed",
+      "slug": "campfires-allowed",
+      "description": "Designated areas where campfires are permitted.",
+      "icon": "campfire.png"
+    },
+    {
+      "name": "Electricity (plug points)",
+      "slug": "electricity-plug-points",
+      "description": "Power outlets available for charging and appliances.",
+      "icon": "electricity.png"
+    },
+    {
+      "name": "Drinking water (tap)",
+      "slug": "drinking-water-tap",
+      "description": "Safe drinking water available from taps on site.",
+      "icon": "drinking_water.png"
+    },
+    {
+      "name": "Borehole water",
+      "slug": "borehole-water",
+      "description": "Non-treated borehole water available for general use.",
+      "icon": "borehole_water.png"
+    },
+    {
+      "name": "Showers (hot water)",
+      "slug": "showers-hot-water",
+      "description": "Hot showers available in shared or private ablutions.",
+      "icon": "shower_hot.png"
+    },
+    {
+      "name": "Showers (cold water)",
+      "slug": "showers-cold-water",
+      "description": "Cold-water showers available in shared facilities.",
+      "icon": "shower_cold.png"
+    },
+    {
+      "name": "Flush toilets",
+      "slug": "flush-toilets",
+      "description": "Standard flush toilets provided on site.",
+      "icon": "flush_toilet.png"
+    },
+    {
+      "name": "Long-drop toilets",
+      "slug": "long-drop-toilets",
+      "description": "Eco-style long-drop toilets available on site.",
+      "icon": "long_drop_toilet.png"
+    },
+    {
+      "name": "Dishwashing area",
+      "slug": "dishwashing-area",
+      "description": "Designated sinks for washing dishes.",
+      "icon": "dishwashing_area.png"
+    },
+    {
+      "name": "Cooking facilities (communal kitchen)",
+      "slug": "cooking-facilities",
+      "description": "Communal kitchen equipped for meal preparation.",
+      "icon": "cooking_facilities.png"
+    },
+    {
+      "name": "Caravan stands",
+      "slug": "caravan-stands",
+      "description": "Dedicated stands for caravans with level ground.",
+      "icon": "caravan_stand.png"
+    },
+    {
+      "name": "Tent stands",
+      "slug": "tent-stands",
+      "description": "Designated camping stands for pitching tents.",
+      "icon": "tent_stand.png"
+    },
+    {
+      "name": "Glamping tents",
+      "slug": "glamping-tents",
+      "description": "Luxury furnished tents with added comfort.",
+      "icon": "glamping_tent.png"
+    },
+    {
+      "name": "Cabins / chalets",
+      "slug": "cabins-chalets",
+      "description": "Permanent wooden or brick units available for stay.",
+      "icon": "cabin.png"
+    },
+    {
+      "name": "Backpacker dorms",
+      "slug": "backpacker-dorms",
+      "description": "Shared dormitory accommodation for budget travellers.",
+      "icon": "backpacker_dorm.png"
+    },
+    {
+      "name": "Private ablutions",
+      "slug": "private-ablutions",
+      "description": "Private bathroom facilities reserved for specific guests.",
+      "icon": "private_ablution.png"
+    },
+    {
+      "name": "Car parking (uncovered)",
+      "slug": "car-parking",
+      "description": "Uncovered parking spaces available for vehicles.",
+      "icon": "parking.png"
+    },
+    {
+      "name": "Covered parking",
+      "slug": "covered-parking",
+      "description": "Shaded or covered parking areas available.",
+      "icon": "covered_parking.png"
+    },
+    {
+      "name": "Caravan hookups (water & power)",
+      "slug": "caravan-hookups",
+      "description": "Water and power connections for caravans and campervans.",
+      "icon": "caravan_hookup.png"
+    },
+    {
+      "name": "4x4 access only",
+      "slug": "4x4-access-only",
+      "description": "Access roads suitable only for 4x4 vehicles.",
+      "icon": "4x4_access.png"
+    },
+    {
+      "name": "Wheelchair access",
+      "slug": "wheelchair-access",
+      "description": "Facilities and paths accessible to wheelchair users.",
+      "icon": "wheelchair_access.png"
+    },
+    {
+      "name": "Wi-Fi",
+      "slug": "wifi",
+      "description": "Wireless internet available to guests.",
+      "icon": "wifi.png"
+    },
+    {
+      "name": "Mobile signal (Vodacom)",
+      "slug": "mobile-signal-vodacom",
+      "description": "Vodacom network reception available at the campsite.",
+      "icon": "mobile_signal_vodacom.png"
+    },
+    {
+      "name": "Mobile signal (MTN)",
+      "slug": "mobile-signal-mtn",
+      "description": "MTN network reception available at the campsite.",
+      "icon": "mobile_signal_mtn.png"
+    },
+    {
+      "name": "Mobile signal (Cell C)",
+      "slug": "mobile-signal-cellc",
+      "description": "Cell C network reception available at the campsite.",
+      "icon": "mobile_signal_cellc.png"
+    },
+    {
+      "name": "Mobile signal (Telkom)",
+      "slug": "mobile-signal-telkom",
+      "description": "Telkom network reception available at the campsite.",
+      "icon": "mobile_signal_telkom.png"
+    },
+    {
+      "name": "Swimming pool",
+      "slug": "swimming-pool",
+      "description": "Outdoor or indoor swimming pool available on site.",
+      "icon": "swimming_pool.png"
+    },
+    {
+      "name": "Dam / lake access",
+      "slug": "dam-lake-access",
+      "description": "Guests can access a dam or lake directly from the campsite.",
+      "icon": "lake_access.png"
+    },
+    {
+      "name": "River access",
+      "slug": "river-access",
+      "description": "Direct access to a river for swimming or recreation.",
+      "icon": "river_access.png"
+    },
+    {
+      "name": "Fishing allowed",
+      "slug": "fishing-allowed",
+      "description": "Fishing is permitted at the campsite or nearby.",
+      "icon": "fishing.png"
+    },
+    {
+      "name": "Canoeing / kayaking",
+      "slug": "canoeing-kayaking",
+      "description": "Canoeing and kayaking activities available on site.",
+      "icon": "canoe.png"
+    },
+    {
+      "name": "Hiking trails on site",
+      "slug": "hiking-trails",
+      "description": "Marked hiking trails accessible from the campsite.",
+      "icon": "hiking.png"
+    },
+    {
+      "name": "Birdwatching",
+      "slug": "birdwatching",
+      "description": "Good opportunities for birdwatching.",
+      "icon": "birdwatching.png"
+    },
+    {
+      "name": "Mountain biking trails",
+      "slug": "mountain-biking-trails",
+      "description": "Cycling and MTB trails accessible from the campsite.",
+      "icon": "mountain_bike.png"
+    },
+    {
+      "name": "Kids play area",
+      "slug": "kids-play-area",
+      "description": "Playground equipment or designated kids’ play area.",
+      "icon": "kids_play_area.png"
+    },
+    {
+      "name": "Game viewing (wildlife)",
+      "slug": "game-viewing",
+      "description": "Opportunities for wildlife viewing on or near the site.",
+      "icon": "game_viewing.png"
+    },
+    {
+      "name": "Horse riding",
+      "slug": "horse-riding",
+      "description": "Horse riding activities available nearby or on site.",
+      "icon": "horse_riding.png"
+    },
+    {
+      "name": "Camp shop (basics)",
+      "slug": "camp-shop",
+      "description": "On-site shop providing basic supplies.",
+      "icon": "camp_shop.png"
+    },
+    {
+      "name": "Restaurant / café",
+      "slug": "restaurant-cafe",
+      "description": "Restaurant or café available on site.",
+      "icon": "restaurant.png"
+    },
+    {
+      "name": "Bar",
+      "slug": "bar",
+      "description": "Licensed bar available for guests.",
+      "icon": "bar.png"
+    },
+    {
+      "name": "Laundry facilities",
+      "slug": "laundry-facilities",
+      "description": "Washing machines or laundry service available.",
+      "icon": "laundry.png"
+    },
+    {
+      "name": "Recycling bins",
+      "slug": "recycling-bins",
+      "description": "Facilities for sorting and recycling waste.",
+      "icon": "recycling.png"
+    },
+    {
+      "name": "Trash bins",
+      "slug": "trash-bins",
+      "description": "General rubbish bins provided on site.",
+      "icon": "trash_bin.png"
+    },
+    {
+      "name": "Security (guarded gate)",
+      "slug": "security-guarded-gate",
+      "description": "Campsite has a guarded entrance or gate.",
+      "icon": "security.png"
+    },
+    {
+      "name": "First aid station",
+      "slug": "first-aid-station",
+      "description": "Designated first aid or emergency assistance station.",
+      "icon": "first_aid.png"
+    },
+    {
+      "name": "Pets allowed",
+      "slug": "pets-allowed",
+      "description": "Guests may bring pets onto the campsite.",
+      "icon": "pets_allowed.png"
+    },
+    {
+      "name": "No pets allowed",
+      "slug": "no-pets-allowed",
+      "description": "Pets are not permitted on the property.",
+      "icon": "no_pets.png"
+    },
+    {
+      "name": "Dog-friendly (off-lead areas)",
+      "slug": "dog-friendly-off-lead",
+      "description": "Dogs may be off-lead in designated areas.",
+      "icon": "dog_friendly.png"
+    },
+    {
+      "name": "Horse stables (bring your own)",
+      "slug": "horse-stables",
+      "description": "Facilities to stable your own horse on site.",
+      "icon": "horse_stables.png"
+    },
+    {
+      "name": "Shade trees",
+      "slug": "shade-trees",
+      "description": "Shady areas provided by mature trees.",
+      "icon": "shade_trees.png"
+    },
+    {
+      "name": "Wind shelter",
+      "slug": "wind-shelter",
+      "description": "Windbreaks or natural shelter available on site.",
+      "icon": "wind_shelter.png"
+    },
+    {
+      "name": "Scenic views",
+      "slug": "scenic-views",
+      "description": "Campsite offers picturesque or panoramic views.",
+      "icon": "scenic_views.png"
+    },
+    {
+      "name": "Quiet zone (no loud music)",
+      "slug": "quiet-zone",
+      "description": "Area designated for quiet and relaxation, no loud music allowed.",
+      "icon": "quiet_zone.png"
+    },
+    {
+      "name": "Firewood available",
+      "slug": "firewood-available",
+      "description": "Firewood for campfires available for purchase on site.",
+      "icon": "firewood.png"
+    },
+    {
+      "name": "Gas refills available",
+      "slug": "gas-refills-available",
+      "description": "Gas refilling services available for campers.",
+      "icon": "gas_refill.png"
+    },
+    {
+      "name": "Private site",
+      "slug": "private-site",
+      "description": "Entire campsite or section reserved exclusively for your group.",
+      "icon": "private_site.png"
+    }
+  ]
+  

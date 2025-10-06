@@ -1,0 +1,229 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "R328 & Oudtshoorn",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "Western Cape",
+        "short_name": "Western Cape",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_2"
+        ]
+      },
+      {
+        "long_name": "Prince Albert",
+        "short_name": "Prince Albert",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Garden Route District Municipality",
+        "short_name": "Garden Route District Municipality",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Western Cape",
+        "short_name": "WC",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "South Africa",
+        "short_name": "ZA",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "6930",
+        "short_name": "6930",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "editorial_summary": {
+      "language": "en",
+      "overview": "Simple accommodations in a relaxed property featuring mountain views, plus a kids' pool."
+    },
+    "formatted_address": "R328 & Oudtshoorn, Western Cape, Prince Albert, 6930, South Africa",
+    "formatted_phone_number": "044 272 8214",
+    "geometry": {
+      "location": {
+        "lat": -33.3684638,
+        "lng": 22.1776702
+      }
+    },
+    "international_phone_number": "+27 44 272 8214",
+    "name": "De Hoek Mountain Resort",
+    "photos": [
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106889869690001618075\">PsYnapse zN (PsYnapse)</a>"
+        ],
+        "photo_reference": "AciIO2fFJum_me9hf_lR_NZ_PqtNv5OKYx2vs6oUlKOj_eiihlu_EbjBepyZk7_uGGJ7nWx9vRXWO3ycxYwpHSAuJy_TK8MdtokmISXM5v9efIekZYHkawERUa54auatoYQg4beAPGESEDnfY4mRuPGyQ1QvNsBck_PvkXlE-NuRZ9ywroeMFm5kNP-spovx-Pp85FsEspCwoYk8JBZpWjZBnNu7uOPhvMIIWNdunaCw5FSlexvYVqHzNkAZ3KLGeNUWDH4EuUWuuGVsEt1iEtpHZ-sCDc5iVINh2o7hRm_IUDgpU6TjTzNye6375O7fJtp5iBDKGOPqdXzlo4SBUeFJWsV0PcnpFaY57nFqnMslxco3JvjdwTkTtKz-985LVkMTW_s3hvEv7RjhFGUeWJ0Qs2ZE-ekCw1uRIDfZem_d86g",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109096186654002280215\">Luke Coller</a>"
+        ],
+        "photo_reference": "AciIO2dPQyv9fQq3MyRK0-Gw2z5O6R8qlHEn57mzcE12Fpvn_Si2MJAiO3SPns8BUCpFbMM56Zhrd_OF6PX02bbOzh-BI8kqoV1xipN_sFhU-yhUp5KVxsoN5bZV8Rl8sHnijgxccIm3DvJRnxBpmVqmnj98HznghdXw7sScLfnxjMaq4vbNCJj_w1SyK_yTtP8HfndeYQqsMDXTK6sOxNE8TXA1ZlpmjAt86ksl1KdcTtbD0JXHCHV7e3bfVebbbnn4JyC1ohUif8Y2LKPEp-XWuL-gDq04GTrhT6b3hH-sWI2NUL3WAU6wOKhf4hvhr71cUcy2lLdXfNjtsoH0-VDWjP9EjmBwAbhrgDRT1tJeWw36DfgCSxDM-RCDWDgJxG9-1pW4gMJHZA3I_Rrrzgh_eHWgJrZGxLTwLhjWhXrx8bMEnu8",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112394931084040872623\">ATLANTIC STAR</a>"
+        ],
+        "photo_reference": "AciIO2dY0UyR0BFp9e-YlZfiFmQXnSscL04lpI5MSzE8wX3sOQTKPPlkPmcHNV1cRaa3GWVaILal1it77GNZAvqtQRV7-251JVfZvu17O4tiBxTyQ2W1f1x2nxr-r9LDec7rEzz3O8K_JfjNIuGIVBmRgHdUiGQ0bTNIxJZK-QnJDaG14C9jUgsUJcPn66JTVfODpQEQg8etCZ_PWIyifFPGsdzbAkT5q3_aU3wgrzGkXX_YUaMymssvdxGfsHDIdZzl61nFnmDO1f5Qne6YomM0sXNZaSP5h7tg4uSoDTDYQ2d0ePkhvydsyJgl_xqncS_TJC3ZZJraWj-Pkle0UWRt_tlkasK618JPaD9oM9kwuh6bLhC4JeAckQe93Oym5704i7cy1m3eOr3I5uhXwKtXa_7iLP8uwgMKUWRm3a8RqkTOUqD3",
+        "width": 4032
+      },
+      {
+        "height": 3060,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104190078259091783605\">Gillian Benjamin</a>"
+        ],
+        "photo_reference": "AciIO2cO650tlXMs8Z0diwfBC5f9EOhtHoaSDDh5Jif19AmIcJ5w3h-fEYWwtvgpALX_2T4xUq62KYaLBrISRpSiV1fr933QOBOGFet16DELsPn15XfAeW9-zT22Z4LeM-qZ67kjo8rdAaXIrRItusywlqF05SbeuWua5hFIHMhzsclpHpCJF_0hRK9OwdNPS_0vCwaxUVagAH5Plknt73al_q4CijMk-9SuvY7vukKCFbcOsCTK3jd_URmiJUVsZ3YjVr31c_xQolCCQ6Sb77duj8KkWE5lbzHSChE3CEbg9Z7NnCV66FbYk-bjJb45e9Qpn0ZAXd9uGQ5PnHnEqzg6h4i_eQs9w2squS8UjaaoQvWcL4mlkUDFbAqLH2vLhbMAli_f_l3PRwhQn9aw0QXR09xCAaXDWANwuF-0T-Q9VUsU1we2",
+        "width": 4080
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113207509708854304558\">Dorian Roode</a>"
+        ],
+        "photo_reference": "AciIO2dik4LGO7wwe5Ssf7rOLWJGIMqhb547MZECW4m0rkY2KUWm1YNlKMxN-aewc0U6uJCk29dVAWmdAfBN-p8vRUpxtUME5gALtu0l-yMFtv4GgJc5reZcT2CjNwjKCEqpEiqE5-z-tS43_VAgw3YUyq66mfK8BJ22UWO2h8j_tBO8ITlMx-zqytm1bbyRGBumZxdSaiYkYwVzkaSSe6W75PdClTxCrdd2MKggx01ZB-heh2y-KlHpqf1849BLd2-DJ03PgZDD4YP8UdV2A9305WTvsuLnoacvURmbAb-ECM6jEZ0mCqs1KoSdkwrXNLOU4dh0l1OlZMPjuprnyyV8fgm213zo8GlCGAks6pR5EmX9KxNyrZImFwwyIanyJQBX6b3fc26ZuKOIL50-XpUF5Kpcht2n5eMeE7fcMoS0KAtrVw",
+        "width": 4608
+      },
+      {
+        "height": 2252,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114337318042261563659\">Jeff PE</a>"
+        ],
+        "photo_reference": "AciIO2d0ieFH_RK_ZStE24hy44pggGvpC58PVNzPrpvZSvIEz-icjksxhHvzKXtE0_fZkXiLm-cvENd6ReTAqaejitG5kKcg8exQeSf97kIudtxk3waVpDwCO3Y5-iAN6E7wbsV3_PbFwm0iaYuuBPi_RMYzHsMjBYqIaXK6Hy-_3m1NTRO17pbSGjPYlTC0XDj1ApzHd8tek3ivirzPIWXQTgf4WXQFx49KqBYkwhRPLH0evJ_eE7IlEkq4k6ClQcMQ_rMrqPQVl8PX2s7I_w5ppn5gjjMvC2LUZrYtP4bygcIUtRmAAwIXMBDKftQYBpNARMI_H1P-v2QtVpMQq86pD2DwdFx5LRhr1bph6sdpWfYkgS6zGhPtGWw99og5d2B7MHeMomJi7x1y_5BzcPy8E3TpoQey6RIHKAf9_hpNvvXbArA",
+        "width": 4000
+      },
+      {
+        "height": 4080,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104190078259091783605\">Gillian Benjamin</a>"
+        ],
+        "photo_reference": "AciIO2dDohKOj1xZKlNoRg0Ojv1CnGf8ZJEuSSyTnT8nA97eDCC3mLB-o4UefVX9Nm8rHZUTKEwyZNsxWAhL47HMq08CQ70XTNCPiCob92o49CMCUlJDIRBhNyMDehJrW_GVzQ-LWmDlvlGVgrri2tGVQ5QTE5_gASEM2RzlaQ9UX0MKkTTkSAkqUMZ-SkkCOM3QLw-NlOjE4GBWkaNFNdenVXOkbsQR3c5j4K_Tt3D_8BWQwMyBI8LPoB9DjR2v67NQ631ZXERTUkrogD4day9ZQAxlnx1kfMDafyp0jP3eAsCz8eASB9mxY4igShbcb6pNx4EI8leCQj6URPYgkwVHrwy8P18dOGy2WQ4LjQMCAplvPtpZ1X24BvUBFrZVJVPbittbNxpi70GwHVZdMMBRjtH9z_TurIfuI25hCtTchzROHg",
+        "width": 3060
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109096186654002280215\">Luke Coller</a>"
+        ],
+        "photo_reference": "AciIO2cj0zbIaBS9PXnNVtqnjbvSZFmTjIucV0Cb3mDoDbkyo6wGhXNcZe2aXol-rDR6VSrr-5QuL-XNa-ev0k850efH0gmo2euMl2CAxZeV_JEOhLgQYRMAHuXzbYtr7GWPEjreWiho4JBY1MzWnN28kqXhAfE10WpP7tFDVGbJrDb4InAjJG0YE85tit09rCGumzBhdW9WaDPv08ct8dTFjaOamVXAimluP2sU6jCXfvSpc0SyrxoAoFWKGDKBYiWV3HTn9nQvMHDNjsrw_zgDE-ovodn_qvXFE_Xlzu4PkOkL-hxs8eM-Mtm-gxn1V7vaYJmBcLsczc-exijDKhe6nBeORDMjjQ2aGdWnaZq4tpp73aCDyIudk7bqLXJ8Rqr1mBSoIOkfmng70aY9HA8szeSpFRpXv55gBtFUsl-pCx0",
+        "width": 4032
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112394931084040872623\">ATLANTIC STAR</a>"
+        ],
+        "photo_reference": "AciIO2eERgH4vbXVjMCqsomQVYhcuaU9lBVNYE9U8hS2f1_MF8X8jMqVYwa9V1PoemUFklpYYKlBXvuwaIm_IlgQT5y2uqYt86LfdT2ZSIVtNCGJ53uN_QIb45vxIKtnWhYUJAhwvoEetwhvuE7j-pfgoHtRJVlb4luKLmPQRXCsMuzhP9SRKzO2CqZhB1kCqu9KneunfcHKdfMEKc248FI6_6HUaDaEUwqH3eAD4U4XuUFU3Mx2slzVRpt_E5DCG5VGIyG57c5Kf8KekavEQb1Mw3v20s2f6BEndswOCx-MbA0v22Mlnk-c1JG60U6qkfzquoOmngpyAVKl4uMdDjv4mMvC-K1B2e2YQPU4SQJKUPGcZ-iy1LmxajsGy0kp2ORIo0rOC6boQ7m7wQrzqrQCIVYRQrEkPR5tUtdbiiNOviP2cIU9",
+        "width": 4032
+      },
+      {
+        "height": 3120,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108438375824509554670\">Trevor Smith</a>"
+        ],
+        "photo_reference": "AciIO2cRuNEPDq37ad4Gph_5FhRaEk1SnX2Clw12XRBcAtf6gMW2LD4PZq_IqOR1ybFbliOFbYUNf-Sdt7zz8Z9m7a72X1g8L4QQjke6K2KY5YsU9gUjWlH3-M5keOAdLCPj5dhZDQ5xLyoSLZ3ShgcX1JWPTqVe9z-G6qcRj2kjoHsSAJlDFzEZE4jIqhvz-dZGPwdiIGkxPCYMTRWtxqRX-KzDSUCo0xtwyiFMEBJyKqpdeyy73YuQp57PwoiGPp082jaBWtl3It3I_7BC83j6y4SNwtqt6K94NKiPM5_6gWNus2sXiCylCQqbtckcE0uD_HNKlF0_EoM26YgQKiX6JerBXkuoyi4Wl0BJtbjCuO-n1ekhfV_6EA1a-TmMgQTpD6CeXV3UXCKPtCsGwRnx-ISliMd-PGK2B4uatem_rNut0Q",
+        "width": 4160
+      }
+    ],
+    "place_id": "ChIJd8pF2oql1R0RvBLJyHA5cgM",
+    "rating": 4.2,
+    "reviews": [
+      {
+        "author_name": "Jeff PE",
+        "author_url": "https://www.google.com/maps/contrib/114337318042261563659/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXkz62TtirI8dTYdgqg56QjPeHwI7oyGKMfeoXmTA5uRw2COHWf=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 4,
+        "relative_time_description": "5 months ago",
+        "text": "Camped there in a tent, nice sites, well maintained. Communal bathrooms are clean and tidy, we'll serviced. If you like to sit on social media, not much cell service here. If you want to \"get away from it\" this is the place.",
+        "time": 1745294697,
+        "translated": false
+      },
+      {
+        "author_name": "s marinus",
+        "author_url": "https://www.google.com/maps/contrib/112613714772499622432/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjX5jyHGNZNXokTimEDr6oGZFnj7m85syQfF79PusARO2MfRZOq0=s128-c0x00000000-cc-rp-mo",
+        "rating": 4,
+        "relative_time_description": "4 months ago",
+        "text": "Nice municipal place very near to the Cango caves. Very peaceful. Clean. Tranquil setting in the mountains. Liked it.  Watch out for the baboons!",
+        "time": 1748662600,
+        "translated": false
+      },
+      {
+        "author_name": "Alexander Venter",
+        "author_url": "https://www.google.com/maps/contrib/106885390375280410834/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVcYece486GIpGRDJM0WTnKJGuyzVzzBRP62H8kcOS26U8DFaNs=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 1,
+        "relative_time_description": "5 months ago",
+        "text": "Beautiful location, pitty that the resort is neglected and outdated. Also no signal. Rooms are smelly and need new bedding.",
+        "time": 1746292626,
+        "translated": false
+      },
+      {
+        "author_name": "Deborah Yoakum",
+        "author_url": "https://www.google.com/maps/contrib/102789289588538947734/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUGZJy3Rxw-sfCZFOvm7dSR6jsDlvXfw3ajL8QUVPX0WYSE8GE=s128-c0x00000000-cc-rp-mo",
+        "rating": 3,
+        "relative_time_description": "6 months ago",
+        "text": "We were camping in a campsite. Bathrooms are nice, but steps getting to them are uneven and no handrail. Absolutely no cell signal there either",
+        "time": 1743711620,
+        "translated": false
+      },
+      {
+        "author_name": "G W",
+        "author_url": "https://www.google.com/maps/contrib/111934507081427291846/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJyAH7YbP1YaP3PCWbVANfVfVtHx5ecB1j9-QX8z7UmFXVmCg=s128-c0x00000000-cc-rp-mo",
+        "rating": 1,
+        "relative_time_description": "8 months ago",
+        "text": "Worst holiday ever.We arrived at De Hoek from a 5 hour drive from Cape Town only to find out that our chalet we booked (which was 5 months ago) was taken. They gave our chalets to other guests because they had a music festival which was ending the next day. They placed us in a dormitory the first night. The next morning we had to wait for our chalet to be cleaned and had to move all of our stuff we which we unpacked from the dormitory, the had to pack and move all of it into the chalet. They told us that they are waiting for next the next available chalet for us meaning they never booked one for us in the first place ( which we booked 5 months ago) they said their was a mistake made and they booked us for 2 Jan - 5 Jan, but our invoice clearly said we booked from 1 Jan - 4 Jan. they clearly made room for the music festival guests since they were pumping more money into the resort. Because we heard the same thing happens to our neighbours at the chalet.\nNever returning to De Hoek.",
+        "time": 1736620396,
+        "translated": false
+      }
+    ],
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=248324086026539708",
+    "user_ratings_total": 214,
+    "website": "https://dehoekmountainresort.co.za/"
+  },
+  "status": "OK"
+}

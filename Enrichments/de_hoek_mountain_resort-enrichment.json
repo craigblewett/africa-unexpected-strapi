@@ -1,0 +1,107 @@
+{
+  "places": [
+    {
+      "description": "De Hoek Mountain Resort is a scenic municipal resort at the foot of the Swartberg Pass on the R328 between Oudtshoorn and Prince Albert. It offers large, level, grassed caravan and camping sites with clean ablutions, plus rustic self-catering chalets. A sizeable swimming pool, braai spots and mountain views make it an easy base for hikes and day drives into the Swartberg.",
+      "directions": "From Oudtshoorn, take the R328 toward the Swartberg Pass and Prince Albert. De Hoek Mountain Resort is signposted along the R328 before the pass climbs. From Prince Albert, descend the pass on the R328 toward Oudtshoorn, the resort entrance is on your left before reaching town.",
+      "province": "Western Cape",
+      "region": "Klein Karoo / Oudtshoorn",
+      "rates": [
+        {
+          "amount": 371,
+          "unit": "caravan or tent site with electricity, per site per night, low season (includes 4 persons)"
+        },
+        {
+          "amount": 424,
+          "unit": "caravan or tent site with electricity, per site per night, high season (includes 4 persons)"
+        },
+        {
+          "amount": 224,
+          "unit": "tent site without electricity, per site per night, low season (includes 4 persons)"
+        },
+        {
+          "amount": 337,
+          "unit": "tent site without electricity, per site per night, high season (includes 4 persons)"
+        },
+        {
+          "amount": 674,
+          "unit": "4-sleeper chalet per unit per night, low season"
+        },
+        {
+          "amount": 955,
+          "unit": "4-sleeper chalet per unit per night, high season"
+        },
+        {
+          "amount": 843,
+          "unit": "6-sleeper chalet per unit per night, low season"
+        },
+        {
+          "amount": 1123,
+          "unit": "6-sleeper chalet per unit per night, high season"
+        },
+        {
+          "amount": 30,
+          "unit": "day visitor per person"
+        }
+      ],
+      "price_pp": 93,
+      "tags": [
+        {
+          "label": "mountain-views"
+        },
+        {
+          "label": "family-friendly"
+        },
+        {
+          "label": "caravan-park"
+        },
+        {
+          "label": "self-catering"
+        },
+        {
+          "label": "large-sites"
+        }
+      ],
+      "amenities": [
+        "flush-toilets",
+        "showers-hot-water",
+        "braai-facilities",
+        "drinking-water-tap",
+        "campfires-allowed",
+        "electricity-points",
+        "swimming-pool",
+        "shop"
+      ],
+      "highlight": [
+        {
+          "title": "Big, level grassed sites",
+          "description": "Spacious caravan and camping stands on grass, easy to set up with room for families."
+        },
+        {
+          "title": "At the foot of the Swartberg",
+          "description": "Immediate access to the R328 and the Swartberg Pass for scenic drives and hikes."
+        },
+        {
+          "title": "Mix of camping and chalets",
+          "description": "Choice between powered or non-powered camping stands and simple self-catering units."
+        }
+      ],
+      "unexpected": [
+        {
+          "title": "Site tariff includes 4 people",
+          "description": "Base rate covers up to four persons. A fifth and sixth person pay an additional per-person fee, with a maximum of six per site."
+        },
+        {
+          "title": "Many non-powered stands",
+          "description": "There are more non-electric stands than powered ones, so book early if you need power."
+        }
+      ],
+      "meta_title": "De Hoek Mountain Resort, Oudtshoorn | Camping, Chalets and Mountain Scenery",
+      "meta_description": "Camp under big Karoo skies at De Hoek Mountain Resort on the R328 near the Swartberg Pass. Powered and non-powered sites, clean ablutions, swimming pool and self-catering chalets.",
+      "facilities_summary": "Large grassed sites, clean ablution blocks with hot showers and flush toilets, braai areas, electricity points on selected stands, swimming pool, small shop and day visitor access.",
+      "ai_summary": "De Hoek Mountain Resort is a well-priced, family-friendly base in the Klein Karoo with roomy grass sites, hot showers and a big pool. Choose power or go simple, then spend your days exploring the Swartberg Pass and Oudtshoorn.",
+      "raw_data": "Official rate sheets list caravan or tent sites with electricity at R371 low and R424 high per site, and without electricity at R224 low and R337 high, with the note that the tariff is for four people per site and the fifth and sixth persons pay an extra fee; maximum six per site. Current PDF indicates validity through 30 June 2025, and a 2025/26 municipal tariff update continues the same structure. The resort advertises large level grassed sites, clean ablutions, a big swimming pool, and fully furnished self-catering chalets. Facebook posts note approximately 20 powered and 35 non-powered stands. Contact and location: on the R328 between Oudtshoorn and Prince Albert.",
+      "experiences_raw": "Drive the Swartberg Pass, short hikes from the resort, pool days with braais, Oudtshoorn attractions, star-gazing in clear Karoo skies.",
+      "slug": "de-hoek-mountain-resort"
+    }
+  ]
+}

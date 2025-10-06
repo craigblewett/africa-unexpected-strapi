@@ -1,0 +1,137 @@
+{
+  "kind": "collectionType",
+  "collectionName": "places",
+  "info": {
+    "singularName": "place",
+    "pluralName": "places",
+    "displayName": "Place"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "place_id": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "total_reviews": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "need_to_know": {
+      "type": "richtext"
+    },
+    "photos": {
+      "type": "component",
+      "component": "general.photo",
+      "repeatable": true
+    },
+    "reviews": {
+      "type": "component",
+      "component": "general.review",
+      "repeatable": true
+    },
+    "rates": {
+      "type": "component",
+      "component": "general.rate",
+      "repeatable": true
+    },
+    "contact": {
+      "type": "component",
+      "component": "general.contact",
+      "repeatable": true
+    },
+    "latitude": {
+      "type": "decimal"
+    },
+    "longitude": {
+      "type": "decimal"
+    },
+    "tag": {
+      "type": "component",
+      "component": "general.tag",
+      "repeatable": true
+    },
+    "amenities": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::amenity.amenity",
+      "inversedBy": "places"
+    },
+    "cover_photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "town": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    },
+    "opening_hours": {
+      "type": "text"
+    },
+    "meta_title": {
+      "type": "string"
+    },
+    "meta_description": {
+      "type": "string"
+    },
+    "facilities_summary": {
+      "type": "richtext"
+    },
+    "featured": {
+      "type": "boolean",
+      "default": false
+    },
+    "raw_data": {
+      "type": "richtext"
+    },
+    "ai_summary": {
+      "type": "richtext"
+    },
+    "highlight": {
+      "type": "component",
+      "component": "general.highlight",
+      "repeatable": true
+    },
+    "experiences_raw": {
+      "type": "richtext"
+    },
+    "unexpected": {
+      "type": "component",
+      "component": "general.unexpected",
+      "repeatable": true
+    },
+    "price_pp": {
+      "type": "integer"
+    },
+    "the_vibe": {
+      "type": "richtext"
+    }
+  }
+}

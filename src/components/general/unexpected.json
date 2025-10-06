@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_unexpecteds",
+  "info": {
+    "displayName": "Unexpected"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

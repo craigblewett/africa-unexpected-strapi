@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_general_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "website": {
+      "type": "string"
+    },
+    "booking_url": {
+      "type": "string"
+    },
+    "google_info": {
+      "type": "string"
+    },
+    "whatsapp": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

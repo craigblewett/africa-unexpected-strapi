@@ -1,0 +1,203 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Unnamed Road",
+        "short_name": "",
+        "types": []
+      },
+      {
+        "long_name": "South Africa",
+        "short_name": "ZA",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Cape Winelands District Municipality",
+        "short_name": "Cape Winelands District Municipality",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Western Cape",
+        "short_name": "WC",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "Unnamed Road, South Africa",
+    "formatted_phone_number": "063 739 9296",
+    "geometry": {
+      "location": {
+        "lat": -33.5769171,
+        "lng": 19.189188
+      }
+    },
+    "international_phone_number": "+27 63 739 9296",
+    "name": "Kraalskloof Accomodation",
+    "photos": [
+      {
+        "height": 564,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100749171627458980414\">Isak Venter</a>"
+        ],
+        "photo_reference": "AciIO2c81lDELLQRA7tDerAmvVhM5krFx_NCpIUvCb3yOBR5UdfryJFe5CchX67rdojjUGfjGiV3D25rRllsSg5j8qiG7Hp8tAYqOQ3hy7_0uEUUyJFngwDToGsAJmR1gXarCe5FhZx3eyBDYMvsRT9honHarjOIoVqNlIfsK70--xR89mCxoTJ0MIErBRbzcmhWrqNyAfAmPalEPvM7UBejG06OxDmGBNYc-CAKfMP5b8VI3LmKC8_ymTNq84Nl3ITvZYLH00EPPfeDL-S7_2Q6JEyfh6auuTOv4KM2p1kOg658zCEbRMSLNRDYRYseQ8Kwy1jler14e1wj0mdUddofbYhQ2nRAobkb9g2ZDMabuqgOO4mOZo9Nz-8wqImD9ISFzqG_ZikgzRAwaY24lS5p1h2O3Mo7FxrGrmCcggENvU0",
+        "width": 1000
+      },
+      {
+        "height": 563,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100475045466369403161\">Amanda Van Wyk</a>"
+        ],
+        "photo_reference": "AciIO2dHJlXexgtSIywPYOqC0SU3mTDm7RBzI4VM8alq8zacVCx8QKHYIre50npCI_alCQd00-bCv5LWXQC8FjkPD5iCcwBkNuLVN-Rpx8A4wxB2eDkBFANaXPMM_FYn4cmEKn_PG4Oc65L3L3H_qtAQwJ_QJj1YnQ4aimAYgoKOTQSPDrxrN73b9eguwsj7chCz5Bwzg73AAhBuxjktQsz7LrkSEZEH27ev-o_3vnX3HFqOajZYu_QAyyCKI-pBRf4KNUsGI2DUWFOvgprGzeI9znMWd9PcxebFBcP4YR8LHRce3t1WVHxOWNGsIX7xbB22ySByRzBTC4HqlobNfKCBIMl37WNFu6U96igkPoyVubcZ-F33WevqEfnGRPuDqTCYfQvkkrZlUfH7T-J8XKIBvXqeywL72xa8DWEgCjXkGtqelw",
+        "width": 1000
+      },
+      {
+        "height": 563,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100475045466369403161\">Amanda Van Wyk</a>"
+        ],
+        "photo_reference": "AciIO2eEy9u84HFwM7zOQxrG9SDrYhTm-zDoDhY2Xjmcge-py9_2N5j-sccT9xc5GFmrDdh9WhuMnMNofOqoR_Q05q9BYCurhhm_X-8oujeWLIWyzD1Sg7btAoEh6pgkf76wDSyqwq_1heTRzfN3du5UApD48ltrUQgXb_RSSA-6ti4gn0FqrlzY4WElsGo8IkwuD2C4NRKNBYo0LqVlr09OFvyJIamK3Yv-aXOCsUd18OLUVR-GpoUtR3Uo9DfACc4tqtdeVYXjlEe_2PhqT6wJyGZPCaXVGWY-COC8v67yWdMgGzrW_0LzTsVXkDkR40Q0yvifyWUtSu4UltWZXcw0R10yBUR6CRgsMV5Bqb-SKkG2lFNrPd44dwqCuri3Pyt295kXZKz3Gcc2ABWM-93m09HaFu0-IqI1uczFVPQ-SUE",
+        "width": 1000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102756897640297719718\">Kara Spamer</a>"
+        ],
+        "photo_reference": "AciIO2fC_aBBqUT4czxsrzPLT6aZXqygl19DNTwOuOg-ZR1EERIkkHbfnl7ioVQGni5rWssbNjqirDeLv_5ZRsyLVgyVfVZkmizilHOgEcjncJOrq_AUVRafJ0Ur6kwNWdQgDzi6TV4WBQ9bfg90SPPbRCxA9pIE9bfyMgQsgwG7HO8mD_G96kno1kLX5y6_Cw67Z_oIL4aCg0MzVeRCytqEiJpwCpntsQYFYYW70soCSaiCbLLuBJM1TUEPVxa6leQb4eUX5z2I3qj7lIn5-z8STCxuG41qBcOd3eRcFO3jvLR6dOCNSkqfMO0XkouSWXstV0UUIWYL_yQcF8UWJEeVdeCqDZiE6cz2KNSY-9kjC2YKXNa6znhwPISncef5t13N2xTGhjJtfs0CVuHnbCuqaj2qMp7PljTDT1Pvz6RWk-UuYA",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100749171627458980414\">Isak Venter</a>"
+        ],
+        "photo_reference": "AciIO2ebqkGSsAbHqTYLpFp2xyBphRpJNuZX78euN_s_WrBYsYjq4YD8r6Vn3rPCYTR2WWGrVUWh24ADkwwzBxPC2aMwsiLnncITloXoZtl_bfhnrDYKTAHXxdBG8swf_H_Qa73wWO7n0yv7O9IRu49iiypbJQhbgn6wIK1FFPO49avgudWFzfFbiCLdkglpoVe2SmcbWfsYgbXI9fe5mUAnRuRJ4aJkE7LyG_b4IZLAjsv84-n9Oad41mFZmt_pEyCxdV1ErAAFTwDOkTO7Fr6IELIQfcDzrDiZqmMj9bR9afDkyLORA8wFvYfYlv3g5FyGW9wiGjqLYL34N0xD5okQoK04kzvigvuig2cKtSVwTwklNw_qMVXWLT3M653KUnmaX9PaWmTGoq76kycRQmY3qWVmQe0p-3hdtWAKOh3N0yU",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113035795597998325892\">Sian Ferguson</a>"
+        ],
+        "photo_reference": "AciIO2d5Rfd9EIm0H2s3wHupJoBMjo_jy9kKedbV-dbrXu-i58_d5ziWDPN49Aw8TnaPDq-axPYBW4vAVoYueKbuOnvrmbmfgijN2JM3qu_oKVc6qmDFP2v4c5_tV9lTUFsJXQNavz1BekRbXsm7pFVI9YQM6r9M-CJoR64TZoIsasj76i_bJGOlBHt33aSCVlJk_mtLsxZQ19BLyE40PDnSD2jfXXybsw2W7S2EQYJDuQdbgCDpLkkUvYydBlQ0bNUxDcHW034O5jM1lmPGyw6J-o4eJat5XN5645HB8taoHDnJ3oSS5vylxSl-GZGdipusKtNJiJK5K8qfh3uqAgBJ0_-cuvfnR00m0IUw4dPmFuXMuJjWagHFqItlKENcTDunqWOjjVDAwDJziyHf4p_dWjeXuAxTtkj20mUMv3Bgpk7L0w",
+        "width": 4000
+      },
+      {
+        "height": 4000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113035795597998325892\">Sian Ferguson</a>"
+        ],
+        "photo_reference": "AciIO2fr8jkkHy0zPaz_rWJMHbOL0YUK1mXq5NP4Rz0Y-_LRKtAANszT72HuOK1WIy4f0QX_nNV5IZrYxereuMziTz4pp2to-B6WNi-UZIs93fuQCsRTkRboi94Jw-0idjrUVAv5u6jY4ScJB02WBKEiIV2qNp-b1lQOURgqGslwwrE1LTZH7-1_bvji0S7pkdpCpF7HPoQPKYEZDnlknVsh4vSOHlTvHnV6ksJo-a-5t6k8l-9HGWC9KacnQB9EkVoIzyRAAcpJrNvLJxkYVN1L9vchSBPTP2o4wz_yxDvZfWYhj2nYSJDi2qgkhT78moduryIWJA_-G8aAGVtRIRG1k-ZWEva_eqBEr6WPouDGa2ApLGuSRRNsde-ybqen9R8aPZFONisMZluyridZ4dxgKtn0VHlNjMfQFLeXZBcHVW41YHc",
+        "width": 3000
+      },
+      {
+        "height": 667,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100749171627458980414\">Isak Venter</a>"
+        ],
+        "photo_reference": "AciIO2fDuAJ8Ot9vCFt1LHXR81SjEkZXkCQBTU5d2ie2QXcnFVhzX9ndib6l_IdJzYJrNOSB_UoNiWt8Yp81JCNc4jbb5gt8EcjRx7OYIRcJsmvBT2HhqVIxMcefMqTqrIsZagwFzb5DKJABS1kfJOk-T4UUnWPQpBV-RkQuP1yke47jn8V1kGsuQQurRZ8jkWLjsJsXnX07zwLmIFuNyggLnWTNqU504cZSkX5ZSwKyMs49kSdCPd1CrEfE2pYqxDisPPWJCkn7cPlqIB90icUtQz_BaVzgtdiy9_rt2D3NdqvefU2fSemR2a7NoOiqH6RKgcv8icBi4JPAV8IfGtMFLJ_382zSXhvWShQ5IrEr_GHDAiPo3UVnOhvfk3O_axCNe6loN25UaCEEuSGJjYKxDiu8H8ESngTQP8KyQCM7Spw",
+        "width": 1000
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111879039749837087461\">Michele Walden</a>"
+        ],
+        "photo_reference": "AciIO2esEickcqVkDYbvlKjulYolqPTgccFnigHYMnjWKSsQ0pLzfmNXyJCIbkLTybBeOFs277UVwgcQEZbXUavusEaDFdthbtWxqvE8P9MH3A5SUTxCCcGPlRABLI_USifjKRiYN9a9mB5bnVsMDSyhrkagWYTuPRGpi5Mr-KqHQmp2y0OBtoJVCag3YNkOvJSPsysjsBdWvsiEE1PbKMwmJvnLIy-Fni4xc7ILggicyx-a_ipon2i6JmTXYPpBYVmBEoI1IkCqkGu2pEzfYCaZLtTzBwj1T3hGvuSb4P7C4LQB0UoUjiyI1Et-HUWmWXArstodsk1yKzodC-KPQ5aZI8PMmTrzPwtWpNkk249aT71dj-KoeWZh3wDAYO7n8TDIAyoi1_CSLK-SdwOI3PRJXQC_0O_58qlD4Bi2D9pD5d8ZbTCS",
+        "width": 4000
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104852814654681653975\">Rita Mustaine</a>"
+        ],
+        "photo_reference": "AciIO2eT6-P4BNAHJYVuKPC_8J2YhJ1MofitDE12sDMKxGS-EAw_x1Oa1Xy2XnYmH8KIjVefKmqjpQpRtCuBrMcRg_E-sLxZ4wTztQF5glNoYh06alZX51nQWrIGDLpbocYJedsEMnhaAddUWQhSVe23TDCJCLfga2HqpV0cXNf98uPPXOeOuD6xRIQ1zpb0YxPGxx_dA4fAFHCkxtW_k_uP9yh7GjynbWELcNPOSqYmrADR390EvvwwIDkFoihQEMCqem5VT0RzDfUU8i3bSM7ACtZdKxrvR02IbMIp0f7T6QCq-yD5pFbPaHW034wep2rkpJDb8lgmZ1IeX-UCBHvuVAaR4qyEYrdq7RMMCJ8KAfYJQYJrQDDNYjI3KLrg0CNeYrb0MKEKZeI0sCF7x2qlrZr_c1EdasrcDO4LWl4KXxAVlw",
+        "width": 4032
+      }
+    ],
+    "place_id": "ChIJG2rdjVdzzR0Rrt4Lk9cVwOY",
+    "rating": 4.9,
+    "reviews": [
+      {
+        "author_name": "Kobus van der Merwe",
+        "author_url": "https://www.google.com/maps/contrib/100266709255743822330/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUlCB2Z6_ZAYz_ptqQUkO1uT-vierGKmz0rsqsdVuJlooYqxy4SBw=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "5 months ago",
+        "text": "We stayed at Kraalskloof camp site 2, which is located slightly lower than campsite 1. Both have spectacular 360 degree views of the Slanghoek valley and towering mountains in the distance and at another's foot. Jaco, who received us, was very friendly and informative.\n\nCampsite 2 has an expansive lawn where you can camp, faces a dam, is at the edge of vineyards, has two wood fired hot tubs, outdoor and indoor braai area, a large building, two bathrooms and a kitchen area. WiFi available, braai and hot tub wood available for purchase and an absolute delight to stay at. There are plenty of trails to explore, including a waterfall in the distance in season. It was dry at the time of this review. The campsite site is dog friendly too!\n\nPossible negatives:\n\nThe roof makes snap noises as it expands/contracts and the water in the building is not suitable for drinking or cooking. The campsite is by a working farm and may have noise from machinery on weekdays. There is a troop of baboons rather continuously in the vicinity.\n\nThe campsite is stunning and certainly one of the more luxurious ones we have visited for sure.",
+        "time": 1745151689,
+        "translated": false
+      },
+      {
+        "author_name": "Johannes Frederik Coetzee",
+        "author_url": "https://www.google.com/maps/contrib/108407537311211709980/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXRBVuZaZr6Jr4kjDKLDwhWEGtfaU_QI5yyd-4zwMYVDU66w84F=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "11 months ago",
+        "text": "Lovely camping area fully grass and great people. Great facilities, an indoor and outdoor braai area. Fire hot tub facility on top of amazing views. Best of all dog friendly. Will definitely go again.",
+        "time": 1728339564,
+        "translated": false
+      },
+      {
+        "author_name": "Kara Spamer",
+        "author_url": "https://www.google.com/maps/contrib/102756897640297719718/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJxd_3ooJcEZxVaoB4mxz00W6hZxtwWYqVI65jHQFI9GEErbQ=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "9 months ago",
+        "text": "What an amazing location.\n\nThe facilities are well layout, comfortable and very clean.\n\nWe had one day with  bad weather  but there is a kitchen/braai indoor area that is large enough for 18 people.\n\nWe had the best stay.",
+        "time": 1734329502,
+        "translated": false
+      },
+      {
+        "author_name": "Daniel Galloway",
+        "author_url": "https://www.google.com/maps/contrib/107221100333217572483/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIhifbRBIoWE-zG1N2PzP03YA-uUsH-q1PP6Ahtw9i3nRjzzGc=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "4 months ago",
+        "text": "This breathtaking campsite is easily in my top 3 in the Western Cape.\n\nAlso sensational comms and service from the owners.\n\nBeautiful facilities with awesome views for days!",
+        "time": 1748341204,
+        "translated": false
+      },
+      {
+        "author_name": "Siobhan Wedgwood",
+        "author_url": "https://www.google.com/maps/contrib/118167983715998502519/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocIOwuMU_cxWCwEJO7RpYRSuBkI5rBBIUlKP7LNDRn13TH7yqg=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "a year ago",
+        "text": "This is truly high up there in my best campsites.  The place is extremely well looked after and managed.  The communal kitchen with braai and 2 showerrooms were a godsend with the rain as we ended up braaiing and visiting there at night with the rain.  We even had a set up to watch the rugby... please note that this camp has no power... there is a pug for cellphone charging and there is also a camping fridge but that is it...  FANTASTIC... Our place is booked for next year.",
+        "time": 1698070155,
+        "translated": false
+      }
+    ],
+    "types": [
+      "campground",
+      "establishment",
+      "lodging",
+      "park",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=16627313839881051822",
+    "user_ratings_total": 38,
+    "website": "https://kraalskloof.co.za/"
+  },
+  "status": "OK"
+}

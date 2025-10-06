@@ -1,0 +1,233 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "Compensation Beach Road",
+        "short_name": "Compensation Beach Rd",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Ballito",
+        "short_name": "Ballito",
+        "types": [
+          "political",
+          "sublocality",
+          "sublocality_level_1"
+        ]
+      },
+      {
+        "long_name": "Ballito",
+        "short_name": "Ballito",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "iLembe District Municipality",
+        "short_name": "iLembe District Municipality",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "KwaZulu-Natal",
+        "short_name": "KZN",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "South Africa",
+        "short_name": "ZA",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "4420",
+        "short_name": "4420",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "editorial_summary": {
+      "language": "en",
+      "overview": "Relaxed quarters with kitchens, plus a pool & cafe,  in a wooded setting a minute from the beach."
+    },
+    "formatted_address": "Compensation Beach Rd, Ballito, 4420, South Africa",
+    "formatted_phone_number": "032 946 2187",
+    "geometry": {
+      "location": {
+        "lat": -29.5321368,
+        "lng": 31.2217639
+      }
+    },
+    "international_phone_number": "+27 32 946 2187",
+    "name": "Dolphin Holiday Resort",
+    "photos": [
+      {
+        "height": 2775,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2ebENozrlQlu-RbBuL5d2GO3-bFohPJoHpEB1Ju7rsCNqQKIsG8b30OAI8xvy4ZoX7bfgZJTg9S5sKajn-731oaAV6umf3V-2fan-Vq1xaPkOAeLJ1FtsgoU56Xg6wReUQrwwGIwUuI2LZQlDNsftfsO2_pHP18idXUxmXjMr2o65qlZvGz4eXgSEM5d98XzR0e0F26bEepc9BTaVmiYSP0Gc0A_symeo18asZYbDDrsWqMkwSwT9TsupzzdiJSKQfJL6AFMFD50UoR2yita9i6jYHmdOi5FnAoVncC7Fpirw",
+        "width": 4800
+      },
+      {
+        "height": 3194,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2cCrGNDkBr2z0W75yyiudGX2TKNSiNfh13a3UbTpwiER74_W1B4Dkh-Z25_7Uil42izxzHrabB6v3CRBNsT2IoT20QKpD30LOkWNheAIlHmRIiJ30MxvrAydhp_3qtp8BqrHO85V90ULNobvFHFlGLKiv8Jh05vfg7BIfbESC4jRNE-VphB82rwX7hJ99irYffv0P8rmW8rCoWisoEQ3NVQ7p5VcbnFWEzA9VpvQNoEV4gX0rpmNuy7UuZhPqrqRE7Q-IWPuBpRYsW_s-tQcqoxKxsXsICuIkzvfwTU4yc7bQ",
+        "width": 4800
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114996403323726661650\">Marjulé Groenewald</a>"
+        ],
+        "photo_reference": "AciIO2eczaLos_VpEeC2Kky8sUqrmtPGz4wjTbbNfZIJXg2lRODJdO113fFFWWOcab2qs2FUggXYRtjqZRFrOMlXeaWCMuLGgMp1TKPx1maVvGVMC9wrA4qbsruAiO2hmBQz8NMkQgqMfLbwXJ0FMs4dG7JNr_VDhON9VPiRnZu8YKf1hRSW6K2-rvnNYDJGkSUqgZ4gRbrcbWd0V6l5mRyCimykkJ1zYztiWaSMqtFn5uwpq6TyiMeJrofSdsywEOJaIBhBUkCew1KwkN3I85_qb5Abp1027O-cJUuyB97PU_eifwnGYsTY8CVJxqg1RFPq980MvJqcHzmGCqYz9r-P_Hnqlhgro7BICI1EYkiyRMP6-i3hj5Gn6u9OjaGjU4oDNFF92EnmXTLsKmlX0M_0atEi5thx3juxouh4IX39PG1jFIY",
+        "width": 4000
+      },
+      {
+        "height": 4462,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2cbZfDjOZO_n3bQZ0RJaqCqWjJesNeQygup-NGwuAIOaNyup8L0S61A8hj994bxukwsRr-qSOD0XjvoYdyZl9yRIUySTjxajZHpfJ368pVTo4SF25dZYw1ieZjWUCWaenOf52g4Ef9rWsDDXL7BxrkEWMp1OSJT79ec8W73PVhBP8UFwcc-deEJ1PVN_CY3_peDYAxq6J9RTgA9KJ-u2IHViEqAaJrShagWUYx6Ymznc6_iFf6dR20rJdZTtZjISZNq0sNfyT_CJxkwF1lbvTu_JQfqBS7iHYfqtHf2it9V3Q",
+        "width": 3065
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2e7K_gePY8HGIx6DDG-gsGDGxuJRqbrrcgV3MhT0Kx3Qv7VHVzsPeVCPKf_rlBlZKUu2cSKpaHTyDQfbyG8VC6AVeoKtD8XJ8vBTknEFJr9yod37yOcJGYjM0QcKMDh-59KDpt14Aw5T5OJqvZuYKHdvb-l50vhJDvNkGl0SLwKdmC3IWToBWPH05xa48kNvg-t84bvB7qcJXPPGprisGvBvApl6RonedQiO1XkG3i-axPl4xFhm2iL012eIEOhL_WLUozXVJBxGWBnukZ7wK77X_9w27_rN5dkV1Q7aFdOow",
+        "width": 4800
+      },
+      {
+        "height": 1159,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2cnmNRKiyNcgg4qQBrWlw_O3bPxFbJ6byKDXpa09REd-8E86vyyUL-WuKo2oUrv4hbyZDzH0J5RnKhFz5uiZzzTUAag9Be6iQRpbwANlbJL2pBRRt6U_u-Hx5JlEIl-4w8tfkh6SMhIFyu6C6T4cMntX5ioISgD4S47ov1PLnFpo-te6QPVTT_vpoJiNHPOcVlmg7FT7YkAl3hyVcchlNuYCtAr2iXeuYoShfSjSxkYoBL-9v2ETwXkrPyayk9VQPoTLff6eA0hsgv-6-5WOM7e72UUCx0gnRtiaxYsJj9xhA",
+        "width": 2048
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2f3JZSIbl2rAfwjXhK7935kMq2KHTuvfwd0ceIA53oeR1XBWTB9ZO9W4j-0k8PMjlFgOC8mAOSAC6f-y47Wh-TpmhSCgCNv5HvrbqA5r8S2EtCcMfDflyEus-vsshIxQFrcsgAixj4ZJYpI_ox7P5_parlXtfQkUmY08paqvOXIsydPVNj_kp4V56X5scAwHw3Ot2QQb0ZYvMc84IyW0r-BCjzamnOLjslpvS4pupGd61dvJ3hdoxlojc7yEW1ZHXhINSNayh5RfeVC8j_TkJ82YivIZ4GdX_azpI0B6h2bpw",
+        "width": 3200
+      },
+      {
+        "height": 350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2fN56l0PZA7yTUINNw0j5oTigZJBdsB4oNcx8a0E3r4OF7UEzt6rD5e2ocZCUUyCc5o8P44Kd1EdmS5Sq2Ay3ppWZR7wJvRNYzLe5uhgwbEK2LpIRJeWDL49LT5y4uaoCrl3b75qB9Za-_-Cu3AmqG2d1wo1qlvTcrI3ehncg7-7F9wCw_zpVG7f4MttsXHPXBho4d0WRpgpKDguj4_rhDM1sgjDcxUQBINynQiA1Y8tSlaR2_iDW7XO1Pg_lb0QKh-SSLnwOgIn2HOKkPN1RMSL-jBzgHzD5U2jNcwZP4R5w",
+        "width": 1100
+      },
+      {
+        "height": 350,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2ecjNY0e3v9jO9shU9qgUTq3xOAzaHgQbCHK5RFGPUH-5bfw-05h7zoiHVsBNmstbtiIukTu0Bo6_IX51si-WIIzz0Tj44ajnK2KUXwafgIr2LLoEYU1b52VOM22gDHZQ9FxK1P3uz5GRMsS00KhiZb3M1PoghCBkp-uoJNTbwDA3vFVh-5tnHQhKyZ82-gKBBDMXQ4TuQr3konl39D916I4mU8mNdDEVKXF9cVMuEZz9abFABi6p0FuV_MvMCshDgFE4QASAq-9xsfJjIbnY60UBn4mwznFbeIYSN-R0UALg",
+        "width": 1100
+      },
+      {
+        "height": 4800,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106153460769823762295\">Dolphin Holiday Resort</a>"
+        ],
+        "photo_reference": "AciIO2e1YBQa-g7As1Nzp7BHWTCeCxrc65Pw0aOa8lQQl0blvBfapCMHozz-e05e2A1mVeEabGTHKpFtmGQ5x8urhFBsrp5hVpoFOd7ILA4rYugFjqCtSYKlqO3epWwjfEiG8tWp9FMd_Qh9XVnLGNbIzMiq4ZbY7lnkKH0JEGQ_jnGgxKcF5BInkT68pTeUT8r85NWVXWHN_9CdFmB79M8op1vrnPznBu5P93pwyYUGsysEH9DI7iBDrIrSlv2SPqXuxLrlamQTPnoQB0x-73Ck-05vvEAT9McbCF1rkV5gwTgFdA",
+        "width": 3191
+      }
+    ],
+    "place_id": "ChIJtTixWoEU9x4RC-Ahe5geRgI",
+    "rating": 4.5,
+    "reviews": [
+      {
+        "author_name": "Ashlei Lovick",
+        "author_url": "https://www.google.com/maps/contrib/109253479164967762802/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKvZLrxC6CO-cGV6vKjvTECb6HqW0rwb8x_AcTiSgPBOQirsw=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "a month ago",
+        "text": "We camped here over the weekend, and it was amazing! The sites were clean and well maintained, the bathrooms spotless with good showers and baths, and the staff at the office were very friendly and helpful! Will definitely return!",
+        "time": 1754893198,
+        "translated": false
+      },
+      {
+        "author_name": "LDK",
+        "author_url": "https://www.google.com/maps/contrib/106102565334087837732/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjVIrHmdXz5T3dsWRHlxu1AFJaREueo_SOsQRYX9zR7r37NuA64=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 4,
+        "relative_time_description": "2 months ago",
+        "text": "Great place to camp. Roads a bit narrow and sites a little tight to comfortably get your caravan in... But with the friendly staff, they assist. Great location... Short walk to beach and shops right across the road.",
+        "time": 1753040346,
+        "translated": false
+      },
+      {
+        "author_name": "Stephany Burger",
+        "author_url": "https://www.google.com/maps/contrib/102261527742299147829/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJlKatSa-DkCtb-OZZTlwBLWPtbLi0_1mHdwi8KrdDUYleJpA=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "a week ago",
+        "text": "This place was amazing I loved it people were very nice bathrooms are clean it's nice and close to the beach",
+        "time": 1758527001,
+        "translated": false
+      },
+      {
+        "author_name": "Daniel Woollatt",
+        "author_url": "https://www.google.com/maps/contrib/109164861786312122077/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocLxFIl5FHn6J1bQDHV5xNhRO6QMv4PZZMDDNQH3YJAqOpORFw=s128-c0x00000000-cc-rp-mo",
+        "rating": 4,
+        "relative_time_description": "2 months ago",
+        "text": "I absolutely loved this place\nI want to make a few sayings quickly\nfirstly the camping sites are big enough for most tents as my family all  went and had a bush trotter caravan tent thingy 3 other tents a braai eating table and our 4x4 toyota\nsecondly the entertainment is excellent love the big chess,the trampolines and jungle gym were so fun whats more they have a games hall with table tennis and pool though the best was the forest walk\nyou will love it amazing birdlife and you can see some little antelope\nperfect for riding bikes\nthe beach is so close wich is really nice and the checkers right there is just so very useful\nI just have one problem the tea and scones I hope this doesn't hurt your feelings but the person who handed out the tea and scones was very rude she didn't answer questions and just ignored me and you need to know this if you take children the children are not allowed to have tea or scones even if you are 17\nthey have cream soda and a marie biscuit for the children wich is really uncalled for\nbut other than that great place can't wait to go again but maby this time I wont have tea and scones or in the children's perspective cream soda and a marie biscuit\nwarm regards",
+        "time": 1751901582,
+        "translated": false
+      },
+      {
+        "author_name": "Cindy Crompton",
+        "author_url": "https://www.google.com/maps/contrib/101930578066817633832/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjUPhdQbUIyIt3B6xEVcePnlleTYAMUl2FH9o0iYUB5Kxf96c-yU=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "3 months ago",
+        "text": "Great location. Service is top class. Removal of waste and braai ash was prompt. Quiet. Helpful staff. Ablutions spotless.",
+        "time": 1750143056,
+        "translated": false
+      }
+    ],
+    "types": [
+      "campground",
+      "establishment",
+      "lodging",
+      "park",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=163852076695281675",
+    "user_ratings_total": 499,
+    "website": "https://dolphinholidayresort.co.za/"
+  },
+  "status": "OK"
+}

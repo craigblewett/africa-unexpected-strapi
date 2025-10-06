@@ -1,0 +1,212 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "cd1 Mosterdhoek",
+        "short_name": "cd1 Mosterdhoek",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Mashishing",
+        "short_name": "Mashishing",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ehlanzeni District Municipality",
+        "short_name": "Ehlanzeni District Municipality",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Mpumalanga",
+        "short_name": "MP",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "South Africa",
+        "short_name": "ZA",
+        "types": [
+          "country",
+          "political"
+        ]
+      }
+    ],
+    "formatted_address": "cd1 Mosterdhoek, Mashishing, South Africa",
+    "formatted_phone_number": "079 264 4075",
+    "geometry": {
+      "location": {
+        "lat": -25.0708526,
+        "lng": 30.3731184
+      }
+    },
+    "international_phone_number": "+27 79 264 4075",
+    "name": "Kromklip Funksie- & Ontspanningsoord",
+    "photos": [
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107448429415405354062\">Michelle Steele</a>"
+        ],
+        "photo_reference": "AciIO2dzHGJlHGMfUXxF5WahUg735t-SNRvTITnql5dh8MxVnno0a5f-8d2umsloymz4Sr0VWG43aoid1Wa54Axlv3_DO63zI5_kXKkOGjuugHU4-AKT8JXZHE0k83gMCsUgZQM7zWdf7vCABu_M1KCcS0sukCkJIxH1Oz-Arjb6UiiRQ9OzGr7DbqtVHbQN5UWpXv6PDcF-eju8rMf6R_nD3YrzariGZwxoiQwZ9IooSOIY09co88MvYxGRb7ac4FNEp9aitKFPlo3NoAIiGm_e815vFv4P9I8geJ-5j0OMaBaROKRdI1dDbbMuW-K271aNEkaG1sQ62dQvfHQk9ZeQMrnAACOh_RuV2V3iRmNYT3D-gi-3darIcX-A3zrKFuh3PscRgU-8q-eY-92cYAnXMRH_uQcRnGE54gncOpqLLdmCKuIf",
+        "width": 4800
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100219420774968628974\">Elize Greyling</a>"
+        ],
+        "photo_reference": "AciIO2eDhjhDOe0bJ4JFjUKTyeEZS_X3_vj9qlZfWXbibRTC9G2gCYD2Iz8HuySxZIKGUVkWlXbkmLiAbDfwb7PaOdUHsUMDhAJsPynqzX8j4lH_XrFoow6fn3NxKKIS7OVCTWA5y0iCWCArGwLqvRXYJqiWVntXEzekuyTKjIxpPTpA5L4lF1Pr2wkgjt7slg9uWM_CACOJ3U5CahsRaEvKzz3ud4DEokPSZMX_rkKwRl4jnojauqK6ESOn10zdgJpWj7tQ2HTgHpGQyV1pLRGFJAmpN1lWW2sayAWX-H2RjDYi0K29SDJH8kbU4yHNJpYQ-FbrdqrPZXQboPvGO4oFDnW-dtUnsz_AxtjpQweQ-L_Z5hc-E4IUtBYahAMjxeU_crs8geRXZmFvyWe-dVDCI3HOcRTyzg2cxoYPjA0I3jrNR1xr",
+        "width": 4000
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104548605514445484419\">Gerda Cope</a>"
+        ],
+        "photo_reference": "AciIO2eXpA91V02hzXAyHo5y4kwPKWK7n19ni8dRXXbrNC3bNFgSS8mvDPiewS8D2N7Rqpe3TJdxUYhH1dfhUrvoaNIW40k6w_xLEGGgTXrGJtlnHhA8DV9LSNqzQRA7NQT8I-kOab2p1YO6j0mo0UE6dgpESZoUxm0XXeqEgb8w039IGtWuSgIExlqLh119vkBx-chup3iQ_wS-LMWE9NQPtVWUqX9tPs-OiHK5WWYdp5h-1x5IwHMvJarhoGdsNEQBs0RJJuqQYZdrcywnuXe_TBsp1oYBx-a8lnB0z926axxPMhteT6JUK5BuA28LhV8n1cu5ryvocauwisRo0FZNRbCOL-3KC5RGdLSoXEVbWYbjdkjkQAFU82Geelavxmld0MG_LPP-OUyMM5bVVgMOAy-MKYudx_4mwuSPnxojKwneKOAb",
+        "width": 3468
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107448429415405354062\">Michelle Steele</a>"
+        ],
+        "photo_reference": "AciIO2eWFABk_6DdFC6kWQ3pbQxn8fznKujfpTq-OMST_ss-gJT2T_3LUJDXz-RIvyY8kmw8s6LwijPiDy5cQL3oaGai9LXUXuOBA9zJ8lCyUbokHKEHMns1G41gVYZ_EhFT0tjx7MTmf3cXYz7ZDSDfURDD4uxQxiTliNGIZxAwj5Pue-3XGdXwucGE5HSWKJwf-beWS_MBrxCTSFpZWcW8YlJtSjYPgM_Hy3cOITQU2-042xk5YLmEE4XRIqTkMc9c7cp_jjt0BLAZaQB99WSJtDD3Rhem0okoqQKtxuvL7L6fi04Fyh4I9hWUbbYj-nzOz_Pi0CDOCb2d1mQtZQcByXi_6jg3dx9nQC9Oo3TeTuTVNm_PnSRmsorwOfxZuP0j_M5KtLSzOxtV9wGqNUFG4K_-EOpFDNpTszM_GYMgnxyguZ8",
+        "width": 4800
+      },
+      {
+        "height": 2448,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104548605514445484419\">Gerda Cope</a>"
+        ],
+        "photo_reference": "AciIO2duSzTNNPFNGkqHWyqwlsj7Y5q30YlJhql5KzgwJQRQ_h0j2aciXQMa7pWZD5gDZqXfPfU5ON7NNfdeNGGKlkV-d9d8EnjD-zIU8tHfNw-4hFgrsxkzv4OBuhcIHv2sCK6AW8wh9r4d8bzPhNhcJbe-7Q2Ods9n7ehAu0KRYGW9087S-NdeqFl2rOyZ5vgmK4BItlonbOKbnol1qYRcsdW06Mz7NfmnLCS2UzGmvqhNCIINIYEkG252q450VV8Ly8n_se-8WgT-0wwSEHhn_WjuXnyX8CKMRoO-9vzaL05Dv3i-CpQNUKCFEp88_lYVThZwyEleyBuS9-ZEgIHAkKiQ9GfnOrvK2CjWrNAt6HhvEyXV1POGu_5depaC9n7NcUy_tkOvF65KgszMJ6IQNm_3CozloPmsYk0B0KYEpyIb7A",
+        "width": 2448
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100219420774968628974\">Elize Greyling</a>"
+        ],
+        "photo_reference": "AciIO2fGPRUfmyR-X9avxQm54EfLbRx6fnMyqOhUA3ms-JFkyHpXQkI5_6Cj7I-Ti9Tzgu2FM1cE_cbHe2mOHhFHLxA8vbveTH5yZjGtzk8b0iWmZOs-ViTtnXR4us8PY00JVYYA-vCyOykYs6aMDbeLU6dIeRcwU3yPrUgU-lQFqJotr8iTKDEksdTTruKbudbRjFWjpMabe1whkHdB1Qmwezst4p1SNbBQMA6nSMuUStLVaq9PmIRZfc2VCAblXZiE8BmH8Asy1AMAIJt3Ayr9yoi0buFgNlD_lb1tiShWhP9mnndKm0qs_9rxnzOpDgcmsXHwOpxIaKuwZRlXADtB487_dZDszpMV08o_aUhAMXUX1kmfebXn7hZUf9ihbD6YWORBFFIMsV8TQX3JfoO1Oun6lh80gW0uBLwch8_waX8",
+        "width": 4000
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103807132677668338896\">chiloane magatong</a>"
+        ],
+        "photo_reference": "AciIO2dqUcYP2bJytOvG3Mo_vRAwJd_dJ-VD8rUeeuvIzutYu0MOUExx-V41sEkp1YRZVpilJz-7PrzY7lFIH8Rxzn7irHgXntTVnrSKlRF_S6-T7TmCMesZDcYF4PkW1gI6pK1DuZc2VNpPl6CPkCjCg4E6IjCGPS-p6Th7Acw9U732lGCcENuN0asdyhMJc2hcZ-moHcSJYuZPzsNLPdWsPIYGByk_l3nFWylZfipKKljUvl7NR8t0ztgNN0GgyCZ6ZBCD_rDZabGVoepucpZC3biguI6ML8e0rt7sn0FLOM-N3kenv6khMMyVnt38Xjoi80fQhX1RqFItzCCW_z1o9B3PwEWqvaPlf9wRjgohpwCHlQQfBxT-gHoNYRtIbVKep6xwG8XL01x5DpdNEL9yqWEoE8nbGxy1dM_IoUumqMpeMg_h",
+        "width": 1960
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102825607409836300796\">Erika Jansen van Rensburg</a>"
+        ],
+        "photo_reference": "AciIO2ftzSXbyWBEcDmDXPVGgg2fld7Oz0ILpXqbQloh1C0T3J5HyfWJ1D-yLW_tmCtx3JR2QKZ5UGJBjwrA-NNcy16talrx7Zu0t6ADK-6fVz5j4EyvJNrwecBQpNCVPDC8HP9gtueImoqcjWa2G9xIldanU38hP_Q2g9U6Zl5oOqakZ2paF-72KPTn9ha7iQ6xDAVFAs3C_0d9B_a4kR-8hqIV8cQYKam9SlRtPfXACOEUCDVPI5jlt3pjoNq6jLdHlEMF95TaVtppNU_p-SH85w_eKfGIw5Zoy7lXKcRCfura2wIYuyibGGFFLGntbJDgOoKaVVRbPDduVtgA5lX6FoKWZ1KiwlfihLX37hrvTaCFG3Xz5v7sHo1WA8n92ViK0RzXOUXh4A9U_b2KJo7UzMVTOCafqCB3op3N0o1YSfwNiw",
+        "width": 4608
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100219420774968628974\">Elize Greyling</a>"
+        ],
+        "photo_reference": "AciIO2e6tkvAgdeBn44sO4xZH0gzu0iMFjo_zfbGrBTv0trSLkcJvxtvDL9a2FGf3xB6ZidJorazfti6DPmzBq9tuKrmkR6j77c0J6pFbwlay9sc8gaHXDkVJ4CZ2MnBDg012hppI1nO-kpME1bkRJ7eb7ft3TgftZorQEEMH1El1bjdhucsI53-BjOFawaF-RcLCt7JMACPw5bB37JVMONhFd37ciPUn-M2iboH1QCLZ6rsMOiMsi3t-Oo9pNE1Pr9zTKqZYoBBF81IXt5oFtGf8-VK1Dv9OsEZ0mPsLTs62EzFENwN0gB1GHxg977OZ1TMUe1cw6HDByiMBh6C5OtaZ-qdSjybitU-thTQj9JxeCEKF9NdBINZPYLef6VKSFUrOyrVyBkbzHfqmnCJ8FwJhQcoVJO_vsbtcsIRoennsDgmbTMD",
+        "width": 4000
+      },
+      {
+        "height": 3456,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101691768149046821579\">Kwena Bonanza</a>"
+        ],
+        "photo_reference": "AciIO2faWhyoSKEhGvj3FXzpCJSxo6y4yG1HXu423NmmmAa512c751eld53YMNOc2msEC1L4lhfLzxcvK8LEkODE4eK3Z7cFhp8NQkxpgkya67BypbrPGX3ACbDFF4DljCYARUQGwlkDK8g5Y5vRPak9U0oz0p19wqvyuxjtwZTdzowN08QCbj0W1U7paHWEQSNPj8J1Aod2wpfhAeVRYuwVZzl9CnTul0FXIXCXyDkraMMB_qXUkiEGHodcrtzbd40O3Q1McCnb-iSfVhftc2WqgNw9niyXXqWYtyCc28r9_aLzrhbtJr7O97Sud69EgitZwUaJ20Alu1ckccZznVGBoO6tYgcABAt7ijIlrbFLndHalp7iopr_nYr3ggkVPl-Ewc8JZw-1sg1-9o34hzJEshZJRPZkXk8rcpxABN6sDI3WWg",
+        "width": 4608
+      }
+    ],
+    "place_id": "ChIJSey9WjkQwh4Rv3ky4MiGhxQ",
+    "rating": 4.1,
+    "reviews": [
+      {
+        "author_name": "Bayo Bosman",
+        "author_url": "https://www.google.com/maps/contrib/102280317654901666352/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWjFEJ9S87wxo5zkLQ5TSugUAQ0hZpCqqhLoD7ciue2ITUl6W1U=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 5,
+        "relative_time_description": "5 months ago",
+        "text": "Fantastic little gem hidden away in the bush outside Lydenburg. Had an amazing stay. Owner/managers made us feel so welcome. Will definitely visit again.",
+        "time": 1745607249,
+        "translated": false
+      },
+      {
+        "author_name": "Anita De Langen",
+        "author_url": "https://www.google.com/maps/contrib/108950979705997600266/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ9g-KmjPVlUGt-fAjHeLexFoqrXrAuA8NuHfIrjjhExaD3Hw=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 5,
+        "relative_time_description": "4 months ago",
+        "text": "Wonderful.\nGreat service, always willing to cater to our needs",
+        "time": 1746969030,
+        "translated": false
+      },
+      {
+        "author_name": "Danieta Pringle",
+        "author_url": "https://www.google.com/maps/contrib/116284681498112990694/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWGnvqPxev9Z-oiEtuLKRxMiORL9kakhiEzEVubZUmBR-6QGtCo=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 1,
+        "relative_time_description": "a year ago",
+        "text": "Rating it a 1out if 5\nOh my where to start, we were so disappointed in the Chalet we were staying in (Koedoe). On opening the door it smelled of stuffy and dusty air. We immediately opened windows and on seeing the rooms the bedding was definitely not fresh clean linen, you could smell it was there for sometime. The floors were covered in dust. On opening the cupboards in the kitchen we found pots and pans that had spider webs and spiders inside the pots not even mentioning the coffee mug we found in the cupboard with a coffee ring still there from previous visitors. Toilet was blocked and upon asking they said there is nothing wrong with it, never even came to check. Being someone suffering from sinus you can only imagine how sick I was.\nMy in-laws stayed in Chalet (Duiker) and their shower was so clogged up that no hot water was getting through and they had to make alternative arrangements themselves to shower and wash dishes elsewhere. Upon querieing it they were told to fix it themselves.\nIf u ask me, the management doesn't even know or have an idea of how the Chalets look and are cleaned  or not cleaned. This place seriously needs some management before I make a visit there again. I would not recommend this place at all and won't be visiting there again.\nUnfortunately all the other things we enjoyed could not make up for the place we had to cook in, sleep in and live in.\nIf your not taking your own handy man and cleaner with, pass on this opportunity. It's definitely not worth the money.",
+        "time": 1712043947,
+        "translated": false
+      },
+      {
+        "author_name": "Herman Rheeder",
+        "author_url": "https://www.google.com/maps/contrib/100241614101465945087/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocKmatrz18vsc3-VE6EtISTDXrDzl1s3nA2SpHAmMq1s7vYJ0w=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "9 months ago",
+        "text": "Day visit for year end function. Excellent location with swimming pool and although it is on a punlic holiday in December,  the place was not over crowded.",
+        "time": 1734359442,
+        "translated": false
+      },
+      {
+        "author_name": "liezl vanheerden",
+        "author_url": "https://www.google.com/maps/contrib/109176962573576662846/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJ6P__9FX4Wg-lJgtq-rMajQcumDgFPjqpwMFtjn3sJ6tcEDw=s128-c0x00000000-cc-rp-mo",
+        "rating": 1,
+        "relative_time_description": "a year ago",
+        "text": "If you ever consider of visiting this place, think again! We stayed last week at Koedoe Chalet and what a horrible experience. They never wash the linen, it smell so bad that you cannot sleep in the beds. The place is dirty and haven't been cleaned in ages.We booked out the following day because the experience was unbearable.",
+        "time": 1705484044,
+        "translated": false
+      }
+    ],
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest",
+      "tourist_attraction"
+    ],
+    "url": "https://maps.google.com/?cid=1479299199927482815",
+    "user_ratings_total": 360,
+    "website": "http://www.kromklipoord.co.za/"
+  },
+  "status": "OK"
+}

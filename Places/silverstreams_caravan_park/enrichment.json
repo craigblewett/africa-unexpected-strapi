@@ -1,0 +1,81 @@
+{
+  "places": [
+    {
+      "description": "Pine Lake Marina is a resort-style camping and self-catering destination on the banks of the Swartvlei Lake near Sedgefield. With a unique combination of outdoor adventures and modern facilities, it offers a balance of family fun, relaxation, and access to nature. Guests can enjoy shaded camping sites, spacious chalets, and direct lake access, making it ideal for water sports enthusiasts, birdwatchers, and families looking for a tranquil retreat.",
+      "directions": "From the N2 between Sedgefield and George, follow the signs for Pine Lake Marina. The entrance is located just off the main road, clearly marked and accessible by tarred roads.",
+      "rates": [
+        {
+          "amount": 350,
+          "unit": "per night (camping site)"
+        },
+        {
+          "amount": 2200,
+          "unit": "per week (self-catering chalet)"
+        }
+      ],
+      "contact": [
+        {
+          "phone": "044 349 2200",
+          "email": "reservations@pinelakemarina.co.za",
+          "website": "https://www.pinelakemarina.co.za",
+          "booking_url": "https://www.pinelakemarina.co.za/book-now",
+          "google_info": "https://maps.google.com/?cid=11872894919681563062",
+          "whatsapp": "+27 82 987 6543"
+        }
+      ],
+      "tags": [
+        {
+          "label": "family-friendly"
+        },
+        {
+          "label": "lakefront"
+        },
+        {
+          "label": "water-sports"
+        },
+        {
+          "label": "nature-retreat"
+        }
+      ],
+      "amenities": [
+        "swimming-pool",
+        "wifi",
+        "braai-facilities",
+        "children-playground",
+        "restaurant",
+        "tennis-court",
+        "canoe-hire"
+      ],
+      "highlight": [
+        {
+          "title": "Direct lake access",
+          "description": "Guests can swim, kayak, or paddleboard directly from the resort grounds onto Swartvlei Lake."
+        },
+        {
+          "title": "Full resort facilities",
+          "description": "On-site restaurant, bar, swimming pools, tennis courts, and gym for both campers and chalet guests."
+        },
+        {
+          "title": "Adventure activities",
+          "description": "Canoeing, birdwatching, hiking trails, and guided boat tours available within the resort."
+        }
+      ],
+      "unexpected": [
+        {
+          "title": "Pelican feeding spectacle",
+          "description": "At certain times of the year, large groups of pelicans gather at Swartvlei Lake, creating an unforgettable natural show."
+        },
+        {
+          "title": "Hidden forest trail",
+          "description": "A lesser-known walking path behind the chalets leads through indigenous forest teeming with Knysna loeries and bushbuck."
+        }
+      ],
+      "meta_title": "Pine Lake Marina – Lakeside Family Resort on the Garden Route",
+      "meta_description": "Experience Pine Lake Marina, a family-friendly resort on Swartvlei Lake. Camping, self-catering, water sports, pools, and nature activities in the Garden Route.",
+      "facilities_summary": "Self-catering chalets, shaded campsites, multiple swimming pools, Wi-Fi, restaurant, tennis courts, canoe hire, playgrounds, and braai facilities.",
+      "ai_summary": "Pine Lake Marina blends resort comfort with natural beauty. Nestled on the shores of Swartvlei Lake, it offers shaded camping, modern chalets, and a wealth of water sports and outdoor adventures. Families can enjoy playgrounds and pools, while adventurers explore trails and kayaking routes. The resort is equally suited for weekend getaways or extended stays in the Garden Route.",
+      "raw_data": "Pine Lake Marina, part of the Swartvlei Lake system, has long been known as a family resort. Facilities include two large swimming pools, squash and tennis courts, canoe and paddleboard rentals, a small gym, a children’s entertainment programme, and an on-site restaurant and bar. Accommodation options include shaded campsites and fully equipped self-catering chalets. The resort is fenced and secure, with direct access to a private stretch of lakefront. Guests often use it as a base to explore Wilderness National Park, Knysna, and Plettenberg Bay.",
+      "experiences_raw": "Nearby attractions and activities include canoeing across the Swartvlei Estuary, paragliding at Wilderness, birdwatching at the Rondevlei Bird Hide, beach walks at Gericke’s Point, Saturday markets in Sedgefield, and scenic drives along the Seven Passes Road. The region is also popular for mountain biking, fishing, and day trips into Knysna’s indigenous forests."
+    }
+  ]
+}

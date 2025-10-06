@@ -1,0 +1,86 @@
+{
+  "places": [
+    {
+      "slug": "yellow-sands-caravan-park",
+      "province": "Eastern Cape",
+      "region": "Wild Coast / Jikeleza Route",
+      "description": "Yellow Sands is a large and legendary family holiday resort located at the scenic mouth of the Kwelera River, a short drive north of East London. Renowned for its prime location that offers the best of both worlds—a vast, unspoiled beach and a safe, tidal river lagoon—it has been a cherished destination for generations of campers, surfers, and fishermen. The park features a vast expanse of grassed sites, many offering spectacular views of the river mouth and the Indian Ocean.\n\nAs one of the premier resorts on the Eastern Cape coast, it buzzes with a lively and social atmosphere, especially during school holidays. It's a self-contained destination with excellent on-site facilities, including a well-stocked shop and a popular pub and restaurant. Whether it's for a weekend getaway or an extended summer holiday, Yellow Sands provides a classic South African coastal camping experience focused on family, fishing, and fun.",
+      "the_vibe": "- **Classic Family Holiday:** A bustling, energetic park filled with families, kids on bikes, and the hum of a traditional beach vacation.\n- **Angler's & Surfer's Hub:** The atmosphere is geared towards ocean lovers, with a strong focus on fishing from the rocks and river, and surfing the famous point break.\n- **Social & Lively:** This is a large, popular resort, not a quiet retreat. Expect to socialize with neighbours and enjoy a communal holiday spirit.",
+      "need_to_know": "### Serious Wind Factor\nThe point is very exposed to coastal winds. Heavy-duty storm pegs and windbreaks are not optional; they are essential for a comfortable stay.\n\n### Book a Year in Advance\nThis is one of the Eastern Cape's most popular resorts. Prime sites for the December/January season are often booked up to a year in advance by regulars.\n\n### Tidal River Crossing\nAccess to the main beach from the campsite often requires wading through the river mouth, the depth of which changes with the tide. Plan beach trips accordingly.",
+      "rates": [
+        {
+          "amount": 500,
+          "unit": "camping (from, per site per night)"
+        }
+      ],
+      "price_pp": 83,
+      "tags": [
+        {
+          "label": "beachfront"
+        },
+        {
+          "label": "river-mouth"
+        },
+        {
+          "label": "fishing"
+        },
+        {
+          "label": "surfing"
+        },
+        {
+          "label": "family-friendly"
+        },
+        {
+          "label": "wild-coast"
+        },
+        {
+          "label": "caravan-park"
+        }
+      ],
+      "amenities": [
+        "braai-facilities",
+        "electricity-plug-points",
+        "drinking-water-tap",
+        "showers-hot-water",
+        "flush-toilets",
+        "dishwashing-area",
+        "laundry-facilities",
+        "kids-play-area",
+        "camp-shop",
+        "restaurant-cafe",
+        "bar",
+        "security-guarded-gate"
+      ],
+      "highlight": [
+        {
+          "title": "Prime River Mouth Location",
+          "description": "Perfectly situated where the Kwelera River meets the sea, offering safe lagoon swimming for kids and legendary fishing spots."
+        },
+        {
+          "title": "Famous Surf Break",
+          "description": "Home to 'Yellows', a renowned right-hand point break that attracts surfers from all over for its quality waves."
+        },
+        {
+          "title": "On-Site Convenience",
+          "description": "Features a well-stocked supermarket, bottle store, and the popular Prickly Cactus pub, so you never have to leave the resort."
+        }
+      ],
+      "unexpected": [
+        {
+          "title": "Ancient Shell Middens",
+          "description": "The coastal dunes in the area contain visible layers of ancient Khoisan shell middens, offering a glimpse into the area's rich history."
+        },
+        {
+          "title": "Incredible Birdlife",
+          "description": "The river estuary is a haven for coastal and riverine birds, including Fish Eagles, Kingfishers, and Cormorants."
+        }
+      ],
+      "meta_title": "Yellow Sands Caravan Park | East London Beach Camping",
+      "meta_description": "Family-friendly caravan park at the Kwelera River mouth near East London. Prime destination for fishing, surfing, and beach holidays on the Wild Coast.",
+      "facilities_summary": "A large beachfront resort with powered grass sites, clean ablutions, a supermarket, restaurant and pub, children's play area, and 24-hour security.",
+      "ai_summary": "Large, popular family resort at the Kwelera River mouth near East London, known for excellent fishing, surfing, and comprehensive on-site facilities.",
+      "raw_data": "Yellow Sands Caravan Park is a large resort located approximately 25km from East London, Eastern Cape, along the Jikeleza Tourist Route. It is positioned on a point at the mouth of the Kwelera River. The resort contains a large number of individually marked campsites, most of which are grassed and equipped with 15-amp electrical hookups. Many sites offer direct views of the river, estuary, or the sea. The park is known for its numerous clean ablution blocks with hot water. On-site facilities are extensive and include a well-stocked supermarket, a liquor store, a gift shop, and The Prickly Cactus restaurant and pub. For recreation, there is a children's playground and communal areas. Laundry facilities are also available. The resort is fenced and features 24/7 security with controlled boom-gate access. The location is exposed to strong coastal winds. The climate is subtropical with mild winters and hot, humid summers. The resort is exceptionally popular during South African school holidays, and advance booking is mandatory. It serves as a base for exploring the Jikeleza Route and the southern end of the Wild Coast.",
+      "experiences_raw": "On-site and immediate activities are focused on the water. The Kwelera River mouth and adjacent coastline are renowned for rock and surf fishing, as well as river angling. The lagoon created by the river provides a safe area for swimming, canoeing, kayaking, and stand-up paddleboarding, especially for children. The main beach is a long, sandy stretch ideal for walking and beachcombing. For surfers, the right-hand point break known as 'Yellows' is a major attraction. Birdwatching is excellent in the river estuary. Nearby activities along the Jikeleza Route include game drives at Inkwenkwezi Private Game Reserve, quad biking and abseiling at Areena Riverside Resort, and visiting the Murambi Rose Farm. The city of East London is a short drive away for supplies, shopping, the East London Museum (home of the coelacanth), and the aquarium. Further north, one can explore the beautiful beaches of the Wild Coast, such as Cintsa."
+    }
+  ]
+}

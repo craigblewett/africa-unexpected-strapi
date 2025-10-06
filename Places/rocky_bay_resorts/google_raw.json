@@ -1,0 +1,229 @@
+{
+  "html_attributions": [],
+  "result": {
+    "address_components": [
+      {
+        "long_name": "1",
+        "short_name": "1",
+        "types": [
+          "street_number"
+        ]
+      },
+      {
+        "long_name": "Old Main Road",
+        "short_name": "Old Main Road",
+        "types": [
+          "route"
+        ]
+      },
+      {
+        "long_name": "Park Rynie",
+        "short_name": "Park Rynie",
+        "types": [
+          "locality",
+          "political"
+        ]
+      },
+      {
+        "long_name": "Ugu District Municipality",
+        "short_name": "Ugu District Municipality",
+        "types": [
+          "administrative_area_level_2",
+          "political"
+        ]
+      },
+      {
+        "long_name": "KwaZulu-Natal",
+        "short_name": "KZN",
+        "types": [
+          "administrative_area_level_1",
+          "political"
+        ]
+      },
+      {
+        "long_name": "South Africa",
+        "short_name": "ZA",
+        "types": [
+          "country",
+          "political"
+        ]
+      },
+      {
+        "long_name": "4182",
+        "short_name": "4182",
+        "types": [
+          "postal_code"
+        ]
+      }
+    ],
+    "editorial_summary": {
+      "language": "en",
+      "overview": "Seaside lodge offering wood-panelled cabins with kitchens & private decks, plus a pool & dining."
+    },
+    "formatted_address": "1 Old Main Road, Park Rynie, 4182, South Africa",
+    "formatted_phone_number": "039 976 0336",
+    "geometry": {
+      "location": {
+        "lat": -30.3353202,
+        "lng": 30.7325515
+      }
+    },
+    "international_phone_number": "+27 39 976 0336",
+    "name": "Rocky Bay Resorts",
+    "photos": [
+      {
+        "height": 374,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114270132224535153795\">Mthunzi Tiger</a>"
+        ],
+        "photo_reference": "AciIO2d9xmQ9tx1Ifctjo9QtOIWolPr2hsIDd-zt2SsevJ0n87s_w8993Q6Xq-m_u_YywhSSsLhpq0sbKojEuaE2RcpIE1vCfF6GBgXnGAKn8UEGMrORwAbyRR7ihGYw8Pc6EEgaSQPSXSRGoQGGvI6aBMNDKasGjR-BvukNLwEzCaJSCCiOy02vaacRQp5XgEXrGNNHaQr4igvXGtU1J9DTx7XTKhBoRipq9rRMd5ntPgC6exenDGIkLX9mb7keivbV8sewFrlOAXftkKyb-F1vrhFjbxoGBe86M5hB4wDyEs-Tr06ZRESzJyT4-y0nwO1Zx2Gq4AOpGekY_E2Dd4xLouF0AChB5I7rpypnfEWiswJj8P8FkJ8lqG9Cf4tvqnCwL6r-GhOiPjVUxj0cWfugcftAkODbtzlFVGlA2QR5gb2u9u8",
+        "width": 715
+      },
+      {
+        "height": 477,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114270132224535153795\">Mthunzi Tiger</a>"
+        ],
+        "photo_reference": "AciIO2fDrkFr067z1u911FTcWlWehvGBG_3g3Mxm2hQ1OkO2ibcEJNCOzLFohGG3Eet8bN8bgRsZUIdWYHCDBeTPRS9Z8rAHbRYd6p2Ry84ntBxlJczpvwzcs1Tq40zR1orsS_lonU2xHVHFpPxBo_S6iZcBxcl2GROOvcQB-i0PQ4T7sn8SWc89FUIg5DtKl3WihqM4LTqIMUO1eshSjl1JqfbYGgImHZ29HpIQ66uVyBh_XQ9IhQUH65GoI0XgW2NKJI5vSZGugN19kp-zoSOQWX_Tvz27x-JYM-pg2Eps7f7F1cC4D1vBaVsZIBLLV-5bK6XZ2KjiiEk4-d1u_4dqqIHSysWHKMOUoPaVRXTp86x-XNH7dflCs5OvbnrNXgzSU5cO38XsRtY8WmvIhajss_Y042fNysGUsrwKaVc9fqzfyg",
+        "width": 715
+      },
+      {
+        "height": 477,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114270132224535153795\">Mthunzi Tiger</a>"
+        ],
+        "photo_reference": "AciIO2d4aIQ_kPf0v8QY0_d2IDVgJqsM3xLK_8tIkS8Q7J0sYrZi4FN3Av4YmR6Wj4y281HgrO_GttKp8HK14PTO8RXqVIjdCaShQqL0H_qMWDfIWoDxtQYLcqQ3RSaHfsg54lHnX_dxmeJFYwW9s7MEHJHyGXSKTBss7MEtO76oHFMxFtWP_ALxiO90d4Ubbi3hYDsoGa-W5Ne-MN26f_UMjyUPWj2B3kao0hEKHxHGLJGgshmS4BDXXk9W5DX6yA98LnKDl5o1tHqjzG3nv0-QAbqPY5h0zwSBzji9jQ6sEDvTs-EpjIzIeIrbI_FiJYic91XhJPGi2jN9do3Mt1U6B42WT5fqwkrwkZU4K1BL88xgK4qcTPjkwY2NLfe3vmitV79Hn536j8Dg_Q21t9JfZUV_s_fm96eZkTAlFoArbQokIA",
+        "width": 715
+      },
+      {
+        "height": 374,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114270132224535153795\">Mthunzi Tiger</a>"
+        ],
+        "photo_reference": "AciIO2cOUlnv7XHoEoSaSM8x-Qf6POWdSqMZsBUT3b-JMIsf2fJmDdKEOxTpNCjJfRnq8heLkbkc0-EqAP9ZFaMRhn8j4sBGlGJHxzUqQrpOqjDkrgtooUt_RzJ6Ux0ideH9A_7yJ5AmHMMo1zeWnESc3sTIAWQN3bgjLj5DQXeikIVuKR4WUzuqtpnPGAhIsyPHfp6NB2q4cTtWpKxNomiOyDyx94fHp_w5UUetffgsNSHYnIoZPTigX3KFDbPz9wZhR8nQgLPeIg6LETQkOxZw1ImiEm1OuPLmTc2cDuw108wGrHnC7eyOdsTgmcv6tWdzqZD3JzRnpLjM9xeNRDZsuxIbTTyM_ZrSVfD22FJmcziwDDdIp5GPF4z0c--25wpnA9VEelGVFFgtqsqgTPzw8G2HlIVCQAuk3FrnvZnUy4pyiQ",
+        "width": 715
+      },
+      {
+        "height": 2268,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100094513831373290183\">Frans Trilling</a>"
+        ],
+        "photo_reference": "AciIO2d_k4PlTwDxpWdnBVE67BkUeyqCqSYIG6Z52dwkBEDK09bT-t74EpqU-nfitWob5V0hMAJrg4d-UftlDI7Svo_e887DlBY14pRY7FBSB6JCIfbgT6Zkrs2cXUufKMhzbIf0IhC69mx7LdKvz6YTE8cLqAJ8xUmf29_vcudYvIW6wqWWevDQDpItUncHTPRNo0vnAEhcVjflOo6dsn8fZrPENNuVK9INu0WGlYEzjcXhF-D7A6wWjbtSmQ5pxzBJ2QonxoJbaVJMeAdu-zsUwnhlAVZJ6iyyImxqQ5r8WAAhoAQL84VlkxloXbx5i-p0yqeYlG1rf_DydHjW-K3waE96SP32ETS--DaC6hfXyFzUGvkoMAesjLumR-V5DbOE0zcf4209jVvjwRAWT6xR_p-w-tS1GfZJLgzvpERVDKE",
+        "width": 4032
+      },
+      {
+        "height": 3000,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101231746832634586725\">Andrew Scheepers</a>"
+        ],
+        "photo_reference": "AciIO2fvr7Gv3esa1yJ1UNjAi-PQ34zRqz_EEv7CFiaCnGtyzmxPI-cx7LDpen_3tV5rNh3z_faMIKcIuS_X7Iixf6wM9Y4sAj_OYriCu3WRod3RX9lm8S_L9al4AuScwB3dLs_gYg5ZSL_II1kGMP1m2s6zYDPZcTMAM1Cx4CHXFQkwD5QJGkJBMqWWwCpwNIcqxF6PxUcHiw0ThHVCFBao9c4R-wprkyC6BUI3zBG4OTtowN_K0BNNX45jJesrW3fX-AZpMWTCpaAWq9A_0wT--h5UJd3A65ZS1OLRKaj6COaAxo8E2fQACsyB8_QO8Cj32xSUAArt3RIrtiRuHi-vckmTKnmojZ0N1gnuWvWICNeSGCSfRNDZMRf0Y2CxBZVIEwunsdTiHordvStz5eWMmSMiJC5M0uRV2z_2QrpYFS09BYs",
+        "width": 4000
+      },
+      {
+        "height": 3600,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102494613652596347976\">Stephan Dolk</a>"
+        ],
+        "photo_reference": "AciIO2dKw_hyVd62pCT9KEdJjRm-WvMqKQMIVusaH5GaBy2CD9hzWa5HR-9jk7LbtT-zXSAXmC2FPKrmtRUuohZKs1FF19U9Bp9-9TaJdIp5-gdIElfoDND5a0_KTGMtQ2tbanzRD7YcmmRl_ORZ8c1o_jTX0vX8sUcWY9kF2uxAkkC8Wsx9pImMQmm5DFBUEM78r_sEOl0598wUeX2GlY0_aAgc64hZ6VB2A42s8AKct77H7qXbKJ3TZpHgbVTsD9IdcBxpsTsFN62RvCt6wLpbUY1IGTaAjZdEdPaw5GbRus91FhOsSYdw7cclENhO2qXQuyhWKhMTP7WAFcvVXMwKnLcsFKzmMqg8Sm3-w30yoyX-ponSLLVLgFTJq7IlR96o74-h9V6_PShoPBzER_IcF2u4gUTVykHjL_D_Oxk",
+        "width": 4800
+      },
+      {
+        "height": 715,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114270132224535153795\">Mthunzi Tiger</a>"
+        ],
+        "photo_reference": "AciIO2eRvHDBLj_KBsDbD-iGG7QXcy1CXCAer6ZOnNDB0PN8hNbjsm4tTE9cmWN2uBhuzz0aYKKi9iFFzwd27l_2cBgjqDJg2oHc7bpLa7MDFiHt90VstmzZJgVYTE2GRXuUZjpuLVWXNmaZkIsOJtfeTEI3AT9JiRTu4Mzm6M_Fv3Gv61rP7CcTAE9I3E97MqLH---43ADnFw9gOfMNBm9DWepF6G_nK2Gpgc2FcpFLnKyEH6ix0QRmnkAjnq6bfXfWe5tVvm8QeCEHJ-t6HH-1ZWgHWngAnmbUvsQjxmbsguI5NO65Zm91wpuUEmK4ISxFrW0DEKjYaO4vAOGE5wClHdclC1UoENdWnbhN-ul6otPLqwSk362BPtqRpthlfmB8FPF8vBetcPDJsnzsJY21FD3cl8lzbSz4UG55wbLtTzagKQ",
+        "width": 715
+      },
+      {
+        "height": 374,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114270132224535153795\">Mthunzi Tiger</a>"
+        ],
+        "photo_reference": "AciIO2dqsxx41_AeeLk9eRe_zPzFP9mcQmilNIICMOhZ4Jn3pfCw1nt_iS1TWAL4l46L0tzwhm-24Pyj6syANuFMqK7IkQFlAsZjDDxrQX6mZNRhmBby2c4kmHcSDox0KYqWoB5IT3HPOxD33kgOMxJHJl74Ax3VAeqaqMmUbHtUWxuy1MBSCo8SHaIWiSPOMwIdnekLwvJP2Bt-r5x42Z8Qgnx90pG5ptGPHyd2I0aeDKbF029hjcj0okEqSrD7v-ipSaKl-o9etr-3ICj-WDghG7FEpIhh2K_9kS24XMmX-SwUTkOUT2FuZoYSJ73EvZps2bPujgU0TKFGG499eV4Lsvml8bDQF-IxKURIJSSwPsTiHofUJN8yoo8vQXmBZPh-mLsOHSLBH2dO0DFzX49QBvrECxqBTfHSysWgl6l8kZ4",
+        "width": 715
+      },
+      {
+        "height": 3200,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101123590445453002859\">Peter de Groot</a>"
+        ],
+        "photo_reference": "AciIO2dgij6-YqVgzZliiJKCSRMjVnoEzHf7mdipXcvK7d_PstCE9RPbSw-6ccVK__kMi7laYkhC2tgJfagnARwaCHJF9A3XxBJwkAxmA1trKkkKHcZ0XE2hFy_gfpRQHFL-HMcHBawfQt0fFRpIGbsPNV7GRQeK8aMz3OpgfNcCGdw2_U7dbPjquof0qBKaoArbLocARJ3rA6LHOpNHzeSbEkh4uHvpiBlOlZ2PdAJZEaO6UPBjpEy9kHTt0So_Xkj8ALugbJ9A8lkcMMpNCj4CIOT2t8tKaGGVdr6e3wIYxUMzqqk3PAXmROZpWtrGr9umSpdCFW6iIifO6s6IroenhwycY3AXOr6FLalLaj6q7PlQIWvIfV40q2za0iznrRPTNFok2KHntXgLh3-k8rqqJ2xk_sLBIYhRhLl4uflKonBq1lHQ",
+        "width": 4800
+      }
+    ],
+    "place_id": "ChIJpcOJz7Uw9h4RHE4gHa4aspg",
+    "rating": 4.4,
+    "reviews": [
+      {
+        "author_name": "Miguel Naranjo",
+        "author_url": "https://www.google.com/maps/contrib/108761274318827547451/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjXyJWln5ZEKOl00qNfF0cXK8jo_n5Rf6zVY20IECujwNw_esz-3WA=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "3 weeks ago",
+        "text": "What a lovely place we found. The views are spectacular. The room was extremely clean and the peace we found was huge. Ample parking space and entertainment is just a walk away.....inside the premises. We'll be coming back.",
+        "time": 1757481492,
+        "translated": false
+      },
+      {
+        "author_name": "beulah erasmus",
+        "author_url": "https://www.google.com/maps/contrib/115027700426693757146/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a-/ALV-UjWeH_vXbzkdZooBGEobySgCHVM4_2zIjYCX42Xq-GPuDY3s8lQ_=s128-c0x00000000-cc-rp-mo-ba2",
+        "rating": 5,
+        "relative_time_description": "a month ago",
+        "text": "On the beach with lovely view. Loads of camping to choose from. The facility’s are neat and clean. Wort a visit.",
+        "time": 1756365482,
+        "translated": false
+      },
+      {
+        "author_name": "Richard Norris",
+        "author_url": "https://www.google.com/maps/contrib/116700121882884895364/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocItyYfF_6HZ2JdJq8iY_MxoDCl9B8X3dKIcaqEDkj3heAp7jg=s128-c0x00000000-cc-rp-mo-ba3",
+        "rating": 5,
+        "relative_time_description": "a month ago",
+        "text": "Best kept secret on the south coast. Value for money. Right on the beach well equipped and maintained safe and secure",
+        "time": 1754919667,
+        "translated": false
+      },
+      {
+        "author_name": "Conrad Klusener",
+        "author_url": "https://www.google.com/maps/contrib/108942250993671604059/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocITqyB4losNc68Iv5xUkDg7FLjlExQa8wUL2S_h24xeIf8xeA=s128-c0x00000000-cc-rp-mo-ba4",
+        "rating": 5,
+        "relative_time_description": "a month ago",
+        "text": "Close to the beach and boat launch. The Bell restaurant on the premises produces amazing food at a very affordable price.",
+        "time": 1755356073,
+        "translated": false
+      },
+      {
+        "author_name": "Jeni Cherry",
+        "author_url": "https://www.google.com/maps/contrib/102726496956988435042/reviews",
+        "language": "en",
+        "original_language": "en",
+        "profile_photo_url": "https://lh3.googleusercontent.com/a/ACg8ocJKx9Yo7tpL1vJiXi7CVMAJakLI0JE1FjvmQxCAFryComnEtw=s128-c0x00000000-cc-rp-mo",
+        "rating": 5,
+        "relative_time_description": "5 months ago",
+        "text": "What a lovely place to spend a holiday, at their Beach House. Thank you so much for the amazing service and wonderful stay ❤️",
+        "time": 1745584158,
+        "translated": false
+      }
+    ],
+    "types": [
+      "establishment",
+      "lodging",
+      "point_of_interest"
+    ],
+    "url": "https://maps.google.com/?cid=11002886174734831132",
+    "user_ratings_total": 521,
+    "website": "https://www.rockybay.co.za/"
+  },
+  "status": "OK"
+}

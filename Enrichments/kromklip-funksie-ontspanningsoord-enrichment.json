@@ -1,0 +1,100 @@
+{
+  "places": [
+    {
+      "description": "Kromklip Funksie- & Ontspanningsoord is a family-friendly resort 11 km outside Lydenburg on the Panorama Route. Set around a fishing dam with lawns and big shade trees, it offers spacious camping with power points, neat communal ablutions, dishwashing stations, a swimming pool, and a small on-site shop, plus self-catering chalets and tented cabins. It works well for relaxed weekends with kids, easy fishing and day trips to Dullstroom, Graskop, Sabie and Pilgrim’s Rest.",
+      "directions": "From Lydenburg, take the R36 toward Ohrigstad then follow local signs for Kromklip Oord, 11 km from town. The physical address is Farm CD2, Mosterthoek, Lydenburg. GPS approximately −25.07106, 30.37299.",
+      "province": "Mpumalanga",
+      "region": "Panorama Route / Lydenburg",
+      "rates": [
+        {
+          "amount": 70,
+          "unit": "campsite with power and tap, per site per night, up to 6 persons"
+        },
+        {
+          "amount": 100,
+          "unit": "dam or premium campsite with power and tap, per site per night, up to 6 persons"
+        },
+        {
+          "amount": 60,
+          "unit": "per person per night, age 7+, camping"
+        },
+        {
+          "amount": 50,
+          "unit": "per person per night, seniors 60+, camping"
+        },
+        {
+          "amount": 10,
+          "unit": "per child per night, ages 4–6, camping"
+        },
+        {
+          "amount": 0,
+          "unit": "children 0–3, camping"
+        }
+      ],
+      "price_pp": 95,
+      "tags": [
+        {
+          "label": "family-friendly"
+        },
+        {
+          "label": "dam-fishing"
+        },
+        {
+          "label": "panorama-route"
+        },
+        {
+          "label": "tented-cabins"
+        },
+        {
+          "label": "self-catering"
+        }
+      ],
+      "amenities": [
+        "flush-toilets",
+        "showers-hot-water",
+        "braai-facilities",
+        "drinking-water-tap",
+        "campfires-allowed",
+        "electricity-points",
+        "swimming-pool",
+        "shop",
+        "restaurant",
+        "bar",
+        "children-playground",
+        "fishing-dam",
+        "dishwashing-stations"
+      ],
+      "highlight": [
+        {
+          "title": "Budget-friendly camping",
+          "description": "Low per-site fee plus per-person pricing keeps total costs reasonable for small groups."
+        },
+        {
+          "title": "Dam-side setting with game",
+          "description": "Lawned stands near the water and occasional kudu and other game around the dam."
+        },
+        {
+          "title": "Mix of accommodation",
+          "description": "Choose between chalets, tented cabins and powered campsites."
+        }
+      ],
+      "unexpected": [
+        {
+          "title": "Senior discount",
+          "description": "Reduced per-person rate for campers aged 60 and older."
+        },
+        {
+          "title": "Kids 0–3 stay free",
+          "description": "Very young children are not charged on campsites."
+        }
+      ],
+      "meta_title": "Kromklip Funksie- & Ontspanningsoord, Lydenburg | Camping, Chalets and Tented Cabins",
+      "meta_description": "Family-friendly resort 11 km from Lydenburg with powered campsites, neat ablutions, swimming pool, fishing dam, chalets and tented cabins on the Panorama Route.",
+      "facilities_summary": "Lawns and shade trees, powered stands with taps, communal ablutions with hot showers and flush toilets, dishwashing stations, braai areas, swimming pool, small shop, restaurant and bar, children’s play areas, fishing dam.",
+      "ai_summary": "Easy-going Panorama Route base with powered campsites, a pool and a fishing dam. Pricing is simple, a small site fee plus per-person charge, with discounts for seniors and little ones staying free. Chalets and tented cabins round things out.",
+      "raw_data": "Official site lists camping with power and tap, up to 6 per stand, plus per-person charges for ages 7+ and seniors 60+. Two rate blocks appear, R70 per site, and R100 per site for selected stands, with R60 pp standard, R50 pp seniors, R10 pp ages 4–6, and 0–3 free. The accommodation pages describe chalets on the dam, tented cabins, communal bathrooms, and dishwashing stations. Contact page provides GPS −25.07106, 30.37299 and booking phone/WhatsApp details.",
+      "experiences_raw": "Bank-fishing at the dam, pool time with the kids, braais under big trees, day trips to Dullstroom and Sabie waterfalls, Pilgrim’s Rest heritage stops and Panorama Route viewpoints.",
+      "slug": "kromklip-funksie-ontspanningsoord"
+    }
+  ]
+}

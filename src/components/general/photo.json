@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_general_photos",
+  "info": {
+    "displayName": "Photo"
+  },
+  "options": {},
+  "attributes": {
+    "attribution": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}

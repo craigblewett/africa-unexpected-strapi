@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_general_reviews",
+  "info": {
+    "displayName": "Review"
+  },
+  "options": {},
+  "attributes": {
+    "author_name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "text": {
+      "type": "text"
+    },
+    "review_time": {
+      "type": "string"
+    },
+    "author_photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  },
+  "config": {}
+}
