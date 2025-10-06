@@ -129,3 +129,13 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+
+
+# ======================================
+# Uploads, Media, and Generated Content
+# ======================================
+public/uploads/
+photos/
+Enrichments/
+Places/
+Icons/
