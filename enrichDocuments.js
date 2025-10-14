@@ -1,14 +1,37 @@
-// enrichDocuments.js
+// enrichDocuments.js — Enrich Strapi Places (local or cloud) using enrichment JSON
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");
-require('dotenv').config();
+require("dotenv").config();
 
+// =========================
+// CONFIGURATION
+// =========================
+const MODE = process.env.MODE || "local"; // "local" or "cloud"
 
-const STRAPI_API_URL = "http://127.0.0.1:1337/api";
-const STRAPI_API_TOKEN = process.env.STRAPI_API_TOKEN;
+const STRAPI_BASE =
+  MODE === "cloud"
+    ? process.env.CLOUD_STRAPI_URL
+    : process.env.LOCAL_STRAPI_URL || "http://127.0.0.1:1337";
 
-// ---- helpers
+const STRAPI_API_URL = `${STRAPI_BASE}/api`;
+
+const STRAPI_API_TOKEN =
+  MODE === "cloud"
+    ? process.env.CLOUD_STRAPI_TOKEN
+    : process.env.LOCAL_STRAPI_TOKEN || process.env.STRAPI_API_TOKEN;
+
+if (!STRAPI_API_TOKEN) {
+  console.error("❌ Missing STRAPI_API_TOKEN. Please set it in your .env file.");
+  process.exit(1);
+}
+
+console.log(`🌍 Running in ${MODE.toUpperCase()} mode`);
+console.log(`📡 Base URL: ${STRAPI_BASE}`);
+
+// =========================
+// HELPERS
+// =========================
 const authHeaders = {
   Authorization: `Bearer ${STRAPI_API_TOKEN}`,
   "Content-Type": "application/json",
@@ -32,7 +55,9 @@ async function updateByDocumentId(endpoint, documentId, payload) {
   return json;
 }
 
-// -------- merge helpers
+// =========================
+// MERGE HELPERS
+// =========================
 const normStr = (v) => (v ?? "").toString().trim();
 const normNum = (v) => (v === null || v === undefined || v === "" ? null : Number(v));
 
@@ -83,10 +108,13 @@ function arraysEqual(a, b) {
   return JSON.stringify(a) === JSON.stringify(b);
 }
 
-// ================== MAIN ==================
+// =========================
+// MAIN FUNCTION
+// =========================
 async function enrichDocuments(enrichmentInput, folder = null) {
   let enrichment;
 
+  // Load enrichment JSON
   if (typeof enrichmentInput === "string") {
     if (!fs.existsSync(enrichmentInput)) {
       throw new Error(`Enrichment file not found: ${enrichmentInput}`);
@@ -96,7 +124,7 @@ async function enrichDocuments(enrichmentInput, folder = null) {
     enrichment = enrichmentInput;
   }
 
-  // 🔑 Auto-inject slug from place.json if missing
+  // 🔑 Inject slug from place.json if missing
   if (folder) {
     const placePath = path.join(folder, "place.json");
     if (fs.existsSync(placePath)) {
@@ -112,10 +140,13 @@ async function enrichDocuments(enrichmentInput, folder = null) {
     }
   }
 
+  // =========================
   // 1) Build amenity map
+  // =========================
   const amRes = await fetchJSON(
     `${STRAPI_API_URL}/amenities?pagination[pageSize]=200&fields[0]=id&fields[1]=documentId&fields[2]=slug`
   );
+
   const amenityMap = new Map();
   for (const a of amRes.data) {
     const slug = a.slug ?? a.attributes?.slug;
@@ -126,9 +157,11 @@ async function enrichDocuments(enrichmentInput, folder = null) {
 
   const placeItems = enrichment.places || [];
   console.log(`🔎 Enriching ${placeItems.length} place(s)`);
-
   const updated = [];
 
+  // =========================
+  // 2) Iterate over each place
+  // =========================
   for (const item of placeItems) {
     const slug = item.slug;
     if (!slug) {
@@ -136,7 +169,6 @@ async function enrichDocuments(enrichmentInput, folder = null) {
       continue;
     }
 
-    // 2) Fetch place by slug
     const q =
       `${STRAPI_API_URL}/places` +
       `?filters[slug][$eq]=${encodeURIComponent(slug)}` +
@@ -160,7 +192,6 @@ async function enrichDocuments(enrichmentInput, folder = null) {
     const placeDocId = place.documentId ?? attrs.documentId;
     const placeName = place.name ?? attrs.name ?? slug;
 
-    // Current values
     const currentRates = attrs.rates || [];
     const currentTags = attrs.tag || [];
     const currentHighlights = attrs.highlight || [];
@@ -170,14 +201,21 @@ async function enrichDocuments(enrichmentInput, folder = null) {
     const currentRegion = attrs.region || null;
     const currentPricePP = attrs.price_pp ?? null;
 
-    const currentAmenDocIds = currentAmenities.map((a) => a.documentId ?? a.attributes?.documentId).filter(Boolean);
-    const currentAmenIds = currentAmenities.map((a) => a.id ?? a.attributes?.id).filter((v) => Number.isInteger(v));
+    const currentAmenDocIds = currentAmenities
+      .map((a) => a.documentId ?? a.attributes?.documentId)
+      .filter(Boolean);
+    const currentAmenIds = currentAmenities
+      .map((a) => a.id ?? a.attributes?.id)
+      .filter((v) => Number.isInteger(v));
 
-    // 3) Resolve requested amenity slugs
+    // =========================
+    // 3) Resolve amenity slugs
+    // =========================
     const requestedSlugs = Array.isArray(item.amenities) ? item.amenities : [];
     const missing = [];
     const targetDocIds = [];
     const targetIds = [];
+
     for (const s of requestedSlugs) {
       const m = amenityMap.get(s);
       if (!m) missing.push(s);
@@ -186,32 +224,38 @@ async function enrichDocuments(enrichmentInput, folder = null) {
         if (Number.isInteger(m.id)) targetIds.push(m.id);
       }
     }
-    if (missing.length) console.warn(`⚠️ Missing amenities (not found by slug): ${missing.join(", ")}`);
+
+    if (missing.length)
+      console.warn(`⚠️ Missing amenities (not found by slug): ${missing.join(", ")}`);
 
     const toConnectDocIds = targetDocIds.filter((d) => !currentAmenDocIds.includes(d));
     const toConnectIds = targetIds.filter((n) => !currentAmenIds.includes(n));
 
+    // =========================
     // 4) Build payload
+    // =========================
     const payload = {};
 
-    // Simple strings
-    if (typeof item.description === "string") payload.description = item.description;
-    if (typeof item.the_vibe === "string") payload.the_vibe = item.the_vibe;
-    if (typeof item.need_to_know === "string") payload.need_to_know = item.need_to_know;
-    if (typeof item.meta_title === "string") payload.meta_title = item.meta_title;
-    if (typeof item.meta_description === "string") payload.meta_description = item.meta_description;
-    if (typeof item.facilities_summary === "string") payload.facilities_summary = item.facilities_summary;
-    if (typeof item.ai_summary === "string") payload.ai_summary = item.ai_summary;
-    if (typeof item.raw_data === "string") payload.raw_data = item.raw_data;
-    if (typeof item.experiences_raw === "string") payload.experiences_raw = item.experiences_raw;
+    // Simple fields
+    for (const key of [
+      "description",
+      "the_vibe",
+      "need_to_know",
+      "meta_title",
+      "meta_description",
+      "facilities_summary",
+      "ai_summary",
+      "raw_data",
+      "experiences_raw",
+    ]) {
+      if (typeof item[key] === "string") payload[key] = item[key];
+    }
 
     if (typeof item.featured === "boolean") payload.featured = item.featured;
 
-    // ✅ Province/Region enrichment (only if missing in Strapi)
     if (typeof item.province === "string" && !currentProvince) payload.province = item.province;
     if (typeof item.region === "string" && !currentRegion) payload.region = item.region;
 
-    // ✅ Price per person enrichment
     if (typeof item.price_pp === "number" && item.price_pp !== currentPricePP) {
       payload.price_pp = item.price_pp;
     }
@@ -222,7 +266,11 @@ async function enrichDocuments(enrichmentInput, folder = null) {
       if (!arraysEqual(merged, currentRates)) payload.rates = merged;
     }
 
-    const incomingTags = Array.isArray(item.tags) ? item.tags : Array.isArray(item.tag) ? item.tag : [];
+    const incomingTags = Array.isArray(item.tags)
+      ? item.tags
+      : Array.isArray(item.tag)
+      ? item.tag
+      : [];
     if (incomingTags.length > 0) {
       const merged = mergeTags(currentTags, incomingTags);
       if (!arraysEqual(merged, currentTags)) payload.tag = merged;
@@ -235,12 +283,10 @@ async function enrichDocuments(enrichmentInput, folder = null) {
       payload.unexpected = mergeRepeatable(currentUnexpected, item.unexpected, ["title", "description"]);
     }
 
-    // Amenities relation
     if (toConnectDocIds.length > 0) {
       payload.amenities = { connect: toConnectDocIds };
     }
 
-    // 5) Update
     if (Object.keys(payload).length === 0) {
       console.log(`✔️ ${placeName}: nothing to update`);
       continue;
@@ -254,7 +300,7 @@ async function enrichDocuments(enrichmentInput, folder = null) {
       updated.push(slug);
     } catch (e) {
       const msg = String(e.message || e);
-      console.warn(`↩︎ Connect failed, trying v4 array style. Reason: ${msg}`);
+      console.warn(`↩︎ Connect failed, trying fallback. Reason: ${msg}`);
       const unionIds = Array.from(new Set([...currentAmenIds, ...toConnectIds]));
       const fallback = { ...payload };
       if (toConnectDocIds.length > 0) fallback.amenities = unionIds;
@@ -274,12 +320,14 @@ async function enrichDocuments(enrichmentInput, folder = null) {
   return updated;
 }
 
-// Export for addPlace.js
+// =========================
+// EXPORT + TEST RUNNER
+// =========================
 module.exports = { enrichDocuments };
 
-// Allow standalone run
 if (require.main === module) {
-  enrichDocuments(path.join(__dirname, "documentsEnrichment.json")).catch((e) => {
+  const TEST_FILE = path.join(__dirname, "documentsEnrichment.json");
+  enrichDocuments(TEST_FILE).catch((e) => {
     console.error("💥 Script error:", e.message || e);
   });
 }

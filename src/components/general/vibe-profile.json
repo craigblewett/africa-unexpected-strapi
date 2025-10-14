@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_general_vibe_profiles",
+  "info": {
+    "displayName": "VibeProfile"
+  },
+  "options": {},
+  "attributes": {
+    "comfort_rustic": {
+      "type": "integer",
+      "default": 50,
+      "min": 0,
+      "max": 100
+    },
+    "peaceful_social": {
+      "type": "integer",
+      "default": 50,
+      "min": 0,
+      "max": 100
+    },
+    "accessible_remote": {
+      "type": "integer",
+      "default": 50,
+      "min": 0,
+      "max": 100
+    },
+    "active_relaxed": {
+      "type": "integer",
+      "default": 50,
+      "min": 0,
+      "max": 100
+    },
+    "family_couple": {
+      "type": "integer",
+      "default": 50,
+      "min": 0,
+      "max": 100
+    },
+    "wild_managed": {
+      "type": "integer",
+      "default": 50,
+      "min": 0,
+      "max": 100
+    }
+  },
+  "config": {}
+}

@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Strapi Place Test</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-
   <style>
     body { font-family: sans-serif; padding: 1rem; background: #f9f9f9; color: #333; }
     .place { background: #fff; border: 1px solid #ddd; border-radius: 8px; margin: 1rem 0; padding: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.07); }
@@ -12,184 +11,270 @@
     h1, h2, h3 { color: #111; }
     h2 { margin-top: 0; border-bottom: 2px solid #f0f0f0; padding-bottom: 0.5rem; }
     .gallery { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px; }
-    .gallery-item { display: flex; flex-direction: column; align-items: center; max-width: 180px; text-align: center; }
+    .gallery-item { display: flex; flex-direction: column; align-items: centre; max-width: 180px; text-align: centre; }
     .gallery img { max-width: 180px; height: auto; border: 1px solid #ddd; }
     .amenities { display: flex; flex-wrap: wrap; gap: 15px; margin-top: 5px; }
-    .amenity { display: flex; align-items: center; gap: 6px; }
+    .amenity { display: flex; align-items: centre; gap: 6px; }
     .amenity img { width: 24px; height: 24px; object-fit: contain; }
     .reviews { margin-top: 1.5rem; }
     .review { border-top: 1px solid #eee; padding-top: 1rem; margin-top: 1rem; }
     pre { background: #f4f4f4; padding: 1rem; border-radius: 4px; max-height: 300px; overflow: auto; font-size: 0.85rem; white-space: pre-wrap; word-wrap: break-word; }
     .badge { display: inline-block; padding: 3px 8px; background: gold; border-radius: 4px; margin-left: 5px; font-size: 0.8rem; }
-    .info-box {
-      background: #fefef2;
-      border: 1px solid #e9e9d4;
-      border-left: 4px solid #f0c420;
-      padding: 0.5rem 1.5rem;
-      border-radius: 4px;
-      margin-top: 1.5rem;
-    }
+    .info-box { background: #fefef2; border: 1px solid #e9e9d4; border-left: 4px solid #f0c420; padding: 0.5rem 1.5rem; border-radius: 4px; margin-top: 1.5rem; }
     .info-box h3 { margin-top: 0.5rem; }
-    .info-box ul { padding-left: 20px; margin-top: 0; }
     .placeholder { color: #888; font-style: italic; }
+    #loading { text-align: centre; margin: 1.5rem 0; color: #555; font-weight: bold; }
+    #debug { background: #0b1020; color: #c9f; padding: 10px 12px; border-radius: 6px; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; white-space: pre-wrap; }
+    #sentinel { height: 1px; }
+    a { color: #0645ad; }
   </style>
 </head>
 <body>
   <h1>Places Test</h1>
-  <div id="places">Loading...</div>
+
+  <div id="debug">Debug log will appear here…</div>
+
+  <div id="places">Loading…</div>
+  <div id="loading" style="display:none;">Loading more places…</div>
+  <div id="sentinel"></div>
 
   <script>
-    const API_URL = "http://localhost:1337/api/places?populate[cover_photo]=true&populate[photos][populate]=image&populate[amenities][populate]=icon&populate[reviews]=true&populate[rates]=true&populate[contact]=true&populate[tag]=true&populate[highlight]=true&populate[unexpected]=true";
-    const BASE_URL = "http://localhost:1337";
+    // ===== CONFIG =====
+    const DEBUG = true;
 
-    async function loadPlaces() {
-      const res = await fetch(API_URL);
-      if (!res.ok) {
-        throw new Error(`API request failed with status ${res.status}`);
-      }
+    // Use the same base you query in your scripts. The line below points to Strapi Cloud.
+    // If you want local data instead, swap to: const BASE_URL = "http://127.0.0.1:1337";
+    const BASE_URL = "https://fortunate-leader-bd82518ea9.strapiapp.com";
+
+    // Page size of each fetch
+    const PAGE_SIZE = 10;
+
+    // Build a stable query. Sorting by id desc makes pagination deterministic.
+    const API_BASE =
+      `${BASE_URL}/api/places` +
+      `?sort[0]=id:desc` +
+      `&populate[cover_photo]=true` +
+      `&populate[photos][populate]=image` +
+      `&populate[amenities][populate]=icon` +
+      `&populate[reviews]=true` +
+      `&populate[rates]=true` +
+      `&populate[contact]=true` +
+      `&populate[tag]=true` +
+      `&populate[highlight]=true` +
+      `&populate[unexpected]=true`;
+
+    // ===== STATE =====
+    let currentPage = 1;
+    let pageCount = Infinity;
+    let isLoading = false;
+    const seenIds = new Set(); // prevent duplicates across pages
+
+    // ===== DEBUG UTIL =====
+    function dlog(...args) {
+      if (!DEBUG) return;
+      console.log(...args);
+      const el = document.getElementById("debug");
+      el.textContent += "\n" + args.map(a => {
+        try { return typeof a === "string" ? a : JSON.stringify(a, null, 2); }
+        catch { return String(a); }
+      }).join(" ");
+    }
+
+    // ===== FETCH ONE PAGE =====
+    async function fetchPage(page) {
+      const url = `${API_BASE}&pagination[page]=${page}&pagination[pageSize]=${PAGE_SIZE}`;
+      dlog(`\n➡️ Requesting page ${page}:`, url);
+      const res = await fetch(url, { cache: "no-store" });
+      dlog(`HTTP ${res.status}`);
+      if (!res.ok) throw new Error(`API error ${res.status}`);
       const json = await res.json();
-      const container = document.getElementById("places");
-      container.innerHTML = "";
 
-      if (!json.data || !Array.isArray(json.data)) {
-        console.error("API response is not in the expected format:", json);
-        container.innerText = "Error: Data from API is not in the expected format. Check console.";
+      // Inspect Strapi pagination meta
+      const meta = json.meta?.pagination || { page: page, pageSize: PAGE_SIZE, pageCount: 1, total: json.data?.length || 0 };
+      pageCount = meta.pageCount || 1;
+      dlog("📦 meta.pagination:", meta);
+
+      // List ids returned for this page
+      const ids = (json.data || []).map(x => x.id);
+      dlog(`🧾 ids on page ${page}:`, ids);
+
+      // Detect if server gave the same page again
+      if (page > 1 && ids.length && ids.every(id => seenIds.has(id))) {
+        dlog("⚠️ Server returned only ids already seen. Treating as end of results.");
+        pageCount = page - 1; // stop further loads
+        return [];
+      }
+
+      return json.data || [];
+    }
+
+    // ===== RENDER ONE PLACE CARD =====
+    function renderPlace(place) {
+      const attrs = place.attributes || place;
+
+      // Cover photo
+      let cover = "";
+      let coverUrl = attrs.cover_photo?.url
+        || attrs.cover_photo?.formats?.medium?.url
+        || attrs.cover_photo?.formats?.large?.url
+        || attrs.cover_photo?.formats?.thumbnail?.url;
+      if (coverUrl && !coverUrl.startsWith("http")) coverUrl = BASE_URL + coverUrl;
+      if (coverUrl) cover = `<img src="${coverUrl}" alt="Cover Photo">`;
+
+      // Gallery
+      const gallery = (attrs.photos || [])
+        .map(p => {
+          const img = p.image;
+          if (!img) return "";
+          let url = img.formats?.small?.url || img.url;
+          if (url && !url.startsWith("http")) url = BASE_URL + url;
+          return `<div class="gallery-item">
+                    <img src="${url}" alt="${p.attribution || 'Photo'}">
+                    <small>${p.attribution || ""}</small>
+                  </div>`;
+        }).join("");
+      const galleryHtml = gallery ? `<div class="gallery">${gallery}</div>` : "";
+
+      // Amenities
+      const amenityList = (attrs.amenities || [])
+        .map(a => {
+          let iconUrl = a.icon?.url || "";
+          if (iconUrl && !iconUrl.startsWith("http")) iconUrl = BASE_URL + iconUrl;
+          return `<div class="amenity">
+                    ${iconUrl ? `<img src="${iconUrl}" alt="${a.name}">` : ""}
+                    <span>${a.name}</span>
+                  </div>`;
+        }).join("");
+      const amenityHtml = `<div class="amenities">${amenityList || "None"}</div>`;
+
+      // Reviews
+      const reviewList = (attrs.reviews || [])
+        .map(r => `<div class="review">
+            <p><strong>${r.author_name}</strong> (${r.rating}/5)</p>
+            <p>${r.text}</p>
+            <small>${r.review_time || ""}</small>
+          </div>`).join("");
+
+      // Rates, price
+      const rateList = (attrs.rates || []).map(r => `${r.amount || "?"} ${r.unit}`).join(", ");
+      const pricePP = attrs.price_pp ? `<p><strong>Price (per person):</strong> R${attrs.price_pp}</p>` : "";
+
+      // Contact
+      const contact = attrs.contact?.[0] || {};
+      const hasContact = Object.keys(contact).some(k => contact[k]);
+      const contactInfo = hasContact
+        ? `<p>
+            📞 ${contact.phone || ""}<br>
+            ✉️ ${contact.email || ""}<br>
+            🌐 ${contact.website ? `<a href="${contact.website}" target="_blank" rel="noopener noreferrer">${contact.website}</a>` : ""}<br>
+            📅 ${contact.booking_url ? `<a href="${contact.booking_url}" target="_blank" rel="noopener noreferrer">Booking link</a>` : ""}<br>
+            📍 ${contact.google_info ? `<a href="${contact.google_info}" target="_blank" rel="noopener noreferrer">Google Maps</a>` : ""}<br>
+            💬 ${contact.whatsapp || ""}
+          </p>` : "";
+
+      // Tags, Highlights, Unexpected
+      const tagList = (attrs.tag || []).map(t => t.label).join(", ");
+      const highlights = (attrs.highlight || []).map(h => `<strong>${h.title || ""}</strong>: ${h.description || ""}`).join("<br>");
+      const unexpected = (attrs.unexpected || []).map(u => `<strong>${u.title || ""}</strong>: ${u.description || ""}`).join("<br>");
+
+      // Vibe and Need to Know
+      const theVibeHtml = `<div class="info-box"><h3>The Vibe</h3>${attrs.the_vibe ? marked.parse(attrs.the_vibe) : '<p class="placeholder">No vibe information available.</p>'}</div>`;
+      const needToKnowHtml = `<div class="info-box"><h3>Need to Know</h3>${attrs.need_to_know ? marked.parse(attrs.need_to_know) : '<p class="placeholder">No specific information provided.</p>'}</div>`;
+
+      const div = document.createElement("div");
+      div.className = "place";
+      div.innerHTML = `
+        <h2>${attrs.name} ${attrs.featured ? '<span class="badge">Featured</span>' : ""}</h2>
+        <p><strong>Slug:</strong> ${attrs.slug}</p>
+        <p><strong>Place ID:</strong> ${attrs.place_id}</p>
+        ${cover}
+        <p><strong>Province:</strong> ${attrs.province || ""}</p>
+        <p><strong>Region:</strong> ${attrs.region || ""}</p>
+        <p><strong>Town:</strong> ${attrs.town || ""}</p>
+        <p><strong>Address:</strong> ${attrs.address || ""}</p>
+        <p><strong>Coordinates:</strong> ${attrs.latitude}, ${attrs.longitude}</p>
+        <p><strong>Description:</strong></p>
+        <div>${marked.parse(attrs.description || "")}</div>
+        ${theVibeHtml}
+        ${needToKnowHtml}
+        <p><strong>Rating:</strong> ${attrs.rating} ⭐ (${attrs.total_reviews} reviews)</p>
+        <p><strong>Rates:</strong> ${rateList || "None"}</p>
+        ${pricePP}
+        <p><strong>Tags:</strong> ${tagList || "None"}</p>
+        <p><strong>Highlights:</strong><br>${highlights || "None"}</p>
+        <p><strong>Unexpected:</strong><br>${unexpected || "None"}</p>
+        ${contactInfo}
+        <h3>Amenities:</h3>${amenityHtml}
+        <h3>Gallery:</h3>${galleryHtml}
+        <div class="reviews">
+          <h3>Reviews:</h3>
+          ${reviewList || "<p>No reviews yet.</p>"}
+        </div>
+      `;
+      return div;
+    }
+
+    // ===== LOAD-NEXT PAGE =====
+    async function loadNextPage() {
+      if (isLoading) return;
+      if (currentPage > pageCount) {
+        dlog("✅ Reached end. No more pages to load.");
+        document.getElementById("loading").style.display = "none";
         return;
       }
 
-      json.data.forEach((place) => {
-        const attrs = place.attributes || place;
+      isLoading = true;
+      document.getElementById("loading").style.display = "block";
 
-        // Cover photo
-        let cover = "";
-        if (attrs.cover_photo?.url || attrs.cover_photo?.formats) {
-          const url = attrs.cover_photo.url
-            ? BASE_URL + attrs.cover_photo.url
-            : BASE_URL + (attrs.cover_photo.formats?.medium?.url || attrs.cover_photo.formats?.large?.url || attrs.cover_photo.formats?.thumbnail?.url);
-          cover = `<img src="${url}" alt="Cover Photo">`;
+      try {
+        const data = await fetchPage(currentPage);
+
+        const container = document.getElementById("places");
+        if (currentPage === 1) container.innerHTML = "";
+
+        let rendered = 0;
+        for (const item of data) {
+          if (seenIds.has(item.id)) {
+            dlog(`↪︎ Skipping duplicate id=${item.id}`);
+            continue;
+          }
+          seenIds.add(item.id);
+          container.appendChild(renderPlace(item));
+          rendered++;
         }
-        
-        // Photo gallery
-        const gallery = (attrs.photos || [])
-          .map(p => {
-            const img = p.image;
-            if (!img) return "";
-            const url = BASE_URL + (img.formats?.small?.url || img.url);
-            return `<div class="gallery-item">
-                      <img src="${url}" alt="${p.attribution || 'Photo'}">
-                      <small>${p.attribution || ""}</small>
-                    </div>`;
-          })
-          .join("");
-        const galleryHtml = gallery ? `<div class="gallery">${gallery}</div>` : "";
 
-        // Amenities
-        const amenityList = (attrs.amenities || [])
-          .map(a => {
-            const iconUrl = a.icon?.url ? BASE_URL + a.icon.url : "";
-            return `<div class="amenity">
-                      ${iconUrl ? `<img src="${iconUrl}" alt="${a.name}">` : ""}
-                      <span>${a.name}</span>
-                    </div>`;
-          })
-          .join("");
-        const amenityHtml = `<div class="amenities">${amenityList || "None"}</div>`;
+        dlog(`✅ Rendered ${rendered} new items from page ${currentPage}`);
+        currentPage += 1;
 
-        // Reviews
-        const reviewList = (attrs.reviews || [])
-          .map(r => `
-            <div class="review">
-              <p><strong>${r.author_name}</strong> (${r.rating}/5)</p>
-              <p>${r.text}</p>
-              <small>${r.review_time || ""}</small>
-            </div>
-          `).join("");
-
-        // Rates & Price
-        const rateList = (attrs.rates || []).map(r => `${r.amount || "?"} ${r.unit}`).join(", ");
-        const pricePP = attrs.price_pp ? `<p><strong>Price (per person):</strong> R${attrs.price_pp}</p>` : "";
-
-        // Contact
-        const contact = attrs.contact?.[0] || {};
-        const contactInfo = Object.keys(contact).length > 1
-          ? `<p>
-              📞 ${contact.phone || ""}<br>
-              ✉️ ${contact.email || ""}<br>
-              🌐 <a href="${contact.website}" target="_blank" rel="noopener noreferrer">${contact.website}</a><br>
-              📅 <a href="${contact.booking_url}" target="_blank" rel="noopener noreferrer">Booking link</a><br>
-              📍 <a href="${contact.google_info}" target="_blank" rel="noopener noreferrer">Google Maps</a><br>
-              💬 WhatsApp: ${contact.whatsapp || ""}
-            </p>`
-          : "";
-
-        // Tags, Highlights, Unexpected
-        const tagList = (attrs.tag || []).map(t => t.label).join(", ");
-        const highlights = (attrs.highlight || []).map(h => `<strong>${h.title || ""}</strong>: ${h.description || ""}`).join("<br>");
-        const unexpected = (attrs.unexpected || []).map(u => `<strong>${u.title || ""}</strong>: ${u.description || ""}`).join("<br>");
-
-        // The Vibe and Need to Know
-        const theVibeHtml = `<div class="info-box"><h3>The Vibe</h3>${attrs.the_vibe ? marked.parse(attrs.the_vibe) : '<p class="placeholder">No vibe information available.</p>'}</div>`;
-        const needToKnowHtml = `<div class="info-box"><h3>Need to Know</h3>${attrs.need_to_know ? marked.parse(attrs.need_to_know) : '<p class="placeholder">No specific information provided.</p>'}</div>`;
-
-        // --- FINAL RENDER: All original fields are now included ---
-        const div = document.createElement("div");
-        div.className = "place";
-        div.innerHTML = `
-          <h2>${attrs.name} ${attrs.featured ? '<span class="badge">Featured</span>' : ""}</h2>
-          <p><strong>Slug:</strong> ${attrs.slug}</p>
-          <p><strong>Place ID:</strong> ${attrs.place_id}</p>
-          ${cover}
-          <p><strong>Province:</strong> ${attrs.province || ""}</p>
-          <p><strong>Region:</strong> ${attrs.region || ""}</p>
-          <p><strong>Town:</strong> ${attrs.town || ""}</p>
-          <p><strong>Address:</strong> ${attrs.address || ""}</p>
-          <p><strong>Coordinates:</strong> ${attrs.latitude}, ${attrs.longitude}</p>
-          <p><strong>Opening Hours:</strong> ${attrs.opening_hours || ""}</p>
-          <p><strong>Description:</strong></p>
-          <div>${marked.parse(attrs.description || "")}</div>
-          
-          ${theVibeHtml}
-          ${needToKnowHtml}
-
-          <p><strong>Rating:</strong> ${attrs.rating} ⭐ (${attrs.total_reviews} reviews)</p>
-          <p><strong>Rates:</strong> ${rateList || "None"}</p>
-          ${pricePP}
-          <p><strong>Tags:</strong> ${tagList || "None"}</p>
-          <p><strong>Highlights:</strong><br>${highlights || "None"}</p>
-          <p><strong>Unexpected:</strong><br>${unexpected || "None"}</p>
-          
-          <p><strong>Meta Title:</strong> ${attrs.meta_title || ""}</p>
-          <p><strong>Meta Description:</strong> ${attrs.meta_description || ""}</p>
-          <p><strong>Facilities Summary:</strong> ${attrs.facilities_summary || ""}</p>
-          <p><strong>AI Summary:</strong> ${attrs.ai_summary || ""}</p>
-          
-          ${contactInfo}
-
-          <h3>Amenities:</h3>
-          ${amenityHtml}
-
-          <h3>Gallery:</h3>
-          ${galleryHtml}
-          
-          <div class="reviews">
-            <h3>Reviews:</h3>
-            ${reviewList || "<p>No reviews yet.</p>"}
-          </div>
-
-          <h3>Raw Data:</h3>
-          <pre>${attrs.raw_data || "None"}</pre>
-          <h3>Experiences Raw:</h3>
-          <pre>${attrs.experiences_raw || "None"}</pre>
-        `;
-        container.appendChild(div);
-      });
+        if (rendered === 0 && currentPage <= pageCount) {
+          dlog("⚠️ Page contained only duplicates. Continuing to next page…");
+          // Immediately try the next page, but yield to the event loop to avoid recursion explosions
+          setTimeout(loadNextPage, 0);
+        }
+      } catch (err) {
+        dlog("💥 Error loading places:", err);
+      } finally {
+        isLoading = false;
+        document.getElementById("loading").style.display = "none";
+      }
     }
 
-    loadPlaces().catch(err => {
-      console.error("Failed to load places:", err);
-      document.getElementById("places").innerText = "Error loading data. Check console.";
-    });
+    // ===== INFINITE SCROLL VIA INTERSECTION OBSERVER =====
+    const observer = new IntersectionObserver((entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) loadNextPage();
+      }
+    }, { root: null, rootMargin: "400px 0px", threshold: 0 });
+
+    observer.observe(document.getElementById("sentinel"));
+
+    // ===== BOOTSTRAP =====
+    (function start() {
+      dlog("🟣 Starting infinite scroll test");
+      dlog("Base:", BASE_URL);
+      dlog("Initial page size:", PAGE_SIZE);
+      loadNextPage();
+    })();
   </script>
 </body>
 </html>
-

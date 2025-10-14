@@ -490,6 +490,7 @@ export interface ApiPlacePlace extends Struct.CollectionTypeSchema {
     raw_data: Schema.Attribute.RichText;
     region: Schema.Attribute.String;
     reviews: Schema.Attribute.Component<'general.review', true>;
+    seasonalguide: Schema.Attribute.Component<'general.seasonal-guide', false>;
     slug: Schema.Attribute.UID;
     tag: Schema.Attribute.Component<'general.tag', true>;
     the_vibe: Schema.Attribute.RichText;
@@ -499,6 +500,7 @@ export interface ApiPlacePlace extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    vibeprofile: Schema.Attribute.Component<'general.vibe-profile', false>;
   };
 }
 

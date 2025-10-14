@@ -64,6 +64,23 @@ export interface GeneralReview extends Struct.ComponentSchema {
   };
 }
 
+export interface GeneralSeasonalGuide extends Struct.ComponentSchema {
+  collectionName: 'components_general_seasonal_guides';
+  info: {
+    displayName: 'SeasonalGuide';
+  };
+  attributes: {
+    avoid_season: Schema.Attribute.Enumeration<
+      ['Summer', 'Autumn', 'Winter', 'Spring', 'None']
+    >;
+    best_season: Schema.Attribute.Enumeration<
+      ['Summer', 'Autumn', 'Winter', 'Spring', 'Year-round']
+    >;
+    long_stay_friendly: Schema.Attribute.Boolean;
+    seasonal_notes: Schema.Attribute.RichText;
+  };
+}
+
 export interface GeneralTag extends Struct.ComponentSchema {
   collectionName: 'components_general_tags';
   info: {
@@ -85,6 +102,69 @@ export interface GeneralUnexpected extends Struct.ComponentSchema {
   };
 }
 
+export interface GeneralVibeProfile extends Struct.ComponentSchema {
+  collectionName: 'components_general_vibe_profiles';
+  info: {
+    displayName: 'VibeProfile';
+  };
+  attributes: {
+    accessible_remote: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<50>;
+    active_relaxed: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<50>;
+    comfort_rustic: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<50>;
+    family_couple: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<50>;
+    peaceful_social: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<50>;
+    wild_managed: Schema.Attribute.Integer &
+      Schema.Attribute.SetMinMax<
+        {
+          max: 100;
+          min: 0;
+        },
+        number
+      > &
+      Schema.Attribute.DefaultTo<50>;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -93,8 +173,10 @@ declare module '@strapi/strapi' {
       'general.photo': GeneralPhoto;
       'general.rate': GeneralRate;
       'general.review': GeneralReview;
+      'general.seasonal-guide': GeneralSeasonalGuide;
       'general.tag': GeneralTag;
       'general.unexpected': GeneralUnexpected;
+      'general.vibe-profile': GeneralVibeProfile;
     }
   }
 }

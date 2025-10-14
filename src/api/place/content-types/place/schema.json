@@ -132,6 +132,16 @@
     },
     "the_vibe": {
       "type": "richtext"
+    },
+    "vibeprofile": {
+      "type": "component",
+      "component": "general.vibe-profile",
+      "repeatable": false
+    },
+    "seasonalguide": {
+      "type": "component",
+      "component": "general.seasonal-guide",
+      "repeatable": false
     }
   }
 }

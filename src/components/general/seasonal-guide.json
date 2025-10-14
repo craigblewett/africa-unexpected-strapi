@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_general_seasonal_guides",
+  "info": {
+    "displayName": "SeasonalGuide"
+  },
+  "options": {},
+  "attributes": {
+    "best_season": {
+      "type": "enumeration",
+      "enum": [
+        "Summer",
+        "Autumn",
+        "Winter",
+        "Spring",
+        "Year-round"
+      ]
+    },
+    "avoid_season": {
+      "type": "enumeration",
+      "enum": [
+        "Summer",
+        "Autumn",
+        "Winter",
+        "Spring",
+        "None"
+      ]
+    },
+    "seasonal_notes": {
+      "type": "richtext"
+    },
+    "long_stay_friendly": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}

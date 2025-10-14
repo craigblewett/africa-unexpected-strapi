@@ -1,16 +1,39 @@
-// syncPlace.js - push harvested place folder into Strapi with debug + timeouts
+// syncPlace.js — Push harvested place folder into Strapi (local or cloud) with debug + timeouts
 const fs = require("fs");
 const path = require("path");
 const fetch = require("node-fetch");
 const FormData = require("form-data");
-require('dotenv').config();
+require("dotenv").config();
 
+// ==========================
+// CONFIGURATION
+// ==========================
+const MODE = process.env.MODE || "local"; // "local" or "cloud"
 
-// 🔑 Strapi credentials (replace with env var in production!)
-const STRAPI_API_URL = "http://127.0.0.1:1337/api/places";
-const STRAPI_API_TOKEN = process.env.STRAPI_API_TOKEN;
+const STRAPI_BASE =
+  MODE === "cloud"
+    ? process.env.CLOUD_STRAPI_URL
+    : process.env.LOCAL_STRAPI_URL || "http://127.0.0.1:1337";
 
-// --- Helper: fetch with timeout ---
+const STRAPI_API_URL = `${STRAPI_BASE}/api/places`;
+const UPLOAD_URL = `${STRAPI_BASE}/api/upload`;
+
+const STRAPI_API_TOKEN =
+  MODE === "cloud"
+    ? process.env.CLOUD_STRAPI_TOKEN
+    : process.env.LOCAL_STRAPI_TOKEN || process.env.STRAPI_API_TOKEN;
+
+if (!STRAPI_API_TOKEN) {
+  console.error("❌ Missing STRAPI_API_TOKEN. Please set it in your .env file.");
+  process.exit(1);
+}
+
+console.log(`🌍 Running in ${MODE.toUpperCase()} mode`);
+console.log(`📡 Base URL: ${STRAPI_BASE}`);
+
+// ==========================
+// HELPERS
+// ==========================
 async function fetchWithTimeout(url, options = {}, timeoutMs = 30000) {
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), timeoutMs);
@@ -27,7 +50,7 @@ async function uploadToStrapi(filePath) {
   const formData = new FormData();
   formData.append("files", fs.createReadStream(filePath));
 
-  const res = await fetchWithTimeout("http://127.0.0.1:1337/api/upload", {
+  const res = await fetchWithTimeout(UPLOAD_URL, {
     method: "POST",
     headers: { Authorization: `Bearer ${STRAPI_API_TOKEN}` },
     body: formData,
@@ -41,11 +64,13 @@ async function uploadToStrapi(filePath) {
   }
 
   if (!res.ok) throw new Error(`Upload failed: ${JSON.stringify(json)}`);
-  console.log(`✅ Uploaded ${path.basename(filePath)} -> ID ${json[0].id}`);
-  return json[0].id; // Return uploaded file ID
+  console.log(`✅ Uploaded ${path.basename(filePath)} → ID ${json[0].id}`);
+  return json[0].id;
 }
 
-// --- Main sync function ---
+// ==========================
+// MAIN FUNCTION
+// ==========================
 async function syncPlace(folderPath) {
   try {
     const placeFile = path.join(folderPath, "place.json");
@@ -53,11 +78,12 @@ async function syncPlace(folderPath) {
       throw new Error(`place.json not found in folder: ${folderPath}`);
     }
 
-    // 1) Load harvested JSON
     const raw = fs.readFileSync(placeFile, "utf-8");
     const harvested = JSON.parse(raw);
 
-    // 2) Upload photos to Strapi
+    // ------------------------
+    // 1) Upload photos
+    // ------------------------
     const photos = [];
     let coverPhotoId = null;
 
@@ -67,6 +93,7 @@ async function syncPlace(folderPath) {
         console.warn(`⚠️ Missing photo file: ${filePath}`);
         continue;
       }
+
       console.log(`➡️ Uploading photo ${index + 1}/${harvested.photos.length}: ${p.file}`);
       try {
         const id = await uploadToStrapi(filePath);
@@ -74,14 +101,16 @@ async function syncPlace(folderPath) {
           image: id,
           attribution: p.attribution_text || null,
         };
-        if (index === 0) coverPhotoId = id; // ✅ first photo as cover
+        if (index === 0) coverPhotoId = id;
         photos.push(photoObj);
       } catch (err) {
         console.error(`❌ Failed to upload ${p.file}:`, err.message);
       }
     }
 
-    // 3) Reviews
+    // ------------------------
+    // 2) Reviews + contact
+    // ------------------------
     const reviews = (harvested.reviews || []).map((r) => ({
       author_name: r.author_name || null,
       rating: r.rating || null,
@@ -90,14 +119,15 @@ async function syncPlace(folderPath) {
       author_photo: null,
     }));
 
-    // 4) Contact
     const contact = Array.isArray(harvested.contact)
       ? harvested.contact
       : harvested.contact
       ? [harvested.contact]
       : [];
 
-    // 5) Payload
+    // ------------------------
+    // 3) Payload
+    // ------------------------
     const payload = {
       data: {
         name: harvested.name,
@@ -118,16 +148,17 @@ async function syncPlace(folderPath) {
       },
     };
 
-    if (coverPhotoId) {
-      payload.data.cover_photo = coverPhotoId;
-    }
+    if (coverPhotoId) payload.data.cover_photo = coverPhotoId;
 
-    // 6) Upsert by slug
+    // ------------------------
+    // 4) Upsert by slug
+    // ------------------------
     console.log("➡️ Checking for existing place in Strapi...");
     const checkRes = await fetchWithTimeout(
       `${STRAPI_API_URL}?filters[slug][$eq]=${harvested.slug}`,
       { headers: { Authorization: `Bearer ${STRAPI_API_TOKEN}` } }
     );
+
     const checkJson = await checkRes.json();
     const existing = checkJson.data?.[0];
 
@@ -176,10 +207,11 @@ async function syncPlace(folderPath) {
   }
 }
 
-// Export for addPlace.js
+// ==========================
+// EXPORT + TEST RUNNER
+// ==========================
 module.exports = { syncPlace };
 
-// Allow standalone test run
 if (require.main === module) {
   const PLACE_FOLDER = path.join(__dirname, "Places/swartberg_wilds");
   syncPlace(PLACE_FOLDER).catch((err) => {
