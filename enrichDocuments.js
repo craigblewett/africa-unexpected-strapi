@@ -179,6 +179,8 @@ async function enrichDocuments(enrichmentInput, folder = null) {
       `&populate[tag]=*` +
       `&populate[highlight]=*` +
       `&populate[unexpected]=*` +
+      `&populate[vibeprofile]=*` +
+      `&populate[seasonalguide]=*` +
       `&fields[0]=id&fields[1]=documentId&fields[2]=slug&fields[3]=name&fields[4]=province&fields[5]=region&fields[6]=price_pp`;
 
     const placeRes = await fetchJSON(q);
@@ -252,12 +254,35 @@ async function enrichDocuments(enrichmentInput, folder = null) {
     }
 
     if (typeof item.featured === "boolean") payload.featured = item.featured;
-
     if (typeof item.province === "string" && !currentProvince) payload.province = item.province;
     if (typeof item.region === "string" && !currentRegion) payload.region = item.region;
-
     if (typeof item.price_pp === "number" && item.price_pp !== currentPricePP) {
       payload.price_pp = item.price_pp;
+    }
+
+    // ✅ Add VibeProfile Component
+    if (item.vibeprofile && typeof item.vibeprofile === "object") {
+      const v = item.vibeprofile;
+      payload.vibeprofile = {
+        comfort_rustic: normNum(v.comfort_rustic),
+        peaceful_social: normNum(v.peaceful_social),
+        accessible_remote: normNum(v.accessible_remote),
+        active_relaxed: normNum(v.active_relaxed),
+        family_couple: normNum(v.family_couple),
+        wild_managed: normNum(v.wild_managed),
+      };
+    }
+
+    // ✅ Add SeasonalGuide Component
+    if (item.seasonalguide && typeof item.seasonalguide === "object") {
+      const s = item.seasonalguide;
+      payload.seasonalguide = {
+        best_season: normStr(s.best_season),
+        avoid_season: normStr(s.avoid_season),
+        seasonal_notes: normStr(s.seasonal_notes),
+        long_stay_friendly:
+          s.long_stay_friendly === true || s.long_stay_friendly === "true" ? true : false,
+      };
     }
 
     // Repeatable components

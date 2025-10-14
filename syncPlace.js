@@ -126,7 +126,26 @@ async function syncPlace(folderPath) {
       : [];
 
     // ------------------------
-    // 3) Payload
+    // 3) Default VibeProfile + SeasonalGuide
+    // ------------------------
+    const vibeprofile = {
+      comfort_rustic: null,
+      peaceful_social: null,
+      accessible_remote: null,
+      active_relaxed: null,
+      family_couple: null,
+      wild_managed: null,
+    };
+
+    const seasonalguide = {
+      best_season: null,
+      avoid_season: null,
+      seasonal_notes: null,
+      long_stay_friendly: false,
+    };
+
+    // ------------------------
+    // 4) Payload
     // ------------------------
     const payload = {
       data: {
@@ -144,6 +163,8 @@ async function syncPlace(folderPath) {
         photos,
         reviews,
         contact,
+        vibeprofile,
+        seasonalguide,
         publishedAt: new Date().toISOString(),
       },
     };
@@ -151,7 +172,7 @@ async function syncPlace(folderPath) {
     if (coverPhotoId) payload.data.cover_photo = coverPhotoId;
 
     // ------------------------
-    // 4) Upsert by slug
+    // 5) Upsert by slug
     // ------------------------
     console.log("➡️ Checking for existing place in Strapi...");
     const checkRes = await fetchWithTimeout(
