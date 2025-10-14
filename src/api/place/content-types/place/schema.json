@@ -60,10 +60,14 @@
       "repeatable": true
     },
     "latitude": {
-      "type": "decimal"
+      "type": "decimal",
+      "precision": 10,
+      "scale": 6
     },
     "longitude": {
-      "type": "decimal"
+      "type": "decimal",
+      "precision": 10,
+      "scale": 6
     },
     "tag": {
       "type": "component",
