@@ -69,8 +69,13 @@
       "precision": 10,
       "scale": 6
     },
-    "latitude_new": { "type": "decimal", "precision": 10, "scale": 6 },
-"longitude_new": { "type": "decimal", "precision": 10, "scale": 6 },
+"latitude_new": {
+  "type": "float"
+},
+"longitude_new": {
+  "type": "float"
+},
+
 
     "tag": {
       "type": "component",
