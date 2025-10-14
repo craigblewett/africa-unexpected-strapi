@@ -60,21 +60,12 @@
       "repeatable": true
     },
     "latitude": {
-      "type": "decimal",
-      "precision": 10,
-      "scale": 6
+      "type": "float"
     },
     "longitude": {
-      "type": "decimal",
-      "precision": 10,
-      "scale": 6
+      "type": "float"
     },
-"latitude_new": {
-  "type": "float"
-},
-"longitude_new": {
-  "type": "float"
-},
+
 
 
     "tag": {
