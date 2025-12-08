@@ -504,6 +504,114 @@ export interface ApiPlacePlace extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiRecentlyViewedRecentlyViewed
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'recently_vieweds';
+  info: {
+    displayName: 'recently-viewed';
+    pluralName: 'recently-vieweds';
+    singularName: 'recently-viewed';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::recently-viewed.recently-viewed'
+    > &
+      Schema.Attribute.Private;
+    place_image: Schema.Attribute.String;
+    place_name: Schema.Attribute.String;
+    place_region: Schema.Attribute.String;
+    place_slug: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    users_permissions_user: Schema.Attribute.Relation<
+      'manyToOne',
+      'plugin::users-permissions.user'
+    >;
+  };
+}
+
+export interface ApiSavedCampsiteSavedCampsite
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'saved_campsites';
+  info: {
+    displayName: 'saved-campsite';
+    pluralName: 'saved-campsites';
+    singularName: 'saved-campsite';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::saved-campsite.saved-campsite'
+    > &
+      Schema.Attribute.Private;
+    place_image: Schema.Attribute.String;
+    place_name: Schema.Attribute.String;
+    place_region: Schema.Attribute.String;
+    place_slug: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    users_permissions_user: Schema.Attribute.Relation<
+      'manyToOne',
+      'plugin::users-permissions.user'
+    >;
+  };
+}
+
+export interface ApiSavedItinerarySavedItinerary
+  extends Struct.CollectionTypeSchema {
+  collectionName: 'saved_itineraries';
+  info: {
+    displayName: 'saved-itinerary';
+    pluralName: 'saved-itineraries';
+    singularName: 'saved-itinerary';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.Text;
+    image_url: Schema.Attribute.String;
+    itinerary_data: Schema.Attribute.JSON;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::saved-itinerary.saved-itinerary'
+    > &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    users_permissions_user: Schema.Attribute.Relation<
+      'manyToOne',
+      'plugin::users-permissions.user'
+    >;
+  };
+}
+
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -959,7 +1067,6 @@ export interface PluginUsersPermissionsUser
   };
   options: {
     draftAndPublish: false;
-    timestamps: true;
   };
   attributes: {
     blocked: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
@@ -973,6 +1080,9 @@ export interface PluginUsersPermissionsUser
       Schema.Attribute.SetMinMaxLength<{
         minLength: 6;
       }>;
+    first_name: Schema.Attribute.String;
+    is_admin: Schema.Attribute.Boolean;
+    last_name: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
@@ -984,12 +1094,25 @@ export interface PluginUsersPermissionsUser
       Schema.Attribute.SetMinMaxLength<{
         minLength: 6;
       }>;
+    profile: Schema.Attribute.JSON;
     provider: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    recently_vieweds: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::recently-viewed.recently-viewed'
+    >;
     resetPasswordToken: Schema.Attribute.String & Schema.Attribute.Private;
     role: Schema.Attribute.Relation<
       'manyToOne',
       'plugin::users-permissions.role'
+    >;
+    saved_campsites: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::saved-campsite.saved-campsite'
+    >;
+    saved_itineraries: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::saved-itinerary.saved-itinerary'
     >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
@@ -1016,6 +1139,9 @@ declare module '@strapi/strapi' {
       'admin::user': AdminUser;
       'api::amenity.amenity': ApiAmenityAmenity;
       'api::place.place': ApiPlacePlace;
+      'api::recently-viewed.recently-viewed': ApiRecentlyViewedRecentlyViewed;
+      'api::saved-campsite.saved-campsite': ApiSavedCampsiteSavedCampsite;
+      'api::saved-itinerary.saved-itinerary': ApiSavedItinerarySavedItinerary;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

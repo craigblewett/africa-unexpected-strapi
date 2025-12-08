@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recently_vieweds",
+  "info": {
+    "singularName": "recently-viewed",
+    "pluralName": "recently-vieweds",
+    "displayName": "recently-viewed"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "place_slug": {
+      "type": "string"
+    },
+    "place_name": {
+      "type": "string"
+    },
+    "place_image": {
+      "type": "string"
+    },
+    "place_region": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "recently_vieweds"
+    }
+  }
+}

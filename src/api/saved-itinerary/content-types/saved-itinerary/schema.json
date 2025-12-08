@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saved_itineraries",
+  "info": {
+    "singularName": "saved-itinerary",
+    "pluralName": "saved-itineraries",
+    "displayName": "saved-itinerary"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "itinerary_data": {
+      "type": "json"
+    },
+    "image_url": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "saved_itineraries"
+    }
+  }
+}
