@@ -28,6 +28,9 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "saved_itineraries"
+    },
+    "updated_at_point": {
+      "type": "datetime"
     }
   }
 }

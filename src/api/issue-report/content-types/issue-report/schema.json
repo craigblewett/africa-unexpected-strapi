@@ -34,6 +34,25 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "issue_reports"
+    },
+    "resolved_at": {
+      "type": "datetime"
+    },
+    "feedback_type": {
+      "type": "enumeration",
+      "enum": [
+        "issue",
+        "feature"
+      ]
+    },
+    "statusReport": {
+      "type": "enumeration",
+      "enum": [
+        "open",
+        "in_progress",
+        "resolved",
+        "closed"
+      ]
     }
   }
 }

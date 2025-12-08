@@ -460,6 +460,7 @@ export interface ApiIssueReportIssueReport extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.String;
+    feedback_type: Schema.Attribute.Enumeration<['issue', 'feature']>;
     issue_type: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -470,6 +471,10 @@ export interface ApiIssueReportIssueReport extends Struct.CollectionTypeSchema {
     place_name: Schema.Attribute.String;
     place_slug: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    resolved_at: Schema.Attribute.DateTime;
+    statusReport: Schema.Attribute.Enumeration<
+      ['open', 'in_progress', 'resolved', 'closed']
+    >;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -574,6 +579,7 @@ export interface ApiRecentlyViewedRecentlyViewed
       'manyToOne',
       'plugin::users-permissions.user'
     >;
+    viewed_at: Schema.Attribute.DateTime;
   };
 }
 
@@ -603,6 +609,7 @@ export interface ApiSavedCampsiteSavedCampsite
     place_region: Schema.Attribute.String;
     place_slug: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    saved_at: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
@@ -639,6 +646,7 @@ export interface ApiSavedItinerarySavedItinerary
       Schema.Attribute.Private;
     name: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    updated_at_point: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
