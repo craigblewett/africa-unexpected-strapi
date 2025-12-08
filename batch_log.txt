@@ -1,0 +1,385 @@
+[2025-10-23T12:41:45.504Z] ⚠️ Skipping malformed JSON block: Unexpected token / in JSON at position 3286
+[2025-10-23T12:42:33.916Z] ✅ Completed henk-van-rooyen-holiday-resort
+[2025-10-23T12:43:20.231Z] ✅ Completed mbizi-game-lodge-and-spa
+[2025-10-23T12:43:23.232Z] 🏁 Done! 2 total (2 success, 0 failed)
+[2025-10-23T12:43:23.233Z] All places processed successfully.
+[2025-10-23T12:56:05.808Z] ✅ Completed henk-van-rooyen-holiday-resort
+[2025-10-23T12:56:51.886Z] ✅ Completed sabie-river-camp
+[2025-10-23T12:57:40.219Z] ✅ Completed mbizi-game-lodge-and-spa
+[2025-10-23T12:57:43.221Z] 🏁 Done! 3 total (3 success, 0 failed)
+[2025-10-23T12:57:43.221Z] All places processed successfully.
+[2025-10-23T13:04:36.539Z] ✅ Completed khotso-lodge-and-horse-trails
+[2025-10-23T13:05:24.977Z] ✅ Completed mountain-splendour-eco-resort
+[2025-10-23T13:06:15.481Z] ✅ Completed river-valley-resort
+[2025-10-23T13:06:18.485Z] 🏁 Done! 3 total (3 success, 0 failed)
+[2025-10-23T13:06:18.486Z] All places processed successfully.
+[2025-10-23T13:22:03.275Z] ✅ Completed khotso-lodge-and-horse-trails
+[2025-10-23T13:22:50.636Z] ✅ Completed mountain-splendour-eco-resort
+[2025-10-23T13:23:37.835Z] ✅ Completed river-valley-resort
+[2025-10-23T13:23:40.838Z] 🏁 Done! 3 total (3 success, 0 failed)
+[2025-10-23T13:23:40.838Z] All places processed successfully.
+[2025-10-23T13:37:35.409Z] ✅ Completed mountain-splendour-eco-resort
+[2025-10-23T13:38:21.894Z] ✅ Completed river-valley-resort
+[2025-10-23T13:39:08.228Z] ✅ Completed khotso-lodge-and-horse-trails
+[2025-10-23T13:39:11.228Z] 🏁 Done! 3 total (3 success, 0 failed)
+[2025-10-23T13:39:11.229Z] All places processed successfully.
+[2025-10-23T13:53:19.248Z] ✅ Completed koedoesrus-boskamp
+[2025-10-23T13:54:10.973Z] ✅ Completed ruah-park
+[2025-10-23T13:55:06.780Z] ✅ Completed berg-en-rivier-country-retreat
+[2025-10-23T13:55:59.382Z] ✅ Completed thorn-tree-bush-camp
+[2025-10-23T13:56:02.385Z] 🏁 Done! 4 total (4 success, 0 failed)
+[2025-10-23T13:56:02.385Z] All places processed successfully.
+[2025-10-23T14:27:39.786Z] ✅ Completed kalahari-lifestyle-lodge
+[2025-10-23T14:28:41.281Z] ✅ Completed sandgat
+[2025-10-23T14:29:27.905Z] ✅ Completed thorn-tree-bush-camp
+[2025-10-23T14:30:18.693Z] ✅ Completed orange-river-rafting-lodge
+[2025-10-23T14:31:13.703Z] ✅ Completed oranjerus-resort
+[2025-10-23T14:31:16.705Z] ⚠️ Skipping duplicate slug in batch: thorn-tree-bush-camp
+[2025-10-23T14:32:04.902Z] ✅ Completed kambro-accommodation-and-farmstall
+[2025-10-23T14:32:55.911Z] ✅ Completed ou-skool-guesthouse
+[2025-10-23T14:32:58.912Z] 🏁 Done! 8 total (7 success, 0 failed)
+[2025-10-23T14:32:58.913Z] All places processed successfully.
+[2025-10-23T14:43:36.277Z] ✅ Completed riverside-country-club-and-caravan-park
+[2025-10-23T14:43:39.282Z] 🏁 Done! 1 total (1 success, 0 failed)
+[2025-10-23T14:43:39.282Z] All places processed successfully.
+[2025-10-24T09:16:19.285Z] ✅ Completed broadwater-river-estate
+[2025-10-24T09:16:22.289Z] 🏁 Done! 1 total (1 success, 0 failed)
+[2025-10-24T09:16:22.289Z] All places processed successfully.
+[2025-10-24T09:48:53.359Z] ✅ Completed rotsinbos-bush-camp-and-lodge
+[2025-10-24T09:49:47.406Z] ✅ Completed casa-cara-lodge
+[2025-10-24T09:50:37.349Z] ✅ Completed bosveld-oase
+[2025-10-24T09:51:31.173Z] ✅ Completed karee-krans
+[2025-10-24T09:52:20.635Z] ✅ Completed limerick-lodge
+[2025-10-24T09:53:12.589Z] ✅ Completed tanglewood-nature-estate
+[2025-10-24T09:54:03.561Z] ✅ Completed atkv-buffelspoort
+[2025-10-24T09:54:55.614Z] ✅ Completed bergrivier-lodge-and-caravan-park
+[2025-10-24T09:55:19.430Z] ✅ Completed berg-en-bos
+[2025-10-24T09:56:13.444Z] ✅ Completed onverwags-caravan-park
+[2025-10-24T09:57:04.745Z] ✅ Completed thaba-morula-caravan-park
+[2025-10-24T09:58:07.051Z] ✅ Completed eastco-holiday-and-caravan-resort-parys
+[2025-10-24T09:58:54.538Z] ✅ Completed kruger-ranch-camping-and-lodge
+[2025-10-24T09:59:54.623Z] ✅ Completed wawielpark-holiday-resort
+[2025-10-24T10:00:49.507Z] ✅ Completed konka-family-adventure-resort
+[2025-10-24T10:01:43.199Z] ✅ Completed riverrun-resort
+[2025-10-24T10:02:41.845Z] ✅ Completed udolpho-river-farm
+[2025-10-24T10:03:34.889Z] ✅ Completed westvaal-holiday-resort
+[2025-10-24T10:04:27.725Z] ✅ Completed klipspruit-river-resort
+[2025-10-24T10:05:20.246Z] ✅ Completed drie-berge-caravan-park
+[2025-10-24T10:05:23.251Z] 🏁 Done! 20 total (20 success, 0 failed)
+[2025-10-24T10:05:23.251Z] All places processed successfully.
+[2025-10-24T10:55:24.308Z] ❌ olifants-river-lodge: no photos downloaded during harvest
+[2025-10-24T10:56:18.520Z] ✅ Completed henk-van-rooyen-holiday-resort
+[2025-10-24T10:57:09.125Z] ✅ Completed blyde-canyon-a-forever-resort
+[2025-10-24T10:57:52.645Z] ❌ badplaas-a-forever-resort: enrich failed ({"data":null,"error":{"status":400,"name":"ValidationError","message":"seasonalguide.avoid_season must be one of the following values: Summer, Autumn, Winter, Spring, None, ","details":{"errors":[{"path":["seasonalguide","avoid_season"],"message":"seasonalguide.avoid_season must be one of the following values: Summer, Autumn, Winter, Spring, None, ","name":"ValidationError","value":"Peak summer / school holidays"}]}}})
+[2025-10-24T10:58:44.802Z] ✅ Completed loskopdam-a-forever-resort
+[2025-10-24T10:59:37.653Z] ✅ Completed elandskloof-trout-farm
+[2025-10-24T11:00:33.413Z] ✅ Completed lake-umuzi-kamp-oase
+[2025-10-24T11:00:36.417Z] ⚠️ Skipping duplicate slug in batch: loskopdam-a-forever-resort
+[2025-10-24T11:00:36.417Z] ⚠️ Skipping duplicate slug in batch: loskopdam-a-forever-resort
+[2025-10-24T11:00:36.417Z] 🏁 Done! 9 total (5 success, 2 failed)
+[2025-10-24T11:00:36.417Z] FAILED olifants-river-lodge: no photos downloaded during harvest
+[2025-10-24T11:00:36.417Z] FAILED badplaas-a-forever-resort: enrich failed ({"data":null,"error":{"status":400,"name":"ValidationError","message":"seasonalguide.avoid_season must be one of the following values: Summer, Autumn, Winter, Spring, None, ","details":{"errors":[{"path":["seasonalguide","avoid_season"],"message":"seasonalguide.avoid_season must be one of the following values: Summer, Autumn, Winter, Spring, None, ","name":"ValidationError","value":"Peak summer / school holidays"}]}}})
+[2025-10-24T11:04:10.606Z] ✅ Completed olifants-river-lodge
+[2025-10-24T11:04:50.774Z] ✅ Completed badplaas-a-forever-resort
+[2025-10-24T11:04:53.915Z] 🏁 Done! 2 total (2 success, 0 failed)
+[2025-10-24T11:04:53.933Z] All places processed successfully.
+[2025-10-24T11:16:39.649Z] ✅ Completed de-drinken
+[2025-10-24T11:16:42.654Z] 🏁 Done! 1 total (1 success, 0 failed)
+[2025-10-24T11:16:42.654Z] All places processed successfully.
+[2025-10-27T11:19:06.894Z] ✅ Completed baden-klub-oord
+[2025-10-27T11:19:57.238Z] ✅ Completed absolutely-wild
+[2025-10-27T11:20:45.750Z] ✅ Completed de-hoek-mountain-resort
+[2025-10-27T11:21:34.810Z] ✅ Completed swartvlei-caravan-park
+[2025-10-27T11:22:23.706Z] ✅ Completed victoria-bay-caravan-park
+[2025-10-27T11:33:45.496Z] ✅ Completed victoria-bay-caravan-park
+[2025-10-27T11:42:36.862Z] ✅ Completed grootwaterval-guest-farm
+[2025-10-27T11:43:18.247Z] ✅ Completed bietjiedam
+[2025-10-27T11:44:16.003Z] ✅ Completed tankwa-lifestyle-farm-zoute-rivier
+[2025-10-27T11:45:03.132Z] ✅ Completed rondeberg-holiday-resort
+[2025-10-27T11:45:48.614Z] ✅ Completed berg-river-resort
+[2025-10-27T11:46:42.179Z] ✅ Completed marthinusrust-kliprant-camp
+[2025-10-27T11:47:29.866Z] ✅ Completed bon-game-reserve
+[2025-10-27T11:48:17.890Z] ✅ Completed klein-tafelberg-training-adventure-centre
+[2025-10-27T11:49:02.445Z] ✅ Completed melkhout-guest-farm
+[2025-10-27T11:49:50.474Z] ✅ Completed dankbaar-camping
+[2025-10-27T11:50:36.333Z] ✅ Completed hooikraal-tented-camp
+[2025-10-27T11:51:29.374Z] ✅ Completed noukrans
+[2025-10-27T11:52:40.131Z] ✅ Completed carmel-coastal-retreat
+[2025-10-27T11:53:28.805Z] ✅ Completed wacky-adventures
+[2025-10-27T11:53:59.744Z] ✅ Completed adamel-wild-camp
+[2025-10-27T11:54:47.028Z] ✅ Completed dwarswegstrandoord
+[2025-10-27T11:55:30.497Z] ✅ Completed strandskloof-park
+[2025-10-27T11:56:20.986Z] ✅ Completed skilpadbessie-eko-kamp
+[2025-10-27T11:57:04.474Z] ✅ Completed dibiki-holiday-resort
+[2025-10-27T11:57:45.124Z] ✅ Completed dibiki-holiday-resort-riversdale
+[2025-10-27T11:58:36.334Z] ✅ Completed glen-eden-farm
+[2025-10-27T11:59:23.320Z] ✅ Completed kamp-schelmhoek-in-frieden
+[2025-10-27T12:00:13.614Z] ✅ Completed butterfly-creek-bush-camp
+[2025-10-27T12:01:02.091Z] ✅ Completed preekstoel-campsite
+[2025-10-27T12:01:50.031Z] ❌ baliesgat: enrich failed ({"data":null,"error":{"status":400,"name":"ValidationError","message":"price_pp must be an integer","details":{"errors":[{"path":["price_pp"],"message":"price_pp must be an integer","name":"ValidationError","value":187.5}]}}})
+[2025-10-27T12:02:38.713Z] ✅ Completed cannon-valley
+[2025-10-27T12:03:25.185Z] ✅ Completed umshanti
+[2025-10-27T12:04:09.599Z] ✅ Completed atkv-goudini-spa
+[2025-10-27T12:04:59.540Z] ✅ Completed franschhoek-camping
+[2025-10-27T12:05:48.343Z] ✅ Completed lebanon-citrus-holiday-farm
+[2025-10-27T12:06:33.071Z] ✅ Completed de-drinken
+[2025-10-27T12:07:20.528Z] ✅ Completed muisbosskerm-malkoppan
+[2025-10-27T12:08:06.794Z] ✅ Completed plettenberg-a-forever-resort
+[2025-10-27T12:09:00.665Z] ✅ Completed beaverlac
+[2025-10-27T12:09:03.937Z] ⚠️ Skipping duplicate slug in batch: preekstoel-campsite
+[2025-10-27T12:09:49.507Z] ✅ Completed crodinie-campsite
+[2025-10-27T12:10:37.602Z] ✅ Completed klein-karoo-welgevonden
+[2025-10-27T12:11:28.840Z] ✅ Completed karoo-bush-camp
+[2025-10-27T12:11:31.843Z] 🏁 Done! 38 total (36 success, 1 failed)
+[2025-10-27T12:11:31.844Z] FAILED baliesgat: enrich failed ({"data":null,"error":{"status":400,"name":"ValidationError","message":"price_pp must be an integer","details":{"errors":[{"path":["price_pp"],"message":"price_pp must be an integer","name":"ValidationError","value":187.5}]}}})
+[2025-10-27T12:49:24.538Z] ✅ Completed rooiberg-lodge
+[2025-10-27T12:50:10.937Z] ✅ Completed broadwater-river-estate
+[2025-10-27T12:50:55.496Z] ✅ Completed witsand-middle-camp
+[2025-10-27T12:50:58.517Z] ⚠️ Skipping duplicate slug in batch: witsand-middle-camp
+[2025-10-27T12:51:39.763Z] ✅ Completed afri-eco-resorts
+[2025-10-27T12:52:33.205Z] ✅ Completed eagle-falls-country-lodge
+[2025-10-27T12:52:48.623Z] ✅ Completed die-eike-tulbagh
+[2025-10-27T12:53:38.285Z] ✅ Completed leeuwenboschfontein-guest-farm
+[2025-10-27T12:54:24.206Z] ✅ Completed vrolikheid-landgoed
+[2025-10-27T12:55:14.699Z] ✅ Completed kambati-river-resort
+[2025-10-27T12:56:03.892Z] ✅ Completed ellensrust-caravan-park
+[2025-10-27T12:56:51.358Z] ✅ Completed bushman-valley-lodge
+[2025-10-27T12:57:39.201Z] ✅ Completed river-edge-accommodation
+[2025-10-27T12:58:27.323Z] ✅ Completed klipkrans
+[2025-10-27T12:59:12.058Z] ✅ Completed rivierplaas-camping
+[2025-10-27T12:59:59.943Z] ✅ Completed bergenwater
+[2025-10-27T13:00:47.857Z] ✅ Completed breede-otter-river-camp
+[2025-10-27T13:01:33.982Z] ✅ Completed noah-farm-campsite
+[2025-10-27T13:02:17.760Z] ✅ Completed rivers-end-farm
+[2025-10-27T13:03:06.255Z] ✅ Completed welgegun-campsite
+[2025-10-27T13:03:09.257Z] ⚠️ Skipping duplicate slug in batch: bergenwater
+[2025-10-27T13:03:57.959Z] ✅ Completed slanghoek-mountain-resort
+[2025-10-27T13:04:51.992Z] ✅ Completed skurwekop-campsite
+[2025-10-27T13:04:55.433Z] ❌ silwerstrand-caravan-park: invalid google_place_id or harvest failed (No place data returned from Google)
+[2025-10-27T13:05:40.805Z] ✅ Completed khomeesdrif-camping-site
+[2025-10-27T13:06:30.135Z] ✅ Completed goudmyn
+[2025-10-27T13:07:20.909Z] ✅ Completed fleckvieh-guestfarm
+[2025-10-27T13:07:23.911Z] ⚠️ Skipping duplicate slug in batch: broadwater-river-estate
+[2025-10-27T13:14:14.233Z] ✅ Completed kleinplaas-holiday-resort
+[2025-10-27T13:15:03.580Z] ✅ Completed oppi-dam
+[2025-10-27T13:15:43.726Z] ✅ Completed schoongezicht-campsite
+[2025-10-27T13:16:27.632Z] ✅ Completed de-bakke-santos
+[2025-10-27T13:16:30.636Z] ⚠️ Skipping duplicate slug in batch: de-bakke-santos
+[2025-10-27T13:17:16.216Z] ✅ Completed ons-karoo-plaas
+[2025-10-27T13:18:04.049Z] ✅ Completed montagu-guano-cave
+[2025-10-27T13:18:52.967Z] ✅ Completed ou-skip
+[2025-10-27T13:19:46.236Z] ✅ Completed buffelsrivier-camping
+[2025-10-27T13:19:49.240Z] ⚠️ Skipping duplicate slug in batch: ons-karoo-plaas
+[2025-10-27T13:20:32.774Z] ✅ Completed spitzkop
+[2025-10-27T13:21:24.415Z] ✅ Completed jakkalsden
+[2025-10-27T13:22:12.215Z] ✅ Completed seweweekspoort-op-die-plaas-camp
+[2025-10-27T13:22:55.274Z] ✅ Completed a-touch-of-plaas
+[2025-10-27T13:23:42.383Z] ✅ Completed nuwejaarsrivier-farm
+[2025-10-27T13:24:33.195Z] ✅ Completed jongensfontein-camp
+[2025-10-27T13:25:23.113Z] ✅ Completed atkv-hartenbos
+[2025-10-27T13:25:26.117Z] 🏁 Done! 17 total (15 success, 0 failed)
+[2025-10-27T13:25:26.117Z] All places processed successfully.
+[2025-10-27T13:26:46.020Z] ✅ Completed riverside-holiday-resort
+[2025-10-27T13:27:11.581Z] ✅ Completed vorentoe-campsite
+[2025-10-27T13:27:15.150Z] ❌ molenrivier: invalid google_place_id or harvest failed (No place data returned from Google)
+[2025-10-27T13:28:00.278Z] ✅ Completed arendsrus-campsite
+[2025-10-27T13:28:54.120Z] ✅ Completed george-country-resort
+[2025-10-27T13:29:40.457Z] ✅ Completed louvain-guest-farm
+[2025-10-27T13:29:44.049Z] ❌ de-hollandsche-molen: invalid google_place_id or harvest failed (No place data returned from Google)
+[2025-10-27T13:30:28.097Z] ✅ Completed ruah-camping
+[2025-10-27T13:30:31.605Z] ❌ middelberg-guest-farm: no photos downloaded during harvest
+[2025-10-27T13:31:21.300Z] ✅ Completed bulshoek-farm
+[2025-10-27T13:32:09.674Z] ✅ Completed cederberg-camping-hiking
+[2025-10-27T13:33:02.073Z] ✅ Completed suikerbossie-guest-farm
+[2025-10-27T13:33:51.792Z] ✅ Completed blinkwater-camping-cottages
+[2025-10-27T13:34:41.507Z] ✅ Completed citrus-creek
+[2025-10-27T13:35:29.022Z] ✅ Completed matroosberg-nature-reserve
+[2025-10-27T13:36:17.350Z] ✅ Completed vloedbos
+[2025-10-27T13:37:07.658Z] ❌ groot-breede-campsite: enrich failed ({"data":null,"error":{"status":400,"name":"ValidationError","message":"price_pp must be an integer","details":{"errors":[{"path":["price_pp"],"message":"price_pp must be an integer","name":"ValidationError","value":126.5}]}}})
+[2025-10-27T13:37:56.560Z] ✅ Completed kleine-windpompie
+[2025-10-27T13:38:25.041Z] ✅ Completed saxon-river-camp
+[2025-10-27T13:39:12.096Z] ✅ Completed gouritsmond-caravan-park
+[2025-10-27T13:40:02.412Z] ✅ Completed koningskop
+[2025-10-27T13:41:03.059Z] ✅ Completed river-goose
+[2025-10-27T13:41:06.061Z] 🏁 Done! 22 total (18 success, 4 failed)
+[2025-10-27T13:41:06.061Z] FAILED molenrivier: invalid google_place_id or harvest failed (No place data returned from Google)
+[2025-10-27T13:41:06.061Z] FAILED de-hollandsche-molen: invalid google_place_id or harvest failed (No place data returned from Google)
+[2025-10-27T13:41:06.061Z] FAILED middelberg-guest-farm: no photos downloaded during harvest
+[2025-10-27T13:41:06.062Z] FAILED groot-breede-campsite: enrich failed ({"data":null,"error":{"status":400,"name":"ValidationError","message":"price_pp must be an integer","details":{"errors":[{"path":["price_pp"],"message":"price_pp must be an integer","name":"ValidationError","value":126.5}]}}})
+[2025-11-04T11:24:06.687Z] ✅ Completed algeria-campsite
+[2025-11-04T11:24:56.492Z] ✅ Completed anysberg-campsite
+[2025-11-04T11:25:48.717Z] ✅ Completed atkv-hartenbos
+[2025-11-04T11:26:36.656Z] ✅ Completed badensfontein-camping
+[2025-11-04T11:27:32.668Z] ✅ Completed bergenwater-camping
+[2025-11-04T11:28:25.453Z] ✅ Completed berg-river-resort
+[2025-11-04T11:29:17.413Z] ✅ Completed biedouw-valley-camping-mertenhof
+[2025-11-04T11:30:08.129Z] ✅ Completed biesjiesfontein-wild-camping
+[2025-11-04T11:31:03.906Z] ✅ Completed blinkwater-camping-cottages
+[2025-11-04T11:31:59.331Z] ✅ Completed citrus-creek-caravan-camp-chalets
+[2025-11-04T11:32:47.943Z] ✅ Completed bontebok-national-park-campsite
+[2025-11-04T11:33:41.867Z] ✅ Completed breede-otter-campsite
+[2025-11-04T11:34:43.872Z] ✅ Completed breede-river-trading-post-bush-camp-glamping
+[2025-11-04T11:35:31.975Z] ✅ Completed buffalo-bay-caravan-park
+[2025-11-04T11:36:21.203Z] ✅ Completed buffalo-drift
+[2025-11-04T11:37:12.378Z] ✅ Completed calitzdorp-hot-springs
+[2025-11-04T11:37:59.452Z] ✅ Completed cango-mountain-resort
+[2025-11-04T11:38:54.173Z] ✅ Completed cannon-valley-estate
+[2025-11-04T11:40:13.811Z] ✅ Completed carmel-coastal-retreat
+[2025-11-04T11:41:02.506Z] ✅ Completed cederberg-oasis
+[2025-11-04T11:41:05.510Z] ⚠️ Skipping duplicate slug in batch: citrus-creek-caravan-camp-chalets
+[2025-11-04T11:41:50.454Z] ✅ Completed clanwilliam-dam-resort
+[2025-11-04T11:43:04.709Z] ❌ de-bakke-santos-resort: sync failed (The user aborted a request.)
+[2025-11-04T11:43:58.316Z] ✅ Completed de-hoek-mountain-resort
+[2025-11-04T11:44:41.625Z] ✅ Completed de-hollandsche-molen-caravan-park
+[2025-11-04T11:45:30.247Z] ✅ Completed de-pakhuys-camping
+[2025-11-04T11:46:22.123Z] ✅ Completed dibiki-holiday-resort
+[2025-11-04T11:47:10.304Z] ✅ Completed gansbaai-caravan-park
+[2025-11-04T11:47:58.374Z] ✅ Completed die-watergat-campsite
+[2025-11-04T11:48:54.637Z] ✅ Completed diepwalle-forest-camping-decks
+[2025-11-04T11:49:09.787Z] ✅ Completed doringlaagte-camping-and-chalets
+[2025-11-04T11:49:49.993Z] ✅ Completed draaihoek-plaas-kamp
+[2025-11-04T11:50:41.942Z] ✅ Completed dwarswegstrandoord
+[2025-11-04T11:51:32.242Z] ✅ Completed dwarsberg-trout-hideaway
+[2025-11-04T11:52:19.010Z] ✅ Completed dwarskersbos-caravan-park
+[2025-11-04T11:52:22.012Z] ⚠️ Skipping duplicate slug in batch: dwarswegstrandoord
+[2025-11-04T11:53:11.260Z] ✅ Completed eagle-falls-country-lodge-and-camping
+[2025-11-04T11:53:58.632Z] ✅ Completed eikebos-campsite
+[2025-11-04T11:54:46.219Z] ✅ Completed elands-bay-municipal-caravan-park
+[2025-11-04T11:55:38.973Z] ✅ Completed enjo-nature-farm-campsite
+[2025-11-04T11:56:27.392Z] ✅ Completed gamkaberg-campsite
+[2025-11-04T11:57:15.974Z] ✅ Completed gamkaskloof-die-hel-campsite
+[2025-11-04T11:57:18.979Z] ⚠️ Skipping duplicate slug in batch: gansbaai-caravan-park
+[2025-11-04T11:57:18.979Z] ⚠️ Skipping duplicate slug in batch: dwarswegstrandoord
+[2025-11-04T11:58:06.814Z] ✅ Completed hendon-park-resort
+[2025-11-04T11:58:58.011Z] ✅ Completed gecko-creek-wilderness-lodge
+[2025-11-04T12:00:14.644Z] ✅ Completed gecko-rock-private-nature-reserve
+[2025-11-04T12:01:07.707Z] ✅ Completed glentana-caravan-park
+[2025-11-04T12:01:59.656Z] ✅ Completed gouritsmond-caravan-park
+[2025-11-04T12:02:44.406Z] ✅ Completed great-brak-river-caravan-park-pine-creek
+[2025-11-04T12:03:34.586Z] ✅ Completed greyton-twin-rivers-eco-camp
+[2025-11-04T12:04:19.512Z] ✅ Completed groenvlei-plaas-wild-camping
+[2025-11-04T12:05:10.456Z] ✅ Completed grootvadersbosch-campsites
+[2025-11-04T12:06:03.935Z] ✅ Completed jamaka-organic-farm-camping
+[2025-11-04T12:06:52.458Z] ✅ Completed harmony-park-resort
+[2025-11-04T12:07:41.449Z] ✅ Completed hartenbos-river-resort
+[2025-11-04T12:07:44.453Z] ⚠️ Skipping duplicate slug in batch: hendon-park-resort
+[2025-11-04T12:07:44.454Z] ⚠️ Skipping duplicate slug in batch: jamaka-organic-farm-camping
+[2025-11-04T12:08:33.617Z] ✅ Completed hopefield-river-camp-wacky-adventures
+[2025-11-04T12:09:22.620Z] ✅ Completed imhoff-caravan-park
+[2025-11-04T12:10:12.480Z] ✅ Completed island-lake-holiday-resort
+[2025-11-04T12:10:15.483Z] ⚠️ Skipping duplicate slug in batch: jamaka-organic-farm-camping
+[2025-11-04T12:11:06.589Z] ✅ Completed jongensfontein-caravan-park
+[2025-11-04T12:12:01.013Z] ✅ Completed kambati-river-resort
+[2025-11-04T12:12:55.233Z] ✅ Completed karoo-national-park-campsite
+[2025-11-04T12:12:58.237Z] ⚠️ Skipping duplicate slug in batch: kambati-river-resort
+[2025-11-04T12:13:45.024Z] ✅ Completed kliphuis-campsite
+[2025-11-04T12:14:36.595Z] ✅ Completed keurbos-holiday-cottages-campsites
+[2025-11-04T12:15:31.647Z] ✅ Completed khomeesdrif-caravan-and-camping
+[2025-11-04T12:16:19.754Z] ✅ Completed kleine-eike-campsite
+[2025-11-04T12:17:13.374Z] ✅ Completed klein-karoo-welgevonden-camping
+[2025-11-04T12:18:08.766Z] ✅ Completed kleinplaas-holiday-resort
+[2025-11-04T12:18:11.768Z] ⚠️ Skipping duplicate slug in batch: kleinplaas-holiday-resort
+[2025-11-04T12:18:53.757Z] ✅ Completed kruistementvvei-farm-camping
+[2025-11-04T12:18:56.759Z] ⚠️ Skipping duplicate slug in batch: kliphuis-campsite
+[2025-11-04T12:19:42.897Z] ✅ Completed kliphoek-river-campsites
+[2025-11-04T12:20:33.153Z] ✅ Completed klipfontein-farm-camp
+[2025-11-04T12:21:07.775Z] ❌ klipkrans-camping: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:21:49.607Z] ❌ kroonland-4x4-campsite: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:22:27.460Z] ❌ koppie-alleen-eco-camp: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:23:05.831Z] ❌ kraalskloof-campsite-neels-se-kraal: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:23:08.833Z] ⚠️ Skipping duplicate slug in batch: kroonland-4x4-campsite
+[2025-11-04T12:23:08.834Z] ⚠️ Skipping duplicate slug in batch: kroonland-4x4-campsite
+[2025-11-04T12:23:49.268Z] ❌ kruisrivier-camping: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:23:52.272Z] ⚠️ Skipping duplicate slug in batch: kruistementvvei-farm-camping
+[2025-11-04T12:23:52.272Z] ⚠️ Skipping duplicate slug in batch: kroonland-4x4-campsite
+[2025-11-04T12:24:29.934Z] ❌ lagulhas-caravan-park: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:24:55.335Z] ❌ lake-brenton-holiday-resort: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:25:37.218Z] ❌ midwest-karavaanpark: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:26:15.671Z] ❌ lamberts-bay-caravan-park: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:26:52.885Z] ❌ langkloof-campsite: sync failed (Strapi save failed: {"data":null,"error":{"status":500,"name":"InternalServerError","message":"Internal Server Error"}})
+[2025-11-04T12:40:09.842Z] ✅ Completed klipfontein-farm-camp
+[2025-11-04T12:40:54.708Z] ✅ Completed klipkrans-camping
+[2025-11-04T12:41:40.982Z] ✅ Completed kroonland-4x4-campsite
+[2025-11-04T12:42:31.626Z] ✅ Completed koppie-alleen-eco-camp
+[2025-11-04T12:43:12.895Z] ❌ kraalskloof-campsite-neels-se-kraal: enrich failed ({"data":null,"error":{"status":400,"name":"ValidationError","message":"price_pp must be an integer","details":{"errors":[{"path":["price_pp"],"message":"price_pp must be an integer","name":"ValidationError","value":307.63}]}}})
+[2025-11-04T12:43:15.899Z] ⚠️ Skipping duplicate slug in batch: kroonland-4x4-campsite
+[2025-11-04T12:43:15.899Z] ⚠️ Skipping duplicate slug in batch: kroonland-4x4-campsite
+[2025-11-04T12:44:02.825Z] ✅ Completed kruisrivier-camping
+[2025-11-04T12:44:40.927Z] ✅ Completed kruistementvvei-farm-camping
+[2025-11-04T12:44:43.931Z] ⚠️ Skipping duplicate slug in batch: kroonland-4x4-campsite
+[2025-11-04T12:45:25.632Z] ✅ Completed lagulhas-caravan-park
+[2025-11-04T12:45:56.308Z] ✅ Completed lake-brenton-holiday-resort
+[2025-11-04T12:46:42.932Z] ✅ Completed midwest-karavaanpark
+[2025-11-04T12:47:27.193Z] ✅ Completed lamberts-bay-caravan-park
+[2025-11-04T12:48:12.160Z] ✅ Completed langkloof-campsite
+[2025-11-04T12:49:00.807Z] ✅ Completed leentjiesklip-holiday-resort
+[2025-11-04T12:49:54.590Z] ✅ Completed marcuskraal-4x4-campsite
+[2025-11-04T12:50:43.751Z] ✅ Completed oostewal-caravan-park-holiday-resort
+[2025-11-04T12:51:24.609Z] ✅ Completed meijersrust-farm
+[2025-11-04T12:51:27.611Z] ⚠️ Skipping duplicate slug in batch: midwest-karavaanpark
+[2025-11-04T12:52:12.804Z] ✅ Completed millers-point-resort
+[2025-11-04T12:52:58.589Z] ✅ Completed peace-of-eden-eco-camp
+[2025-11-04T12:53:46.427Z] ✅ Completed montagu-caravan-park
+[2025-11-04T12:54:44.209Z] ✅ Completed montagu-guano-caves-camping
+[2025-11-04T12:55:30.714Z] ✅ Completed moreson-river-campsite
+[2025-11-04T12:55:34.172Z] ❌ mountain-breeze-caravan-park: invalid google_place_id or harvest failed (No place data returned from Google)
+[2025-11-04T12:56:35.933Z] ✅ Completed natures-valley-rest-camp
+[2025-11-04T12:57:26.913Z] ✅ Completed nekkies-holiday-resort-camping
+[2025-11-04T12:57:29.915Z] ⚠️ Skipping duplicate slug in batch: oostewal-caravan-park-holiday-resort
+[2025-11-04T12:58:22.522Z] ✅ Completed op-die-plaas-kamp
+[2025-11-04T12:59:20.017Z] ✅ Completed oppi-dam-resort
+[2025-11-04T13:00:14.694Z] ✅ Completed ou-skip-holiday-resort
+[2025-11-04T13:01:04.494Z] ✅ Completed pine-forest-resort
+[2025-11-04T13:01:54.479Z] ✅ Completed point-caravan-resort
+[2025-11-04T13:02:40.879Z] ✅ Completed pyper-se-boom-wild-camping
+[2025-11-04T13:03:31.592Z] ✅ Completed quaggaskloof-waterski-club-campsite
+[2025-11-04T13:04:21.627Z] ✅ Completed river-edge-camp-breedekloof
+[2025-11-04T13:05:24.824Z] ✅ Completed river-goose
+[2025-11-04T13:06:19.700Z] ✅ Completed riverside-holiday-resort-klein-brak
+[2025-11-04T13:07:06.243Z] ✅ Completed rivierplaas-camping
+[2025-11-04T13:07:59.552Z] ✅ Completed rooiberg-lodge-campsite
+[2025-11-04T13:29:22.617Z] ✅ Completed sanddrif-holiday-resort-campsite
+[2025-11-04T13:29:26.107Z] ❌ silwerstrand-caravan-park: no photos downloaded during harvest
+[2025-11-04T13:30:50.964Z] ✅ Completed silwerstroomstrand-camping-and-braai-area
+[2025-11-04T13:32:02.540Z] ✅ Completed skaapwagterspos-wild-camping
+[2025-11-04T13:33:27.833Z] ✅ Completed slanghoek-mountain-resort
+[2025-11-04T13:34:38.493Z] ✅ Completed steenbokkie-private-nature-reserve
+[2025-11-04T13:35:41.709Z] ✅ Completed steenkampshoek-wild-camping
+[2025-11-04T13:36:38.298Z] ✅ Completed stettynskloof-dam-bush-camp
+[2025-11-04T13:37:30.205Z] ✅ Completed strandfontein-holiday-resort
+[2025-11-04T13:38:20.570Z] ✅ Completed strandskloof-caravan-park
+[2025-11-04T13:39:15.554Z] ✅ Completed struisbaai-caravan-park
+[2025-11-04T13:39:18.566Z] ⚠️ Skipping duplicate slug in batch: silwerstroomstrand-camping-and-braai-area
+[2025-11-04T13:39:18.568Z] ⚠️ Skipping duplicate slug in batch: steenbokkie-private-nature-reserve
+[2025-11-04T13:39:52.985Z] ✅ Completed suikerbossie-caravan-park
+[2025-11-04T13:41:00.827Z] ✅ Completed suikerbossie-nature-reserve-camping
+[2025-11-04T13:42:01.894Z] ✅ Completed swartvlei-caravan-park
+[2025-11-04T13:43:00.068Z] ✅ Completed the-baths-caravan-and-camping
+[2025-11-04T13:43:52.306Z] ✅ Completed theewater-sports-club-camping
+[2025-11-04T13:45:10.288Z] ✅ Completed the-travelling-tortoise
+[2025-11-04T13:46:25.836Z] ✅ Completed tietiesbaai-beach-camp
+[2025-11-04T13:47:16.750Z] ✅ Completed tweede-tol-limietberg-nature-reserve
+[2025-11-04T13:48:05.399Z] ✅ Completed uilenkraalsmond-resort
+[2025-11-04T13:48:53.521Z] ✅ Completed ukholo-lodge-camping
+[2025-11-04T13:49:47.481Z] ✅ Completed vanrhynsdorp-caravan-park
+[2025-11-04T13:50:46.430Z] ✅ Completed vensterklip-guest-farm
+[2025-11-04T13:51:34.592Z] ✅ Completed witsand-west-caravan-park
+[2025-11-04T13:52:31.783Z] ✅ Completed wolfkloof-private-campsites
+[2025-11-04T13:53:06.187Z] ✅ Completed vredendal-caravan-park
+[2025-11-04T13:53:09.190Z] ⚠️ Skipping duplicate slug in batch: wolfkloof-private-campsites
+[2025-11-04T13:54:24.998Z] ✅ Completed warmwaterberg-spa-camping
+[2025-11-04T13:55:15.874Z] ✅ Completed waterval-nature-resort-camping
+[2025-11-04T13:56:03.663Z] ✅ Completed wilderness-ebb-and-flow-rest-camp
+[2025-11-04T13:56:55.764Z] ✅ Completed witsand-middle-camp-caravan-park
+[2025-11-04T13:56:58.768Z] ⚠️ Skipping duplicate slug in batch: witsand-west-caravan-park
+[2025-11-04T13:56:58.768Z] ⚠️ Skipping duplicate slug in batch: wolfkloof-private-campsites
+[2025-11-04T13:57:40.418Z] ✅ Completed wolfkop-camping-villages
+[2025-11-04T13:58:28.257Z] ✅ Completed wolvenberg-campsite
+[2025-11-04T13:59:19.258Z] ✅ Completed woodbourne-resort
+[2025-11-04T14:00:11.345Z] ✅ Completed worcester-yacht-club-camping
+[2025-11-04T14:01:00.230Z] ✅ Completed yzerfontein-caravan-park
+[2025-11-04T14:24:55.883Z] ✅ Completed zandvlei-resort
+[2025-11-04T16:04:28.219Z] ✅ Completed zonnekus-holiday-resort
+[2025-11-04T16:05:27.065Z] ✅ Completed 22-waterfalls-camping
+[2025-11-04T16:05:30.070Z] 🏁 Done! 2 total (2 success, 0 failed)
+[2025-11-04T16:05:30.070Z] All places processed successfully.

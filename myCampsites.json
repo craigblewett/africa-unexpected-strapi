@@ -1,0 +1,169 @@
+[
+
+{
+    "places": [
+      {
+        "slug": "zonnekus-holiday-resort",
+        "google_place_id": "ChIJg3PQXGL2zB0RAZWvYrEaQ1w",
+        "province": "Western Cape",
+        "region": "Cape Farms / Melkbosstrand area",
+        "town": "Morning Star",
+        "description": "Zonnekus Holiday Resort sits on a spacious farm-style property just outside Morning Star and Melkbosstrand, under half an hour from Cape Town. The resort blends powered caravan and tent sites, self-catering chalets and family-oriented amenities such as large swimming pools and kids’ play parks. There’s a country-feel setting with shady lawns, farm-animals, a café and bar, yet handy access to coast and city amenities.\n\nWhether you’re pitching a tent, parking a caravan or booking a chalet, you’ll find plenty of space, a relaxed pace and the infrastructure to keep kids entertained while parents unwind. A handy base for day excursions to the Cape’s coast, wine-country or city, and a comfortable holiday park rather than back-to-nature austerity.",
+        "the_vibe": "- **Family fun park:** With kiddies’ pools, trampolines, play area and animal farm, it caters strongly to families and groups.\n- **Comfort camping:** Powered grass/soil stands with café, bar and well-maintained facilities bring convenience to the countryside escape.\n- **Accessible getaway:** Close enough to Cape Town and beaches that it suits weekenders or short breaks rather than remote wilderness trips.",
+        "need_to_know": "### Book early for school-holiday peaks\nSites fill quickly during Cape Town school holidays and special events—reserve ahead.\n\n### Strict no-music policy at day-visitor hours\nAlthough there’s a bar and café, the resort enforces no-music policies for day visitors; bring your own games rather than party gear. :contentReference[oaicite:0]{index=0}\n\n### Ground cover and vehicle access vary\nSome sites are grass/soil lawn surfaces; standard vehicles are fine but loose ground near grass or after rain may need a little more care.",
+        "vibeprofile": {
+          "comfort_rustic": 65,
+          "peaceful_social": 60,
+          "accessible_remote": 20,
+          "active_relaxed": 50,
+          "family_couple": 30,
+          "wild_managed": 70
+        },
+        "seasonalguide": {
+          "best_season": "Spring",
+          "avoid_season": "Winter",
+          "seasonal_notes": "Spring brings warm days, less rain and good beach trips nearby; winters are cooler, and some outdoor activities slow down.",
+          "long_stay_friendly": false
+        },
+        "rates": [
+          { "amount": 295, "unit": "camping (from, per site per night, two persons)" }
+        ],
+        "price_pp": 148,
+        "tags": [
+          { "label": "family-friendly" },
+          { "label": "powered-sites" },
+          { "label": "near-cape-town" },
+          { "label": "pool" },
+          { "label": "kids-play-area" },
+          { "label": "animal-farm" }
+        ],
+        "amenities": [
+          "braai-facilities",
+          "electricity-plug-points",
+          "drinking-water-tap",
+          "showers-hot-water",
+          "flush-toilets",
+          "dishwashing-area",
+          "caravan-stands",
+          "tent-stands",
+          "car-parking",
+          "swimming-pool",
+          "kids-play-area",
+          "birdwatching",
+          "shade-trees",
+          "trash-bins",
+          "camp-shop",
+          "restaurant-cafe",
+          "bar"
+        ],
+        "highlight": [
+          {
+            "title": "Big family amenities on site",
+            "description": "A large pool, kiddies’ splash zone, trampolines and animal farm give children plenty to do, freeing parents to relax."
+          },
+          {
+            "title": "Close to both coast and city",
+            "description": "Just minutes from Melkbosstrand and within easy driving distance of Cape Town and local wineries, the resort offers countryside tranquillity with major-town convenience."
+         
+          },
+          {
+            "title": "Spacious well-equipped stands",
+            "description": "Powered caravan and tent stands with water points in a shaded farm setting ensure comfort without resort-style over-engineering."
+          }
+        ],
+        "unexpected": [
+          {
+            "title": "Ponies and farm-animals meet campers",
+            "description": "The resort features a small animal yard where kids can meet ponies, goats and tortoises-a surprise treat inside a typical caravan park."
+          }
+        ],
+        "meta_title": "Zonnekus Holiday Resort | Family Camping near Melkbosstrand",
+        "meta_description": "Shaded powered camping stands and self-catering chalets at Zonnekus Holiday Resort, Morning Star, just 11 km from Melkbosstrand with pools, kids’ play area and animal farm.",
+        "facilities_summary": "Shaded powered caravan and tent stands, self-catering chalets, pools, play park, café and bar in a family-friendly farm-style resort near Melkbosstrand.",
+        "ai_summary": "Holiday resort near Morning Star offering powered caravan/tent sites, self-catering units, large pool, kids’ play area and easy access from Cape Town.",
+        "raw_data": "Zonnekus Holiday Resort is located at 9 Zonnekus Road, 13 141 Morning Star, Cape Farms, Philadelphia, 7304 Western Cape. :contentReference[oaicite:1]{index=1} Site facilities include a large swimming pool and kiddies’ pool, trampolines, play parks, an animal yard with ponies, goats, tortoises and parrots, café (Rustic Coffee Shop), licensed bar and restaurant areas. :contentReference[oaicite:2]{index=2} Camping and caravan facilities offer grass or paved stands with 10 amp power breakers, water points close by, ablutions with hot-water showers, wheelchair friendly stands and security-fenced perimeter. :contentReference[oaicite:3]{index=3} Site allows pet-friendly stays by prior arrangement and accepts children’s groups. The resort uses borehole and grey-water recycling systems, and is closed Christmas Day (25 December). :contentReference[oaicite:4]{index=4} Day-visitor access is 08h00–17h00; trampolines cost extra; no music allowed at day-visitor hours. :contentReference[oaicite:5]{index=5} The address is reachable via the R27 and local farm roads; nearest beach at Melkbosstrand is roughly 11 km away; Cape Town city centre approximately 32 km. :contentReference[oaicite:6]{index=6}",
+        "experiences_raw": "On-site experiences include swimming in the large outdoor pool and adjoining kiddies’ pool, bouncing on trampolines, and spending time in the animal yard where children can feed or pet ponies, goats and tortoises. A shaded lawn braai area allows family cook-outs, and there is a poolside bar and café offering meals and coffee. The resort is also a base for beach trips (Melkbosstrand), wine-country touring (Durbanville, Stellenbosch) and visits into Cape Town. Guests can take a short drive to Table Mountain and the V&A Waterfront, or explore the West Coast’s beaches and bird-life. Day-visitors can book for a play-and-braai treat — though no loud music is permitted in the day-visitor area. Weekly specials for long-stay camping are offered outside peak season. The bird-life in the farm setting includes kingfishers in the irrigation ditches and guinea-fowl roaming the lawns, and early-morning walks along farm tracks to neighbouring vineyards complete the country stay feel.",
+        "price_pp": 148
+      }
+    ]
+  }
+,
+{
+    "places": [
+      {
+        "slug": "22-waterfalls-camping",
+        "google_place_id": "ChIJf0ssRAzNMhwRRxldcUgIs6c",
+        "province": "Western Cape",
+        "region": "Porterville / Groot Winterhoek",
+        "town": "Porterville",
+        "description": "22 Waterfalls Camping at Waterval Farm is tucked into the fynbos-rich Groot Winterhoek mountains near Porterville, offering a wild creek-side experience with shaded lawn sites, adventure trails and cascading waterfalls for guests to explore. The camp lies on a working farm, with the mountain soundtrack of tumbling water, birds and the quiet of the Swartland foothills.\n\nThis is a place for slower adventure: wake early for the waterfall hike through indigenous forest, cool off in natural plunge-pools, then settle into a riverside braai as dusk brings stars and mountain silhouettes. It suits couples, active groups and families wanting nature over resort frills—comfortable but decidedly in the wild.",
+        "the_vibe": "- **Mountain-waterfall adventure base:** Hikes to 22 waterfalls set the tone for exploration and nature immersion.\n- **Rustic charisma:** Lawn stands with shade and limited power feel grounded in farm-life rather than resort polish.\n- **Group-friendly yet intimate:** With 52 sites and shared spaces, it’s well-suited to friends or family groups rather than ultra-solitude seekers.",
+        "need_to_know": "### Basic electricity and water setup\nWhile many sites are grassed and shaded, some areas do not have power sockets—bring a long extension lead and be prepared to camp more simply.\n\n### Weather and terrain vary quickly\nThe Groot Winterhoek mountains bring fast-moving weather systems—afternoon showers and cold nights are common; bring warm layers and waterproofs.\n\n### Hiking the waterfalls takes energy\nThe core feature is a hike into a ravine of 22 cascades; the trail is steep in places and not suited to very young children or anyone unfit for a scramble.",
+        "vibeprofile": {
+          "comfort_rustic": 40,
+          "peaceful_social": 50,
+          "accessible_remote": 60,
+          "active_relaxed": 45,
+          "family_couple": 35,
+          "wild_managed": 55
+        },
+        "seasonalguide": {
+          "best_season": "Spring",
+          "avoid_season": "Summer",
+          "seasonal_notes": "Spring offers flowing waterfalls, pleasant hiking weather and fewer crowds; high summer heat and intense sun are less comfortable for trekking.",
+          "long_stay_friendly": false
+        },
+        "rates": [
+          { "amount": 400, "unit": "camping (from, per tent for two people per night)" },
+          { "amount": 50, "unit": "camping (extra person per night)" }
+        ],
+        "price_pp": 225,
+        "tags": [
+          { "label": "waterfalls" },
+          { "label": "mountain-camping" },
+          { "label": "porterville" },
+          { "label": "hiking" },
+          { "label": "rustic-camp" },
+          { "label": "group-friendly" }
+        ],
+        "amenities": [
+          "braai-facilities",
+          "drinking-water-tap",
+          "showers-hot-water",
+          "flush-toilets",
+          "tent-stands",
+          "car-parking",
+          "hiking-trails",
+          "birdwatching",
+          "shade-trees",
+          "trash-bins"
+        ],
+        "highlight": [
+          {
+            "title": "Trail to 22 waterfalls",
+            "description": "The hike through the ravine reveals a chain of 22 cascading falls—one of the most numerous waterfall hikes in the region."
+          },
+          {
+            "title": "Shaded lawns in the Groot Winterhoek",
+            "description": "Camp beneath large trees on a working citrus and grain farm, with mountain views all around."
+          }
+        ],
+        "unexpected": [
+          {
+            "title": "Midnight moon-bow over the falls",
+            "description": "At full moon the waterfall canyon sometimes lights up with a faint moon-bow dancing in the spray—packing a torch is worth it."
+          }
+        ],
+        "meta_title": "22 Waterfalls Camping | Mountain Camping near Porterville",
+        "meta_description": "Camp on a farm near Porterville in the Groot Winterhoek with shaded lawn stands, waterfall hikes to 22 cascades and rustic nature immersion from R400.",
+        "facilities_summary": "Shaded lawn stands on farm, basic hot-water ablutions, waterfall hike, mountain views and braai facilities in the Groot Winterhoek valley.",
+        "ai_summary": "Mountain farm campsite near Porterville in the Groot Winterhoek providing ~52 shaded lawn sites, waterfall hiking trail and hot-water ablutions.",
+        "raw_data": "22 Waterfalls Camping is located on Waterval Farm off the R44 near Porterville in the Western Cape, South Africa. The site listing shows approximately 52 campsites (details: “52 shaded campsites, divided between the main area with electricity and a no-power section”) across grassed ground-cover and natural terrain. The camp is part of a working farm with orchards and indigenous mountain ravine; access is via tar to farm entrance then gravel road for ~2km. Motor vehicles are suitable. Facilities include communal ablution blocks with hot showers, flush toilets and basins; some sites may share ablutions rather than private. No water-supply issues indicated; drinking water provided. Pets are not permitted. Cell-phone reception variable due to mountainous terrain. Rate from R400 per tent (two people). Day visitors limited. The hiking trail passes through the Groot Winterhoek mountain ravine with up-to-22 cascades. The farm has historic Khoisan rock-art and natural fynbos flora. Electricity for stands is available in main area; extension leads recommended. Quiet hours after 22:00. Management is private; bookings via email; cancellations flexible off-peak. The site lies within the Bergrivier Municipality district; altitude approx 400-500 m above sea level as the Klein Winterhoek foothills rise behind. Wildlife includes rock hyrax, klipspringer, and a variety of raptors. Braai wood and ice available for purchase on-site.",
+        "experiences_raw": "On-site activities include camping on lawns shaded by mature trees, braai stands for evening fires, hiking the ravine with 22 cascades, bird-watching in mountain fynbos, exploring small rock-pools and natural swimming holes along the trail. Immediately nearby are the Dasklip Pass (paragliding launch site, 20 min drive) and the Tygerkloof distillery for local gin tasting. Regional activities include the Swartland vineyards, white-water tubing the Olifants River, and wildflower blooms in spring across the Klein Winterhoek and Olifants valley. Many campers combine waterfall-day expeditions with slow-paced braais and night-sky stargazing away from light pollution.",
+        "price_pp": 225
+      }
+    ]
+  }
+  
+
+]

@@ -159,56 +159,86 @@ async function enrichDocuments(enrichmentInput, folder = null) {
   console.log(`🔎 Enriching ${placeItems.length} place(s)`);
   const updated = [];
 
-  // =========================
-  // 2) Iterate over each place
-  // =========================
-  for (const item of placeItems) {
-    const slug = item.slug;
-    if (!slug) {
-      console.warn("⚠️ Skipping place entry with no slug:", item);
-      continue;
+// =========================
+// 2) Iterate over each place
+// =========================
+for (const item of placeItems) {
+  const slug = item.slug || null;
+  const googleId = item.google_place_id || item.place_id || null;
+
+  if (!slug && !googleId) {
+    console.warn("⚠️ Skipping place entry with no slug or google_place_id:", item);
+    continue;
+  }
+
+  // Prefer matching by Google Place ID if available
+  const filterKey = googleId ? "place_id" : "slug";
+  const filterVal = encodeURIComponent(googleId || slug);
+
+  const q =
+    `${STRAPI_API_URL}/places` +
+    `?filters[${filterKey}][$eq]=${filterVal}` +
+    `&populate[amenities][fields][0]=id` +
+    `&populate[amenities][fields][1]=documentId` +
+    `&populate[amenities][fields][2]=slug` +
+    `&populate[rates]=*` +
+    `&populate[tag]=*` +
+    `&populate[highlight]=*` +
+    `&populate[unexpected]=*` +
+    `&populate[vibeprofile]=*` +
+    `&populate[seasonalguide]=*` +
+    `&fields[0]=id&fields[1]=documentId&fields[2]=slug&fields[3]=name&fields[4]=province&fields[5]=region&fields[6]=price_pp`;
+
+  // Add retry loop in case Strapi takes a moment to index a newly created place
+  let placeRes = null;
+  let retries = 0;
+  while (retries < 3) {
+    try {
+      placeRes = await fetchJSON(q);
+      if (placeRes.data?.length > 0) break;
+    } catch (err) {
+      console.warn(
+        `⚠️ Fetch attempt ${retries + 1} failed for ${filterKey}: ${decodeURIComponent(
+          filterVal
+        )} (${err.message})`
+      );
     }
-
-    const q =
-      `${STRAPI_API_URL}/places` +
-      `?filters[slug][$eq]=${encodeURIComponent(slug)}` +
-      `&populate[amenities][fields][0]=id` +
-      `&populate[amenities][fields][1]=documentId` +
-      `&populate[amenities][fields][2]=slug` +
-      `&populate[rates]=*` +
-      `&populate[tag]=*` +
-      `&populate[highlight]=*` +
-      `&populate[unexpected]=*` +
-      `&populate[vibeprofile]=*` +
-      `&populate[seasonalguide]=*` +
-      `&fields[0]=id&fields[1]=documentId&fields[2]=slug&fields[3]=name&fields[4]=province&fields[5]=region&fields[6]=price_pp`;
-
-    const placeRes = await fetchJSON(q);
-    const place = placeRes.data?.[0];
-    if (!place) {
-      console.warn(`⚠️ Place not found for slug: ${slug}`);
-      continue;
+    retries++;
+    if (retries < 3) {
+      console.log(`⏳ Retry ${retries}/3 waiting 2s for Strapi indexing...`);
+      await new Promise((r) => setTimeout(r, 2000));
     }
+  }
 
-    const attrs = place.attributes || place;
-    const placeDocId = place.documentId ?? attrs.documentId;
-    const placeName = place.name ?? attrs.name ?? slug;
+  const place = placeRes?.data?.[0];
+  if (!place) {
+    console.warn(`⚠️ Place not found for ${filterKey}: ${decodeURIComponent(filterVal)}`);
+    continue;
+  }
 
-    const currentRates = attrs.rates || [];
-    const currentTags = attrs.tag || [];
-    const currentHighlights = attrs.highlight || [];
-    const currentUnexpected = attrs.unexpected || [];
-    const currentAmenities = attrs.amenities || [];
-    const currentProvince = attrs.province || null;
-    const currentRegion = attrs.region || null;
-    const currentPricePP = attrs.price_pp ?? null;
+  console.log(
+    `✅ Matched place by ${filterKey}: ${decodeURIComponent(filterVal)}`
+  );
 
-    const currentAmenDocIds = currentAmenities
-      .map((a) => a.documentId ?? a.attributes?.documentId)
-      .filter(Boolean);
-    const currentAmenIds = currentAmenities
-      .map((a) => a.id ?? a.attributes?.id)
-      .filter((v) => Number.isInteger(v));
+  const attrs = place.attributes || place;
+  const placeDocId = place.documentId ?? attrs.documentId;
+  const placeName = place.name ?? attrs.name ?? slug ?? "(unnamed)";
+
+  const currentRates = attrs.rates || [];
+  const currentTags = attrs.tag || [];
+  const currentHighlights = attrs.highlight || [];
+  const currentUnexpected = attrs.unexpected || [];
+  const currentAmenities = attrs.amenities || [];
+  const currentProvince = attrs.province || null;
+  const currentRegion = attrs.region || null;
+  const currentPricePP = attrs.price_pp ?? null;
+
+  const currentAmenDocIds = currentAmenities
+    .map((a) => a.documentId ?? a.attributes?.documentId)
+    .filter(Boolean);
+  const currentAmenIds = currentAmenities
+    .map((a) => a.id ?? a.attributes?.id)
+    .filter((v) => Number.isInteger(v));
 
     // =========================
     // 3) Resolve amenity slugs

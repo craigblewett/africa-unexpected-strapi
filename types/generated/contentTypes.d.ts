@@ -470,11 +470,11 @@ export interface ApiPlacePlace extends Struct.CollectionTypeSchema {
     facilities_summary: Schema.Attribute.RichText;
     featured: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     highlight: Schema.Attribute.Component<'general.highlight', true>;
-    latitude: Schema.Attribute.Decimal;
+    latitude: Schema.Attribute.Float;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::place.place'> &
       Schema.Attribute.Private;
-    longitude: Schema.Attribute.Decimal;
+    longitude: Schema.Attribute.Float;
     meta_description: Schema.Attribute.String;
     meta_title: Schema.Attribute.String;
     name: Schema.Attribute.String & Schema.Attribute.Required;
