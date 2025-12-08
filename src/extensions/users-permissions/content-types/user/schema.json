@@ -95,6 +95,12 @@
       "relation": "oneToMany",
       "target": "api::recently-viewed.recently-viewed",
       "mappedBy": "users_permissions_user"
+    },
+    "issue_reports": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::issue-report.issue-report",
+      "mappedBy": "users_permissions_user"
     }
   }
 }

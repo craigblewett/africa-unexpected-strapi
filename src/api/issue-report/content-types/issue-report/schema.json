@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "issue_reports",
+  "info": {
+    "singularName": "issue-report",
+    "pluralName": "issue-reports",
+    "displayName": "issue-report"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user_id": {
+      "type": "integer"
+    },
+    "place_slug": {
+      "type": "string"
+    },
+    "place_name": {
+      "type": "string"
+    },
+    "issue_type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "admin_notes": {
+      "type": "string"
+    },
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "issue_reports"
+    }
+  }
+}

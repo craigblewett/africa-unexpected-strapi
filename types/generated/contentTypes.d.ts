@@ -444,6 +444,43 @@ export interface ApiAmenityAmenity extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiIssueReportIssueReport extends Struct.CollectionTypeSchema {
+  collectionName: 'issue_reports';
+  info: {
+    displayName: 'issue-report';
+    pluralName: 'issue-reports';
+    singularName: 'issue-report';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    admin_notes: Schema.Attribute.String;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    description: Schema.Attribute.String;
+    issue_type: Schema.Attribute.String;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::issue-report.issue-report'
+    > &
+      Schema.Attribute.Private;
+    place_name: Schema.Attribute.String;
+    place_slug: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    user_id: Schema.Attribute.Integer;
+    users_permissions_user: Schema.Attribute.Relation<
+      'manyToOne',
+      'plugin::users-permissions.user'
+    >;
+  };
+}
+
 export interface ApiPlacePlace extends Struct.CollectionTypeSchema {
   collectionName: 'places';
   info: {
@@ -1082,6 +1119,10 @@ export interface PluginUsersPermissionsUser
       }>;
     first_name: Schema.Attribute.String;
     is_admin: Schema.Attribute.Boolean;
+    issue_reports: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::issue-report.issue-report'
+    >;
     last_name: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
@@ -1138,6 +1179,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
       'api::amenity.amenity': ApiAmenityAmenity;
+      'api::issue-report.issue-report': ApiIssueReportIssueReport;
       'api::place.place': ApiPlacePlace;
       'api::recently-viewed.recently-viewed': ApiRecentlyViewedRecentlyViewed;
       'api::saved-campsite.saved-campsite': ApiSavedCampsiteSavedCampsite;
