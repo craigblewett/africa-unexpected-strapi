@@ -24,7 +24,7 @@
       "type": "string"
     },
     "description": {
-      "type": "string"
+      "type": "text"
     },
     "admin_notes": {
       "type": "string"

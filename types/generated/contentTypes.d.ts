@@ -459,7 +459,7 @@ export interface ApiIssueReportIssueReport extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    description: Schema.Attribute.String;
+    description: Schema.Attribute.Text;
     feedback_type: Schema.Attribute.Enumeration<['issue', 'feature']>;
     issue_type: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
